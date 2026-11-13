@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "generated_from": "TEMPLATE",
+  "source_ipa_sha256": "",
+  "source_bundle_id": "",
+  "source_version": "",
+  "source_crypted": null,
+  "defaults_applied": ["*"],
+  "needs_review": ["*"],
+  "api_base_selection": "template",
+  "bridge_mode": "http",
+  "app": {
+    "bundle_id": "com.blekey.standalone",
+    "display_name": "蓝牙钥匙",
+    "min_os": "16.0"
+  },
+  "api": {
+    "base": "https://api.example.invalid",
+    "login_path": "/api/v1/auth/login",
+    "sms_path": "/api/v1/auth/sms",
+    "key_path": "/api/v1/blekey/list",
+    "vehicle_path": "/api/v1/vehicle/list",
+    "control_path": "/api/v1/vehicle/control",
+    "method": "POST",
+    "headers": { "Content-Type": "application/json", "Accept": "application/json" },
+    "field_phone": "mobile",
+    "field_code": "code",
+    "field_password": "password",
+    "login_type": "sms",
+    "token_json_path": "data.accessToken",
+    "key_json_path": "data"
+  },
+  "ble": {
+    "service_uuid": "0000FFF0-0000-1000-8000-00805F9B34FB",
+    "write_uuid": "0000FFF1-0000-1000-8000-00805F9B34FB",
+    "notify_uuid": "0000FFF2-0000-1000-8000-00805F9B34FB",
+    "scan_name_prefix": "",
+    "rssi_threshold": -85,
+    "scan_timeout_sec": 12.0,
+    "connect_timeout_sec": 10.0,
+    "command_timeout_sec": 6.0,
+    "mtu": 20,
+    "commands": {
+      "auth": "00",
+      "unlock": "01",
+      "lock": "02",
+      "trunk": "03",
+      "find_car": "04",
+      "engine_start": "05",
+      "engine_stop": "06",
+      "window_up": "07",
+      "window_down": "08"
+    },
+    "command_labels": {
+      "unlock": "解锁",
+      "lock": "上锁",
+      "trunk": "后备箱",
+      "find_car": "寻车",
+      "engine_start": "启动",
+      "engine_stop": "熄火",
+      "window_up": "升窗",
+      "window_down": "降窗"
+    },
+    "frame": {
+      "header_hex": "5AA5",
+      "has_length_byte": true,
+      "seq_bytes": 2,
+      "crc": "xor8",
+      "trailer_hex": "",
+      "crypto": "none",
+      "key_hex": "",
+      "iv_hex": "00000000000000000000000000000000"
+    }
+  },
+  "runtime": {
+    "enabled": false,
+    "framework": "",
+    "class_login": "",
+    "class_ble": "",
+    "selector_login": "",
+    "selector_connect": "",
+    "selector_write": "",
+    "framework_candidates": [],
+    "auth_class_candidates": []
+  },
+  "candidates": {
+    "hosts": [],
+    "uuids": [],
+    "login_paths": [],
+    "sms_paths": [],
+    "key_paths": [],
+    "ble_classes": [],
+    "auth_classes": [],
+    "ble_selectors": []
+  }
+}

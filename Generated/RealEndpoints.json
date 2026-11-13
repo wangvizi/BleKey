@@ -1,0 +1,163 @@
+{
+  "source": {
+    "ipa": "Bluelink-5.09.ipa",
+    "sha256": "a8c5c1e07cac1458081dc2081fc93d8945156b3b8dbf6ab1e83a2020ac43beb8",
+    "bundle_id": "com.hyundai-motor.cn.bluelink",
+    "version": "5.09",
+    "crypted": false,
+    "executable": "BlueLink",
+    "objc_classes": 3561,
+    "objc_selectors": 30394,
+    "dynamic_frameworks": [
+      "Alamofire.framework",
+      "Car3DViewSDK.framework",
+      "CocoaMQTT.framework",
+      "CropViewController.framework",
+      "CryptoSwift.framework",
+      "DGCharts.framework",
+      "FSCalendar.framework",
+      "GCDWebServer.framework",
+      "Gifu.framework",
+      "HKMC_DK2_FrameworkLibrary.framework",
+      "JWTDecode.framework",
+      "Keystone.framework",
+      "Lottie.framework",
+      "MarqueeLabel.framework",
+      "MqttCocoaAsyncSocket.framework",
+      "ObjectMapper.framework",
+      "PepsPacket.framework",
+      "Reachability.framework",
+      "SDWebImage.framework",
+      "SnapKit.framework",
+      "SwiftSoup.framework",
+      "TrustKit.framework",
+      "UBottomSheet.framework"
+    ]
+  },
+  "gateways": {
+    "oauth": "https://oaas-h.hmgmobility.com.cn",
+    "uars": "https://uars-h.hmgmobility.com.cn",
+    "ble": "https://nble-gw-h.hmgmobility.com.cn",
+    "telematics": "https://prd-nccw-h.hyundaibluelink.com.cn",
+    "hmc": "https://hmc.hyundaibluelink.com.cn",
+    "auth": "https://auth.hyundai.com.cn",
+    "channel": "https://appchannelapi.hyundai.jiayudata.com",
+    "open": "https://open.hyundai.jiayudata.com"
+  },
+  "oauth": {
+    "authorize_url": "https://oaas-h.hmgmobility.com.cn/user/oauth2/authorize?response_type=code&client_id=9d5df92a-06ae-435f-b459-8304f2efcc67",
+    "authorize_path": "/user/oauth2/authorize",
+    "token_url": "https://oaas-h.hmgmobility.com.cn/user/oauth2/token",
+    "redirect_path": "/user/oauth2/redirect",
+    "client_ids": [
+      "9d5df92a-06ae-435f-b459-8304f2efcc67",
+      "72b3d019-5bc7-443d-a437-08f307cf06e2"
+    ],
+    "app_ids": [
+      "c9p8vtmyzhe0w6jsirng41fb7lou5ad3",
+      "m2lfh4i09pje8c5uzt37roa6xqwg1vds"
+    ],
+    "signin_path": "/v1/user/signin",
+    "grant_type_hint": "authorization_code",
+    "evidence": "original_api.txt / CONTEXT gateway + CONTEXT auth"
+  },
+  "endpoints": {
+    "sms_login": "https://uars-h.hmgmobility.com.cn/join/sms/loginInit.do",
+    "account_login": "https://uars-h.hmgmobility.com.cn/join/account/loginInit.do",
+    "oneclick_login": "https://uars-h.hmgmobility.com.cn/join/oneclick/loginInit.do",
+    "wechat_login": "https://uars-h.hmgmobility.com.cn/join/wechat/loginInit.do",
+    "refresh_token": "https://uars-h.hmgmobility.com.cn/join/common/refreshToken.do",
+    "oauth_token": "https://oaas-h.hmgmobility.com.cn/user/oauth2/token",
+    "ccsp_login": "https://uars-h.hmgmobility.com.cn/sbs-sps/login/ccsp",
+    "ccsp_cert": "https://uars-h.hmgmobility.com.cn/sbs-sps/auth/certReq/ccsp",
+    "nccw_main": "https://prd-nccw-h.hyundaibluelink.com.cn/api/v1/nccw/main.do",
+    "dkc2_key_list": "https://nble-gw-h.hmgmobility.com.cn/apps/dkc2/dkcsa/dkcdkss/api/v1/requestOwnerDigitalKeyInformation",
+    "dkc2_pairing_password": "https://nble-gw-h.hmgmobility.com.cn/apps/dkc2/dkcsa/dkcdkss/api/v1/requestPairingPassword",
+    "dkc2_registration": "https://nble-gw-h.hmgmobility.com.cn/apps/dkc2/dkcsa/dkcdkss/api/v1/sendDigitalKeyRegistrationMessage",
+    "dkc2_lib_ver": "https://nble-gw-h.hmgmobility.com.cn/apps/dkc2/dkcsa/dkcdkss/api/v1/requestDigitalKeyLibVer",
+    "dkc2_unpair": "https://nble-gw-h.hmgmobility.com.cn/apps/dkc2/dkcsa/dkcdkss/api/v1/requestAppUnpairing",
+    "dkc_share_sms": "https://nble-gw-h.hmgmobility.com.cn/apps/dkc/dkcsa/reg/slave/auth/sms",
+    "dkc_device": "https://nble-gw-h.hmgmobility.com.cn/apps/dkc/dkcsa/mod/noti/device"
+  },
+  "paths_raw": {
+    "sms_login": "/join/sms/loginInit.do",
+    "account_login": "/join/account/loginInit.do",
+    "oneclick_login": "/join/oneclick/loginInit.do",
+    "wechat_login": "/join/wechat/loginInit.do",
+    "web_signin": "/v1/user/signin",
+    "oauth_authorize": "/user/oauth2/authorize",
+    "oauth_redirect": "/user/oauth2/redirect",
+    "oauth_token": "/user/oauth2/token",
+    "ccsp_login": "/sbs-sps/login/ccsp",
+    "ccsp_cert": "/sbs-sps/auth/certReq/ccsp",
+    "refresh_token": "/join/common/refreshToken.do",
+    "nccw_main": "/api/v1/nccw/main.do",
+    "dkc2_key_list": "/apps/dkc2/dkcsa/dkcdkss/api/v1/requestOwnerDigitalKeyInformation",
+    "dkc2_pairing_password": "/apps/dkc2/dkcsa/dkcdkss/api/v1/requestPairingPassword",
+    "dkc2_registration": "/apps/dkc2/dkcsa/dkcdkss/api/v1/sendDigitalKeyRegistrationMessage",
+    "dkc2_lib_ver": "/apps/dkc2/dkcsa/dkcdkss/api/v1/requestDigitalKeyLibVer",
+    "dkc2_unpair": "/apps/dkc2/dkcsa/dkcdkss/api/v1/requestAppUnpairing",
+    "dkc_share_sms": "/apps/dkc/dkcsa/reg/slave/auth/sms",
+    "dkc_device": "/apps/dkc/dkcsa/mod/noti/device"
+  },
+  "field_names": {
+    "field_phone": "mobile",
+    "field_code": "authcode",
+    "field_password": "pwd",
+    "token_json_path": "accessToken"
+  },
+  "ble": {
+    "service_uuid": "10991775-2510-4741-8212-000000000000",
+    "write_uuid": "10991775-2510-4741-8212-E07DEA185F25",
+    "notify_uuid": "5E9BF2A8-F93F-4481-A67E-3B2F4A07891A",
+    "keystone_uuids": [
+      "10991775-2510-4741-8212-000000000000",
+      "10991775-2510-4741-8212-E07DEA185F25"
+    ],
+    "ble_manager_uuids": [
+      "5E9BF2A8-F93F-4481-A67E-3B2F4A07891A",
+      "8AC32D3F-5CB9-4D44-BEC2-EE689169F626"
+    ],
+    "protocol": "keystone-challenge-response",
+    "sdk_frameworks": [
+      "Keystone.framework",
+      "HKMC_DK2_FrameworkLibrary.framework",
+      "PepsPacket.framework",
+      "TrustKit.framework"
+    ],
+    "sdk_classes": {
+      "class_ble": "_TtC8Keystone19DigitalKeyOpManager",
+      "class_login": "_TtC8Keystone11UserManager",
+      "class_config": "_TtC8Keystone21KeystoneConfiguration",
+      "class_dk2": "_TtC25HKMC_DK2_FrameworkLibrary25DigitalKeyFrameworkCompat"
+    },
+    "sdk_selectors": {
+      "selector_connect": "initWithConfiguration:delegate:",
+      "selector_write": "processPEPSPacketWithChannelID:",
+      "selector_login": "getDigitalKeyId"
+    }
+  },
+  "pinned_cert_domains": [
+    "NSAllowsArbitraryLoads"
+  ],
+  "all_first_party_hosts": [
+    "appchannelapi.hyundai.jiayudata.com",
+    "auth.hyundai.com.cn",
+    "hmc.hyundaibluelink.com.cn",
+    "manual.hyundaibluelink.com.cn",
+    "nble-gw-h.hmgmobility.com.cn",
+    "nble-gw-k.hmgmobility.com.cn",
+    "oaas-h.hmgmobility.com.cn",
+    "oaas-k.hmgmobility.com.cn",
+    "open.hyundai.jiayudata.com",
+    "prd-nccw-h.hyundaibluelink.com.cn",
+    "tch.jiayudata.com",
+    "uars-h.hmgmobility.com.cn",
+    "uars-k.hmgmobility.com.cn",
+    "vehicleimg-h.hmgmobility.com.cn",
+    "vehicleimg-k.hmgmobility.com.cn",
+    "video.hyundaibluelink.com.cn",
+    "video.kiauvo.com.cn",
+    "www.beijing-hyundai.com.cn"
+  ]
+}

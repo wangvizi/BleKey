@@ -94,7 +94,23 @@ jobs:
         if: steps.locate.outputs.ipa == ''
         run: |
           python3 -m json.tool Generated/BridgeConfig.json > /dev/null
-          python3 -c "import json;c=json.load(open('Generated/BridgeConfig.json'));print('配置来源:',c['generated_from'],'| 接口:',c['api']['base'])"
+          python3 -c "import json;c=json.load(open('Generated/BridgeConfig.json'));print('配置来源:',c['generated_from'],'| 接口:',c['api']['base'],'| 端点:',len(c['api'].get('endpoints',{})))"
+
+      # 本地抽取出来的 SDK 最小闭包随仓库推送，runner 解压后由 build_trollstore.sh 注入 .app
+      - name: Unpack original SDK frameworks
+        if: hashFiles('Generated/VendorFrameworks.zip') != ''
+        run: |
+          set -euo pipefail
+          mkdir -p Generated/Vendor/Frameworks
+          unzip -q -o Generated/VendorFrameworks.zip -d Generated/Vendor/Frameworks
+          echo "注入的 framework:"
+          find Generated/Vendor/Frameworks -maxdepth 1 -name '*.framework' -print | sort
+          python3 - <<'PY'
+          import json, pathlib
+          m = json.loads(pathlib.Path('Generated/VendorManifest.json').read_text(encoding='utf-8'))
+          print('闭包:', ', '.join(m['closure']))
+          print('zip sha256:', m['zip_sha256'])
+          PY
 
       - name: Build TrollStore ipa
         run: bash Scripts/build_trollstore.sh

@@ -1,0 +1,3745 @@
+=== hosts_first_party (18) ===
+  appchannelapi.hyundai.jiayudata.com
+  auth.hyundai.com.cn
+  hmc.hyundaibluelink.com.cn
+  manual.hyundaibluelink.com.cn
+  nble-gw-h.hmgmobility.com.cn
+  nble-gw-k.hmgmobility.com.cn
+  oaas-h.hmgmobility.com.cn
+  oaas-k.hmgmobility.com.cn
+  open.hyundai.jiayudata.com
+  prd-nccw-h.hyundaibluelink.com.cn
+  tch.jiayudata.com
+  uars-h.hmgmobility.com.cn
+  uars-k.hmgmobility.com.cn
+  vehicleimg-h.hmgmobility.com.cn
+  vehicleimg-k.hmgmobility.com.cn
+  video.hyundaibluelink.com.cn
+  video.kiauvo.com.cn
+  www.beijing-hyundai.com.cn
+
+=== urls_first_party (42) ===
+  http://manual.hyundaibluelink.com.cn/bluelink
+  http://manual.hyundaibluelink.com.cn/uvo
+  https://appchannelapi.hyundai.jiayudata.com/api/user/getAuthorizationUrl
+  https://auth.hyundai.com.cn/processUafRequest.jspx?site=
+  https://auth.hyundai.com.cn/processUafResponse.jspx?site=
+  https://hmc.hyundaibluelink.com.cn/dlw/mup/home.do?ut=
+  https://hmc.hyundaibluelink.com.cn/dlw/qropen/auth/appselectService.do
+  https://hmc.hyundaibluelink.com.cn/dlw/qropen/auth/one.do?cocd=H&vin=
+  https://hmc.hyundaibluelink.com.cn/dlw/qropen/auth/oneConvertId.do?cocd=
+  https://hmc.hyundaibluelink.com.cn/dlw/qropen/auth/oneConvertIdCcsp.do?masterId=
+  https://nble-gw-h.hmgmobility.com.cn/
+  https://nble-gw-k.hmgmobility.com.cn/
+  https://oaas-h.hmgmobility.com.cn
+  https://oaas-k.hmgmobility.com.cn
+  https://open.hyundai.jiayudata.com
+  https://prd-nccw-h.hyundaibluelink.com.cn
+  https://tch.jiayudata.com/hyundai/v1/getPrivateStationUrl
+  https://tch.jiayudata.com/hyundai/v1/getStationListUrl
+  https://tch.jiayudata.com/hyundai/v1/queryUserToken
+  https://uars-h.hmgmobility.com.cn
+  https://uars-k.hmgmobility.com.cn
+  https://vehicleimg-h.hmgmobility.com.cn
+  https://vehicleimg-k.hmgmobility.com.cn
+  https://video.hyundaibluelink.com.cn/agreement/agreement-BlueLink.html
+  https://video.hyundaibluelink.com.cn/agreement/collection-checklist-BlueLink.html
+  https://video.hyundaibluelink.com.cn/agreement/privacyPolicy-BlueLink.html
+  https://video.hyundaibluelink.com.cn/agreement/privacyPolicy-summary-BlueLink.html
+  https://video.hyundaibluelink.com.cn/agreement/sharing-checklist-BlueLink.html
+  https://video.hyundaibluelink.com.cn/image/sqf.png
+  https://video.hyundaibluelink.com.cn/ios/bluelink/
+  https://video.hyundaibluelink.com.cn/ios/kiaConnect/
+  https://video.hyundaibluelink.com.cn/manual/ccs_bluelink/index2.html
+  https://video.hyundaibluelink.com.cn/manual/ccsp_bluelink/index1.html
+  https://video.kiauvo.com.cn/agreement/agreement-UVO.html
+  https://video.kiauvo.com.cn/agreement/collection-checklist-Kia.html
+  https://video.kiauvo.com.cn/agreement/privacyPolicy-UVO.html
+  https://video.kiauvo.com.cn/agreement/privacyPolicy-summary-Kia.html
+  https://video.kiauvo.com.cn/agreement/sharing-checklist-Kia.html
+  https://video.kiauvo.com.cn/image/ov/EBB.png
+  https://video.kiauvo.com.cn/manual/ccs_uvo/index2.html
+  https://video.kiauvo.com.cn/manual/ccsp_uvo/index1.html
+  https://www.beijing-hyundai.com.cn/saleservice/key-service-list/
+
+=== key_paths (7) ===
+  /NewBleKeyOwnerVehicleSharedDetailViewController
+  /NewBleKeyOwnerVehicleSharedDetailViewController_
+  /apps/dkc2/dkcsa/dkcdkss/api/v1/requestAppUnpairing
+  /apps/dkc2/dkcsa/dkcdkss/api/v1/requestDigitalKeyLibVer
+  /apps/dkc2/dkcsa/dkcdkss/api/v1/requestOwnerDigitalKeyInformation
+  /apps/dkc2/dkcsa/dkcdkss/api/v1/requestPairingPassword
+  /apps/dkc2/dkcsa/dkcdkss/api/v1/sendDigitalKeyRegistrationMessage
+
+=== auth_paths (35) ===
+  //open.weixin.qq.com/connect/smsauthorize
+  //tch.jiayudata.com/hyundai/v1/queryUserToken
+  //wapoauth
+  /1SmsN9tZKVkGpfs6IrJBCCsbhpNbciMom5Cc6BHVTqrgSapKiXZE0a/TAoCIyDf64F8OAWNQVQAjxOkFCyU1zKeox/d2b7l7EHMk5mRaobVsY6ZD3F7G
+  /JHsmsslmotqAnp5mUI7UutbfO44cfS98l5JGpMQ1XJKxZCaJynSOe10juRRVcgwRP5HRYtmL
+  /MSG_SUCCESS_DELETED_KEY_PRESS_CONFIRM_FOR_LOGIN_
+  /WdszcfP4DbE1KNhSBSMSkdcgIvw7Dh1iqtxpqkUed8V1X2X8nLsw5phOjYdes7h
+  /apps/dkc/dkcsa/reg/slave/auth/sms
+  /apps/dkc/dkcsa/res/slave/auth/sms
+  /join/account/loginInit.do
+  /join/cancel/cancelAccount.do
+  /join/ccsp/{masterId}/{appId}/{timestamp}/{sign}/initUserInfo.do
+  /join/common/getWechatBindStatus.do
+  /join/common/refreshToken.do
+  /join/oneclick/loginInit.do
+  /join/own/bindWechat.do
+  /join/own/managePasswordInit.do
+  /join/own/modifyPhoneInit.do
+  /join/own/modifyPinInit.do
+  /join/sms/loginInit.do
+  /join/wechat/loginInit.do
+  /login/User
+  /sbs-sps/auth/certReq/ccsp
+  /sbs-sps/conf/SMScheck/ccsp
+  /sbs-sps/conf/SMSupdate/ccsp
+  /sbs-sps/login/ccsp
+  /sps/auth/certReq
+  /unisdk/rs/scripAndTokenForHttpsV2
+  /user/oauth2/authorize
+  /user/oauth2/redirect
+  /user/oauth2/token
+  /v1/user/oauth2/redirect
+  /v1/user/signin
+  /web/v1/cpw/login
+  /web/v1/cpw2/login
+
+=== uuids_16bit (3) ===
+  FE80
+  FEC5
+  FFFF
+
+=== field_names (281) ===
+  accessCode
+  accessToken
+  adcode
+  additionalTokens
+  admin_area_code
+  admissionAuthority
+  al_mp_ccptoken
+  al_mp_deviceToken
+  al_mp_deviceToken_callback
+  app_call_authorizeOwner
+  appdevinfo
+  asmToken
+  asmtoken
+  authBtnClick
+  authBuffer
+  authClickFailed
+  authClickSuccess
+  authIndex
+  authPageIn
+  authPageOut
+  authPrivacyState
+  authUrl
+  auth_bids
+  authcode
+  authdeny
+  authed
+  authenticated
+  authenticationAlg
+  authenticationAlgorithm
+  authenticationAlgorithms
+  authenticationalg
+  authenticatorIndex
+  authenticatorType
+  authenticatorVersion
+  authenticatorindex
+  authenticatorinfotbl
+  authenticators
+  authenticatortbl
+  authenticatortype
+  authenticatorversion
+  authindex
+  authorityInfoAccess
+  authorityKeyIdentifier
+  authorityRevocationList
+  authorization_code
+  authorize
+  authz
+  availableAuthenticators
+  baidu_base_sdkauth_0
+  baidu_base_sdkauth_control
+  bleAuth
+  ble_svc_name_set_user_and_phone_name
+  ble_svc_name_start_phone_calibration
+  ble_svc_name_stop_phone_calibration
+  carDriverPhoneNum
+  carnavinode
+  ccspUserAccessToken
+  ccspUserAccessTokenType
+  ccspUserControlToken
+  ccspUserRefreshToken
+  challengePassword
+  city_code
+  clientAuth
+  cloud_auth
+  cloud_token
+  cms_encode_Receipt
+  cms_set1_keyid
+  code
+  codeSigning
+  countryCode3c
+  countryCode3n
+  country_code
+  create_element_from_token
+  ct_base64_decode
+  deauthorize
+  deviceToken
+  dh_param_decode
+  dh_priv_decode
+  dh_priv_encode
+  dh_pub_decode
+  dh_pub_encode
+  documentAuthor
+  driving
+  drivingHistory
+  drivingInfoDetail
+  drivingModeState
+  drivingReportDataMonthBG
+  driving_photo_delete_message
+  driving_photo_delete_message_
+  driving_photo_save_file
+  driving_photo_save_file_
+  driving_photo_save_message_
+  drivinghistory_chart_color
+  drivinghistory_chart_highlightcolor
+  dsa_param_decode
+  dsa_priv_decode
+  dsa_priv_encode
+  dsa_pub_decode
+  dsa_pub_encode
+  ec_GFp_mont_field_decode
+  ec_GFp_mont_field_encode
+  eckey_param_decode
+  eckey_priv_decode
+  eckey_priv_encode
+  eckey_pub_decode
+  eckey_pub_encode
+  ecx_priv_encode
+  ecx_pub_encode
+  encode_pkcs1
+  encrypt_code
+  errCode
+  errcode
+  errorCode
+  errorCodeCountDict
+  errorcode
+  evDrivingHisSupport
+  extensions_adcode
+  facsimileTelephoneNumber
+  fakeMobile
+  file_load_try_decode
+
+=== uuids_128 (229, 前 60) ===
+  00000000-0000-0000-0000-000000000000
+  00DD7E71-F019-41E3-A462-08E85073CC2B
+  0297ABE9-EB89-4E2A-8275-78FF00452551
+  04B824C7-3CC5-4C60-A70E-038169E9C367
+  06E3D64D-7E96-482D-90EE-2A172D5BB660
+  0775B967-2B7B-47DC-9721-0A40A7170F10
+  07AEF8B7-2BD3-4DC4-8C7E-2FA51CA10890
+  0A2FC6F9-40F5-472F-ABB8-E9E03A393652
+  0A920199-F2D8-4132-9D68-4C6A72057A72
+  0BAD0BF8-1236-4618-AEB7-D69DB79603E1
+  0F9DD3A6-5EC3-47DB-A633-040A30368C06
+  10135418-0C5C-4DB8-BA03-4501433533A5
+  10991775-2510-4741-8212-000000000000
+  10991775-2510-4741-8212-E07DEA185F25
+  10CA8A20-F17B-44FF-A6A3-7A0A07DE1207
+  1140CAA8-2726-4846-B9FA-95F3AF15976D
+  15F27B23-7169-4EED-AE65-71506FB367FB
+  16711437-3166-4BE3-883D-02514383AF4B
+  1B7E8251-2877-41C3-B46E-CF057C562023
+  1CC985AE-DD84-4EDF-ABF6-225B4B34AC9D
+  1CE329D0-7156-42A0-BFA1-9610E460525E
+  1DFFC9BC-252F-4E83-AA94-D20AAA261DDC
+  20BC2432-8A69-4CD8-90D3-A04E65B19720
+  22632160-F1CF-439B-9237-E7126A8B663C
+  259A2CF7-BFA5-4A5D-9116-AC7122A952A6
+  25D8CB7C-8B9C-4AEC-9DB1-89C104474453
+  2777FBBB-877F-46C7-B46D-BB712A35F614
+  2DFB2D8D-4EF2-4991-8A5C-A12B206A5888
+  2E33C205-7450-41B5-ADF2-268751AC0C1A
+  313B16DD-270C-4B65-BF25-834B90D14AAE
+  31F93B97-49F3-44FD-9016-3F1ECFFAB678
+  33012759-616B-4BD3-8C00-06747B8D9CE2
+  3573F876-8E85-44EC-8C6C-B037D9DC53EE
+  37C4737F-AA32-470F-85B3-B1F395A700BF
+  37F093C3-735A-4D6F-9D91-809A20E6105B
+  3860578F-3A7F-4DC3-B98D-2DCF327BB971
+  3969E23F-2E0D-404D-B934-9D4F4CFC7324
+  398CD13D-E417-4D21-BDA0-2A278138A446
+  39F13D5D-FB5F-479B-9E1C-224F0F9475AB
+  3DD1564D-0667-4957-8D5F-FC59B80D4BD2
+  408EBE3D-8E1F-4F0A-98DE-1569A61D4CC9
+  40ADFEA0-9F08-4591-A000-396164CD16DF
+  4194F329-5455-4BBA-8F01-CDD8AA87104B
+  41F25D8D-3D43-4B86-B4F8-020D35CC7D89
+  42C5D550-CB27-490C-AE26-0693A464F45B
+  44ACC632-A77C-41C5-941D-445D31707E81
+  44F051A4-6C91-49A6-B5C1-133D4323D76B
+  47D25330-FEC5-469D-94D3-4576B67B37FD
+  4896F475-949F-4125-B269-11B2FACD9C8A
+  49C0E10E-6E25-4496-915C-9E30580063CE
+  4B958220-ADE7-407B-B7E9-A6809EF422B4
+  4BD52B8A-9045-4B5E-8223-511586F7027C
+  501E1232-EDBA-44FC-9567-EA15755419D6
+  503E3AAA-52AE-4CD4-8DF0-DE322980B7B3
+  5042DDBB-6032-4233-8F6D-2ECF51D15831
+  52E5BD04-A871-4652-949E-8D5981AFB84F
+  531891BA-7487-4467-8B79-307788D299BC
+  53D9BA5D-AF52-4DD5-83FB-70FE62C96A5C
+  54F82577-6978-460F-BE44-1B78B9ED7ECB
+  5519A969-295F-4C5A-A27E-9D9FAB2BD50C
+
+########## CONTEXT gateway ##########
+--- [main] pattern=nble-gw-[hk]\.hmgmobility\.com\.cn (2 hits) ---
+  @1013  match: https://nble-gw-k.hmgmobility.com.cn/
+        | BlueLink.ButtonSmallSolid
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Main/MainTabBarController.swift
+        | newBleLogin start: 
+        | , newBleLoginState : 
+        | newBleLogin isOffLineMode : 
+        | https://nble-gw-k.hmgmobility.com.cn/
+        | https://nble-gw-h.hmgmobility.com.cn/
+        | User Name is empty
+        | newBleLogin response : 
+        | newBleLogin BleFunc keystoneSDKError : 
+        | initRequest() : 
+        | tmsServiceStateType : 
+        | on Result onVehicleStatusResultG2 
+        | IntroViewController
+        | MoreViewController
+  @1014  match: https://nble-gw-h.hmgmobility.com.cn/
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Main/MainTabBarController.swift
+        | newBleLogin start: 
+        | , newBleLoginState : 
+        | newBleLogin isOffLineMode : 
+        | https://nble-gw-k.hmgmobility.com.cn/
+        | https://nble-gw-h.hmgmobility.com.cn/
+        | User Name is empty
+        | newBleLogin response : 
+        | newBleLogin BleFunc keystoneSDKError : 
+        | initRequest() : 
+        | tmsServiceStateType : 
+        | on Result onVehicleStatusResultG2 
+        | IntroViewController
+        | MoreViewController
+        | maintab_icon_home_n
+
+--- [main] pattern=oaas-[hk]\.hmgmobility\.com\.cn (2 hits) ---
+  @1269  match: https://oaas-k.hmgmobility.com.cn
+        | https://www.beijing-hyundai.com.cn/saleservice/key-service-list/
+        | https://t.cn/A6WoGrvu
+        | /join/own/modifyPinInit.do
+        | https://uars-k.hmgmobility.com.cn
+        | https://uars-h.hmgmobility.com.cn
+        | https://oaas-k.hmgmobility.com.cn
+        | https://oaas-h.hmgmobility.com.cn
+        | /user/oauth2/authorize?response_type=code&client_id=
+        | 9d5df92a-06ae-435f-b459-8304f2efcc67
+        | 72b3d019-5bc7-443d-a437-08f307cf06e2
+        | /user/oauth2/redirect
+        | /join/own/modifyPhoneInit.do
+        | /join/own/managePasswordInit.do
+        | /join/cancel/cancelAccount.do
+        | https://hmc.hyundaibluelink.com.cn/dlw/qropen/auth/oneConvertIdCcsp.do?masterId=
+  @1270  match: https://oaas-h.hmgmobility.com.cn
+        | https://t.cn/A6WoGrvu
+        | /join/own/modifyPinInit.do
+        | https://uars-k.hmgmobility.com.cn
+        | https://uars-h.hmgmobility.com.cn
+        | https://oaas-k.hmgmobility.com.cn
+        | https://oaas-h.hmgmobility.com.cn
+        | /user/oauth2/authorize?response_type=code&client_id=
+        | 9d5df92a-06ae-435f-b459-8304f2efcc67
+        | 72b3d019-5bc7-443d-a437-08f307cf06e2
+        | /user/oauth2/redirect
+        | /join/own/modifyPhoneInit.do
+        | /join/own/managePasswordInit.do
+        | /join/cancel/cancelAccount.do
+        | https://hmc.hyundaibluelink.com.cn/dlw/qropen/auth/oneConvertIdCcsp.do?masterId=
+        | /api/v1/nccw/main.do?vin=
+
+--- [main] pattern=uars-[hk]\.hmgmobility\.com\.cn (2 hits) ---
+  @1267  match: https://uars-k.hmgmobility.com.cn
+        | https://itunes.apple.com/app/id/537941685
+        | http://s.kia.cn/mob
+        | https://www.beijing-hyundai.com.cn/saleservice/key-service-list/
+        | https://t.cn/A6WoGrvu
+        | /join/own/modifyPinInit.do
+        | https://uars-k.hmgmobility.com.cn
+        | https://uars-h.hmgmobility.com.cn
+        | https://oaas-k.hmgmobility.com.cn
+        | https://oaas-h.hmgmobility.com.cn
+        | /user/oauth2/authorize?response_type=code&client_id=
+        | 9d5df92a-06ae-435f-b459-8304f2efcc67
+        | 72b3d019-5bc7-443d-a437-08f307cf06e2
+        | /user/oauth2/redirect
+        | /join/own/modifyPhoneInit.do
+        | /join/own/managePasswordInit.do
+  @1268  match: https://uars-h.hmgmobility.com.cn
+        | http://s.kia.cn/mob
+        | https://www.beijing-hyundai.com.cn/saleservice/key-service-list/
+        | https://t.cn/A6WoGrvu
+        | /join/own/modifyPinInit.do
+        | https://uars-k.hmgmobility.com.cn
+        | https://uars-h.hmgmobility.com.cn
+        | https://oaas-k.hmgmobility.com.cn
+        | https://oaas-h.hmgmobility.com.cn
+        | /user/oauth2/authorize?response_type=code&client_id=
+        | 9d5df92a-06ae-435f-b459-8304f2efcc67
+        | 72b3d019-5bc7-443d-a437-08f307cf06e2
+        | /user/oauth2/redirect
+        | /join/own/modifyPhoneInit.do
+        | /join/own/managePasswordInit.do
+        | /join/cancel/cancelAccount.do
+
+--- [main] pattern=prd-nccw-[hk]\.hyundaibluelink\.com\.cn (1 hits) ---
+  @1281  match: https://prd-nccw-h.hyundaibluelink.com.cn
+        | /join/own/managePasswordInit.do
+        | /join/cancel/cancelAccount.do
+        | https://hmc.hyundaibluelink.com.cn/dlw/qropen/auth/oneConvertIdCcsp.do?masterId=
+        | /api/v1/nccw/main.do?vin=
+        | /nccw/main.do?vin=
+        | https://prd-nccw-h.hyundaibluelink.com.cn
+        | egw-svchub-ccs-k-cn.hmgmobility.com.cn
+        | egw-svchub-ccs-h-cn.hmgmobility.com.cn
+        | https://auth.hyundai.com.cn/processUafResponse.jspx?site=
+        | https://auth.hyundai.com.cn/processUafRequest.jspx?site=
+        | https://hmc.hyundaibluelink.com.cn/dlw/mup/home.do?ut=
+        | TMSmwg2.hyundaibluelink.com.cn
+        | tmsqsbs.hyundaibluelink.com.cn
+        | tmsdsbs.hyundaibluelink.com.cn
+        | https://hmc.hyundaibluelink.com.cn/dlw/qropen/auth/oneConvertId.do?cocd=
+
+--- [main] pattern=cn-ccapi (4 hits) ---
+  @1256  match: prd.cn-ccapi.kia.com
+        | icon_battery_level_low
+        | refreshVehicleStatus()
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/WidgetManager/WidgetProcessManger.swift
+        | processRemoteControl : 
+        | engineStartCount
+        | prd.cn-ccapi.kia.com
+        | isUseTestSetting
+        | stg.cn-ccapi.kia.com
+        | stg.cn-ccapi.hyundai.com
+        | prd.cn-ccapi.hyundai.com
+        | https://itunes.apple.com/app/id/543516417
+        | https://itunes.apple.com/app/id/537941685
+        | http://s.kia.cn/mob
+        | https://www.beijing-hyundai.com.cn/saleservice/key-service-list/
+        | https://t.cn/A6WoGrvu
+  @1258  match: stg.cn-ccapi.kia.com
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/WidgetManager/WidgetProcessManger.swift
+        | processRemoteControl : 
+        | engineStartCount
+        | prd.cn-ccapi.kia.com
+        | isUseTestSetting
+        | stg.cn-ccapi.kia.com
+        | stg.cn-ccapi.hyundai.com
+        | prd.cn-ccapi.hyundai.com
+        | https://itunes.apple.com/app/id/543516417
+        | https://itunes.apple.com/app/id/537941685
+        | http://s.kia.cn/mob
+        | https://www.beijing-hyundai.com.cn/saleservice/key-service-list/
+        | https://t.cn/A6WoGrvu
+        | /join/own/modifyPinInit.do
+        | https://uars-k.hmgmobility.com.cn
+  @1259  match: stg.cn-ccapi.hyundai.com
+        | processRemoteControl : 
+        | engineStartCount
+        | prd.cn-ccapi.kia.com
+        | isUseTestSetting
+        | stg.cn-ccapi.kia.com
+        | stg.cn-ccapi.hyundai.com
+        | prd.cn-ccapi.hyundai.com
+        | https://itunes.apple.com/app/id/543516417
+        | https://itunes.apple.com/app/id/537941685
+        | http://s.kia.cn/mob
+        | https://www.beijing-hyundai.com.cn/saleservice/key-service-list/
+        | https://t.cn/A6WoGrvu
+        | /join/own/modifyPinInit.do
+        | https://uars-k.hmgmobility.com.cn
+        | https://uars-h.hmgmobility.com.cn
+  @1260  match: prd.cn-ccapi.hyundai.com
+        | engineStartCount
+        | prd.cn-ccapi.kia.com
+        | isUseTestSetting
+        | stg.cn-ccapi.kia.com
+        | stg.cn-ccapi.hyundai.com
+        | prd.cn-ccapi.hyundai.com
+        | https://itunes.apple.com/app/id/543516417
+        | https://itunes.apple.com/app/id/537941685
+        | http://s.kia.cn/mob
+        | https://www.beijing-hyundai.com.cn/saleservice/key-service-list/
+        | https://t.cn/A6WoGrvu
+        | /join/own/modifyPinInit.do
+        | https://uars-k.hmgmobility.com.cn
+        | https://uars-h.hmgmobility.com.cn
+        | https://oaas-k.hmgmobility.com.cn
+
+--- [resources] pattern=cn-ccapi (8 hits) ---
+  @27771  match: *20260428_stg_cn-ccapi_hyundai_com_cert.pem_
+        | PetModeViewController_
+        | PetModeViewController
+        | 5KNf~
+        | bplist00
+        |  20260428_Chain_RootCA_Bundle.crt_
+        | *20260428_stg_cn-ccapi_hyundai_com_cert.pem_
+        | $AlphaSSL CA - OBIGO Dev Image Server_
+        | Baidu Compliance SSL SPKI_
+        | .Sectigo Public Server Authentication CA OV R36_
+        | -Sectigo Public Server Authentication Root R46_
+        | 4Sectigo RSA Organization Validation Secure Server CA_
+        | %USERTrust RSA Certification Authority_
+        |  api-ccs-map-stg.apolloxcloud.com_
+        | 'hmgmobility.com.cn.key SPKI EXP20270215_
+        | *hmgmobility.com.cn_ca.crt SPKI EXP20270215_
+  @27782  match:  prd_cn-ccapi_kia_com_PEM(Apache)_
+        | %USERTrust RSA Certification Authority_
+        |  api-ccs-map-stg.apolloxcloud.com_
+        | 'hmgmobility.com.cn.key SPKI EXP20270215_
+        | *hmgmobility.com.cn_ca.crt SPKI EXP20270215_
+        | (hmgmobility_com_cn_pro_server_2025_04_14_
+        |  prd_cn-ccapi_kia_com_PEM(Apache)_
+        | (star_hyundai_com_cn_PEM(Apache)_20250109_
+        | /star_hyundaibluelink_com_cn_NginX_cert_20250310_
+        | $stg_cn-ccapi_hyundai_com_PEM(Apache)_
+        | "stg_cn-ccapi_hyundai_com_chain_PFX_
+        | ,KqkYYX5LYAYP7XGemqzbtPPIA8x7BS/BbOIcAXf3j2k=_
+        | ,BITdC90Np3fQsLaFWz5PbkfsXV+BiMRbG7jtb+P9ixQ=_
+        | ,NF3+qpOukpFaJkPoqX6V6eWTr1PiA1bdfgH6Ven3pLk=_
+        | ,B/hyHBD9N9iTknmzoVtjUik1b0L2YghfqDuTxCl3tks=_
+        | ,Y7GMei6aIguOroIp77UGjIge1cPYwtwqHefbVvV2n1E=_
+  @27785  match: $stg_cn-ccapi_hyundai_com_PEM(Apache)_
+        | *hmgmobility.com.cn_ca.crt SPKI EXP20270215_
+        | (hmgmobility_com_cn_pro_server_2025_04_14_
+        |  prd_cn-ccapi_kia_com_PEM(Apache)_
+        | (star_hyundai_com_cn_PEM(Apache)_20250109_
+        | /star_hyundaibluelink_com_cn_NginX_cert_20250310_
+        | $stg_cn-ccapi_hyundai_com_PEM(Apache)_
+        | "stg_cn-ccapi_hyundai_com_chain_PFX_
+        | ,KqkYYX5LYAYP7XGemqzbtPPIA8x7BS/BbOIcAXf3j2k=_
+        | ,BITdC90Np3fQsLaFWz5PbkfsXV+BiMRbG7jtb+P9ixQ=_
+        | ,NF3+qpOukpFaJkPoqX6V6eWTr1PiA1bdfgH6Ven3pLk=_
+        | ,B/hyHBD9N9iTknmzoVtjUik1b0L2YghfqDuTxCl3tks=_
+        | ,Y7GMei6aIguOroIp77UGjIge1cPYwtwqHefbVvV2n1E=_
+        | ,Douxi77vs4G+Ib/BogbTFymEYq0QSFXwSgVCaZcI09Q=_
+        | ,RkhWTcfJAQN/YxOR12VkPo+PhmIoSfWd/JVkg44einY=_
+        | ,x4QzPSC810K5/cMjb05Qm4k3Bw5zBn4lTdO/nEW/Td4=_
+  @27786  match: "stg_cn-ccapi_hyundai_com_chain_PFX_
+        | (hmgmobility_com_cn_pro_server_2025_04_14_
+        |  prd_cn-ccapi_kia_com_PEM(Apache)_
+        | (star_hyundai_com_cn_PEM(Apache)_20250109_
+        | /star_hyundaibluelink_com_cn_NginX_cert_20250310_
+        | $stg_cn-ccapi_hyundai_com_PEM(Apache)_
+        | "stg_cn-ccapi_hyundai_com_chain_PFX_
+        | ,KqkYYX5LYAYP7XGemqzbtPPIA8x7BS/BbOIcAXf3j2k=_
+        | ,BITdC90Np3fQsLaFWz5PbkfsXV+BiMRbG7jtb+P9ixQ=_
+        | ,NF3+qpOukpFaJkPoqX6V6eWTr1PiA1bdfgH6Ven3pLk=_
+        | ,B/hyHBD9N9iTknmzoVtjUik1b0L2YghfqDuTxCl3tks=_
+        | ,Y7GMei6aIguOroIp77UGjIge1cPYwtwqHefbVvV2n1E=_
+        | ,Douxi77vs4G+Ib/BogbTFymEYq0QSFXwSgVCaZcI09Q=_
+        | ,RkhWTcfJAQN/YxOR12VkPo+PhmIoSfWd/JVkg44einY=_
+        | ,x4QzPSC810K5/cMjb05Qm4k3Bw5zBn4lTdO/nEW/Td4=_
+        | ,3wfncmoZ2Zuf/EQc3Zs+09z0Zm6AiTUM/JtHSgV5KHU=_
+  @29631  match: *20260428_stg_cn-ccapi_hyundai_com_cert.pem_
+        | Keyless Climate Starth
+        | .V%@(%d)f
+        | EQhSMinTmsecSsec
+        | bplist00
+        |  20260428_Chain_RootCA_Bundle.crt_
+        | *20260428_stg_cn-ccapi_hyundai_com_cert.pem_
+        | $AlphaSSL CA - OBIGO Dev Image Server_
+        | Baidu Compliance SSL SPKI_
+        | .Sectigo Public Server Authentication CA OV R36_
+        | -Sectigo Public Server Authentication Root R46_
+        | 4Sectigo RSA Organization Validation Secure Server CA_
+        | %USERTrust RSA Certification Authority_
+        |  api-ccs-map-stg.apolloxcloud.com_
+        | 'hmgmobility.com.cn.key SPKI EXP20270215_
+        | *hmgmobility.com.cn_ca.crt SPKI EXP20270215_
+  @29642  match:  prd_cn-ccapi_kia_com_PEM(Apache)_
+        | %USERTrust RSA Certification Authority_
+        |  api-ccs-map-stg.apolloxcloud.com_
+        | 'hmgmobility.com.cn.key SPKI EXP20270215_
+        | *hmgmobility.com.cn_ca.crt SPKI EXP20270215_
+        | (hmgmobility_com_cn_pro_server_2025_04_14_
+        |  prd_cn-ccapi_kia_com_PEM(Apache)_
+        | (star_hyundai_com_cn_PEM(Apache)_20250109_
+        | /star_hyundaibluelink_com_cn_NginX_cert_20250310_
+        | $stg_cn-ccapi_hyundai_com_PEM(Apache)_
+        | "stg_cn-ccapi_hyundai_com_chain_PFX_
+        | ,KqkYYX5LYAYP7XGemqzbtPPIA8x7BS/BbOIcAXf3j2k=_
+        | ,BITdC90Np3fQsLaFWz5PbkfsXV+BiMRbG7jtb+P9ixQ=_
+        | ,NF3+qpOukpFaJkPoqX6V6eWTr1PiA1bdfgH6Ven3pLk=_
+        | ,B/hyHBD9N9iTknmzoVtjUik1b0L2YghfqDuTxCl3tks=_
+        | ,Y7GMei6aIguOroIp77UGjIge1cPYwtwqHefbVvV2n1E=_
+  @29645  match: $stg_cn-ccapi_hyundai_com_PEM(Apache)_
+        | *hmgmobility.com.cn_ca.crt SPKI EXP20270215_
+        | (hmgmobility_com_cn_pro_server_2025_04_14_
+        |  prd_cn-ccapi_kia_com_PEM(Apache)_
+        | (star_hyundai_com_cn_PEM(Apache)_20250109_
+        | /star_hyundaibluelink_com_cn_NginX_cert_20250310_
+        | $stg_cn-ccapi_hyundai_com_PEM(Apache)_
+        | "stg_cn-ccapi_hyundai_com_chain_PFX_
+        | ,KqkYYX5LYAYP7XGemqzbtPPIA8x7BS/BbOIcAXf3j2k=_
+        | ,BITdC90Np3fQsLaFWz5PbkfsXV+BiMRbG7jtb+P9ixQ=_
+        | ,NF3+qpOukpFaJkPoqX6V6eWTr1PiA1bdfgH6Ven3pLk=_
+        | ,B/hyHBD9N9iTknmzoVtjUik1b0L2YghfqDuTxCl3tks=_
+        | ,Y7GMei6aIguOroIp77UGjIge1cPYwtwqHefbVvV2n1E=_
+        | ,Douxi77vs4G+Ib/BogbTFymEYq0QSFXwSgVCaZcI09Q=_
+        | ,RkhWTcfJAQN/YxOR12VkPo+PhmIoSfWd/JVkg44einY=_
+        | ,x4QzPSC810K5/cMjb05Qm4k3Bw5zBn4lTdO/nEW/Td4=_
+  @29646  match: "stg_cn-ccapi_hyundai_com_chain_PFX_
+        | (hmgmobility_com_cn_pro_server_2025_04_14_
+        |  prd_cn-ccapi_kia_com_PEM(Apache)_
+        | (star_hyundai_com_cn_PEM(Apache)_20250109_
+        | /star_hyundaibluelink_com_cn_NginX_cert_20250310_
+        | $stg_cn-ccapi_hyundai_com_PEM(Apache)_
+        | "stg_cn-ccapi_hyundai_com_chain_PFX_
+        | ,KqkYYX5LYAYP7XGemqzbtPPIA8x7BS/BbOIcAXf3j2k=_
+        | ,BITdC90Np3fQsLaFWz5PbkfsXV+BiMRbG7jtb+P9ixQ=_
+        | ,NF3+qpOukpFaJkPoqX6V6eWTr1PiA1bdfgH6Ven3pLk=_
+        | ,B/hyHBD9N9iTknmzoVtjUik1b0L2YghfqDuTxCl3tks=_
+        | ,Y7GMei6aIguOroIp77UGjIge1cPYwtwqHefbVvV2n1E=_
+        | ,Douxi77vs4G+Ib/BogbTFymEYq0QSFXwSgVCaZcI09Q=_
+        | ,RkhWTcfJAQN/YxOR12VkPo+PhmIoSfWd/JVkg44einY=_
+        | ,x4QzPSC810K5/cMjb05Qm4k3Bw5zBn4lTdO/nEW/Td4=_
+        | ,3wfncmoZ2Zuf/EQc3Zs+09z0Zm6AiTUM/JtHSgV5KHU=_
+
+########## CONTEXT auth ##########
+--- [main] pattern=/v1/user/signin (1 hits) ---
+  @868  match: web/v1/user/signin
+        | wechatLoginNickName
+        | wechatLoginUserBinding
+        | Login WebView didFail Error : 
+ 
+        | Login WebView Loding : 
+ 
+        | api/v1/user/oauth2/redirect
+        | web/v1/user/signin
+        | MSG_CCS_DISABLE_CHANGE_CCSP
+        | popup_uars_user_profile_migration_error_button_cancel
+        | popup_uars_user_profile_migration_error_message
+        | popup_uars_user_profile_migration_error_title
+        | requestCarList()
+        | MSG_PERSONAL_TERM_CHANGE
+        | https://video.kiauvo.com.cn/agreement/agreement-UVO.html
+        | https://video.kiauvo.com.cn/agreement/privacyPolicy-UVO.html
+        | user_agreement_and_privacy_policy
+
+--- [main] pattern=/user/oauth2/token (1 hits) ---
+  @884  match: /user/oauth2/token
+        | https://video.hyundaibluelink.com.cn/agreement/agreement-BlueLink.html
+        | agreementVersion
+        | /sbs-sps/login/ccsp
+        | /apps/dkc/dkcsa/mod/noti/device
+        | requestCcspAccessToken::
+        | /user/oauth2/token
+        | sharedUserKey.regDeviceId
+        | Ali_push_init_fail_message
+        | [OldBleLogTag] initKeystoneCCSP status : 
+        |  initKeystoneCCSP asseId : 
+        | [OldBleLogTag] ## checkRegisterUserDevice : 
+        | UpgradeChecker.noticeid
+        | UpgradeChecker.checktime
+        | FindPasswordView
+        | MSG_CHECK_LOGIN_POLICY
+
+--- [main] pattern=/join/sms/loginInit\.do (1 hits) ---
+  @1295  match: /join/sms/loginInit.do
+        | https://hmc.hyundaibluelink.com.cn/dlw/qropen/auth/oneConvertId.do?cocd=
+        | /web/v1/cpw/login?token=
+        | /web/v1/cpw2/login?token=
+        | /join/oneclick/loginInit.do
+        | /join/account/loginInit.do
+        | /join/sms/loginInit.do
+        | /join/wechat/loginInit.do
+        | /open/authorizationApp/app.do
+        | c9p8vtmyzhe0w6jsirng41fb7lou5ad3
+        | m2lfh4i09pje8c5uzt37roa6xqwg1vds
+        | /join/ccsp/{masterId}/{appId}/{timestamp}/{sign}/initUserInfo.do
+        | /api/v1/profile/users/
+        | FAIL_NO_RESPONSE_CAR
+        | FAIL_CANT_USE_SERVICE_IN_CAR
+        | FAIL_DONT_MATCH_PIN
+
+--- [main] pattern=/sbs-sps/login/ccsp (1 hits) ---
+  @881  match: /sbs-sps/login/ccsp
+        | https://video.kiauvo.com.cn/agreement/privacyPolicy-UVO.html
+        | user_agreement_and_privacy_policy
+        | https://video.hyundaibluelink.com.cn/agreement/privacyPolicy-BlueLink.html
+        | https://video.hyundaibluelink.com.cn/agreement/agreement-BlueLink.html
+        | agreementVersion
+        | /sbs-sps/login/ccsp
+        | /apps/dkc/dkcsa/mod/noti/device
+        | requestCcspAccessToken::
+        | /user/oauth2/token
+        | sharedUserKey.regDeviceId
+        | Ali_push_init_fail_message
+        | [OldBleLogTag] initKeystoneCCSP status : 
+        |  initKeystoneCCSP asseId : 
+        | [OldBleLogTag] ## checkRegisterUserDevice : 
+        | UpgradeChecker.noticeid
+
+--- [main] pattern=smsCode|verifyCode|authCode|mobileNo|phoneNo|loginId|userId (12 hits) ---
+  @845  match: sharedUserKey.userId
+        | new_ble_key_error_message_KEYSTONE_BLE_REMOVE_PAIRING_DATA
+        | new_ble_key_error_message_KEYSTONE_KEY_REVOKED
+        | new_ble_key_error_message_KEYSTONE_KEY_NOT_ACTIVE
+        | notificationDeviceIdsRegisterUserMapping
+        | BlueLink/LoginViewController.swift
+        | sharedUserKey.userId
+        | sharedUserKey.ccSPAccessToken
+        | ccspUserRefreshToken
+        | sharedUserKey.ccSPAccessTokenType
+        | sharedUserKey.headerValues.vin
+        | lastSelectedVehicleType
+        | Check DB Selected Index :: 
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Bluelink/LogIn/LoginViewController.swift
+        | MSG_CCS_NEED_CHANGE_CCSP
+        | Btn_CCS_NEED_CHANGE_CCSP
+  @1437  match: INSERT INTO POLICY_INFO (userId, carId, virtualKeyAssetId, policy) VALUES(?,?,?,?)
+        | ### PolicyLocalDB init()
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Database/PolicyLocalDB.swift
+        | ### PolicyLocalDB update()
+        | UPDATE POLICY_INFO SET policy=? WHERE _index=%ld
+        | ### PolicyLocalDB insert()
+        | INSERT INTO POLICY_INFO (userId, carId, virtualKeyAssetId, policy) VALUES(?,?,?,?)
+        | #insertPolicy policyString ::  
+        | SELECT * FROM POLICY_INFO WHERE userId='%@'
+        |  AND virtualKeyAssetId='%@'
+        | #selectPolicyCommonData ::  
+        | CREATE TABLE IF NOT EXISTS POLICY_INFO ('_index' INTEGER PRIMARY KEY AUTOINCREMENT, 'userId' TEXT NOT NULL, 'carId' TEXT NULL DEFAULT NULL, 'virtualKeyAssetId' TEXT NULL DEFAULT NULL, 'policy' TEXT NU
+        | PolicyLocalDB createTable
+        | #UserVehicle talbe create Error
+        | /api/his/ccsevdrvhis
+        | isVisibleValetMode : 
+  @1439  match: SELECT * FROM POLICY_INFO WHERE userId='%@'
+        | ### PolicyLocalDB update()
+        | UPDATE POLICY_INFO SET policy=? WHERE _index=%ld
+        | ### PolicyLocalDB insert()
+        | INSERT INTO POLICY_INFO (userId, carId, virtualKeyAssetId, policy) VALUES(?,?,?,?)
+        | #insertPolicy policyString ::  
+        | SELECT * FROM POLICY_INFO WHERE userId='%@'
+        |  AND virtualKeyAssetId='%@'
+        | #selectPolicyCommonData ::  
+        | CREATE TABLE IF NOT EXISTS POLICY_INFO ('_index' INTEGER PRIMARY KEY AUTOINCREMENT, 'userId' TEXT NOT NULL, 'carId' TEXT NULL DEFAULT NULL, 'virtualKeyAssetId' TEXT NULL DEFAULT NULL, 'policy' TEXT NU
+        | PolicyLocalDB createTable
+        | #UserVehicle talbe create Error
+        | /api/his/ccsevdrvhis
+        | isVisibleValetMode : 
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Main/Map/MapBaseViewController.swift
+        | isVisibleValetMode selectedVehicleProfileInfo is Null
+  @1442  match: CREATE TABLE IF NOT EXISTS POLICY_INFO ('_index' INTEGER PRIMARY KEY AUTOINCREMENT, 'userId' TEXT NOT NULL, 'carId' TEXT NULL DEFAULT NULL, 'virtualKeyAssetId' TEXT NULL DEFAULT NULL, 'policy' TEXT NU
+        | INSERT INTO POLICY_INFO (userId, carId, virtualKeyAssetId, policy) VALUES(?,?,?,?)
+        | #insertPolicy policyString ::  
+        | SELECT * FROM POLICY_INFO WHERE userId='%@'
+        |  AND virtualKeyAssetId='%@'
+        | #selectPolicyCommonData ::  
+        | CREATE TABLE IF NOT EXISTS POLICY_INFO ('_index' INTEGER PRIMARY KEY AUTOINCREMENT, 'userId' TEXT NOT NULL, 'carId' TEXT NULL DEFAULT NULL, 'virtualKeyAssetId' TEXT NULL DEFAULT NULL, 'policy' TEXT NU
+        | PolicyLocalDB createTable
+        | #UserVehicle talbe create Error
+        | /api/his/ccsevdrvhis
+        | isVisibleValetMode : 
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Main/Map/MapBaseViewController.swift
+        | isVisibleValetMode selectedVehicleProfileInfo is Null
+        | onFindMyCarButton
+        | POISearchViewController
+        | LocationViewController
+  @1491  match: INSERT INTO BLE_REMOTE_SVC_INFO (userId, ble_remote_control_info_json) VALUES(?,?)
+        | resultList.count :: 
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Database/BleRemoteControlInfoDB.swift
+        | json String fail :: encoding
+        | UPDATE BLE_REMOTE_SVC_INFO SET ble_remote_control_info_json=? WHERE _index=%ld
+        | yyyy-MM-dd a HH:mm
+        | INSERT INTO BLE_REMOTE_SVC_INFO (userId, ble_remote_control_info_json) VALUES(?,?)
+        | ===== DB == insertRemoteSvcInfo() ===== :: 
+        | ===== DB == selectRemoteSvcInfo() ===== :: 
+        | SELECT * FROM BLE_REMOTE_SVC_INFO WHERE userId='%@'
+        | remoteSvcInfos.count :: 
+        | CREATE TABLE IF NOT EXISTS BLE_REMOTE_SVC_INFO ('_index' INTEGER PRIMARY KEY AUTOINCREMENT, 'userId' TEXT NOT NULL, 'ble_remote_control_info_json' TEXT NOT NULL)
+        | BleRemoteControlInfoDB createTable
+        | BLE_REMOTE_SVC_INFO talbe create Error
+        | ### BleRemoteControlInfoDB init()
+        | DrivingPhotoCell
+  @1494  match: SELECT * FROM BLE_REMOTE_SVC_INFO WHERE userId='%@'
+        | UPDATE BLE_REMOTE_SVC_INFO SET ble_remote_control_info_json=? WHERE _index=%ld
+        | yyyy-MM-dd a HH:mm
+        | INSERT INTO BLE_REMOTE_SVC_INFO (userId, ble_remote_control_info_json) VALUES(?,?)
+        | ===== DB == insertRemoteSvcInfo() ===== :: 
+        | ===== DB == selectRemoteSvcInfo() ===== :: 
+        | SELECT * FROM BLE_REMOTE_SVC_INFO WHERE userId='%@'
+        | remoteSvcInfos.count :: 
+        | CREATE TABLE IF NOT EXISTS BLE_REMOTE_SVC_INFO ('_index' INTEGER PRIMARY KEY AUTOINCREMENT, 'userId' TEXT NOT NULL, 'ble_remote_control_info_json' TEXT NOT NULL)
+        | BleRemoteControlInfoDB createTable
+        | BLE_REMOTE_SVC_INFO talbe create Error
+        | ### BleRemoteControlInfoDB init()
+        | DrivingPhotoCell
+        | DrivingLicenseAddButtonCell
+        | DrivingLicenseEmptyCell
+        | ccs2ChargingCurrent
+  @1496  match: CREATE TABLE IF NOT EXISTS BLE_REMOTE_SVC_INFO ('_index' INTEGER PRIMARY KEY AUTOINCREMENT, 'userId' TEXT NOT NULL, 'ble_remote_control_info_json' TEXT NOT NULL)
+        | INSERT INTO BLE_REMOTE_SVC_INFO (userId, ble_remote_control_info_json) VALUES(?,?)
+        | ===== DB == insertRemoteSvcInfo() ===== :: 
+        | ===== DB == selectRemoteSvcInfo() ===== :: 
+        | SELECT * FROM BLE_REMOTE_SVC_INFO WHERE userId='%@'
+        | remoteSvcInfos.count :: 
+        | CREATE TABLE IF NOT EXISTS BLE_REMOTE_SVC_INFO ('_index' INTEGER PRIMARY KEY AUTOINCREMENT, 'userId' TEXT NOT NULL, 'ble_remote_control_info_json' TEXT NOT NULL)
+        | BleRemoteControlInfoDB createTable
+        | BLE_REMOTE_SVC_INFO talbe create Error
+        | ### BleRemoteControlInfoDB init()
+        | DrivingPhotoCell
+        | DrivingLicenseAddButtonCell
+        | DrivingLicenseEmptyCell
+        | ccs2ChargingCurrent
+        | /ccs2/charge/chargingcurrent
+        |  does not exist.
+  @3428  match: getVirtualKeys > userId : 
+        | checkVirtualKey_Send() 5 
+        | checkVirtualKey_Send() 4 
+        | checkVirtualKey_Send() 3 
+        | checkVirtualKey_Send() 2 
+        | checkVirtualKey_Send() 1 
+        | getVirtualKeys > userId : 
+        | result > virualKey : 
+        | checkVirtualKey_Get() :: 
+        | checkVirtualKey_Get() response 
+        | checkVirtualKey_Get() 6 
+        | checkVirtualKey_Get() 5 
+        | checkVirtualKey_Get() 4 
+        | checkVirtualKey_Get() 3 
+        | checkVirtualKey_Get() 2 
+        | checkVirtualKey_Get() 1 
+  @3805  match: 😭 Something wrong with userId
+        | .open.hyundai.jiayudata.com
+        | .open.fleetingpower.com
+        | loadChargingGunExchange
+        | vs_car_04_not_sunroof
+        | /ccs2/charge/alarm
+        | 😭 Something wrong with userId
+        | CIQRCodeGenerator
+        | inputCorrectionLevel
+        | MSG_TRY_SCAN_QR_CODE_TO_SHARE_OR_REQUEST_KEY
+        | AFTER_LOGOUT_DELETE_MSG
+        | multiple_login_wechat_is_not_WXAppInstalled
+        | sport_dict_wx_login
+        | popup_WeChatAccount_unbind_message
+        | popup_WeChatAccount_unbind_btn_ok
+        | UARSWebViewController
+  @4045  match: DELETE FROM BLE_VIRTUAL_KEY WHERE userId='%@' AND virtualKeyAssetId='%@' AND keystone_sdk_deviceId='%@'
+        | status_sidemirror_left_mpv
+        | status_sidemirror_right_mpv
+        | ### BleVirtualKeyLocalDB init()
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Database/BleVirtualKeyLocalDB.swift
+        | ### deleteBleVirtualKey :: 
+        | DELETE FROM BLE_VIRTUAL_KEY WHERE userId='%@' AND virtualKeyAssetId='%@' AND keystone_sdk_deviceId='%@'
+        | ### selectBleVirtualKey :: 
+        | SELECT userId, virtualKeyAssetId, keystone_sdk_deviceId, virtualKey FROM BLE_VIRTUAL_KEY WHERE userId='%@' AND virtualKeyAssetId='%@' AND keystone_sdk_deviceId='%@'
+        | @@@@ selectBleVirtualKey Returnd Data :: 
+        | ' VirtualKey : '
+        | ### updateRowBleVirtualKey 
+        | == insertRow virtualKey : 
+        | UPDATE BLE_VIRTUAL_KEY SET virtualKey=? WHERE userId='%@' AND virtualKeyAssetId='%@' AND keystone_sdk_deviceId='%@'
+        | ### insertRowBleVirtualKey :: '
+        | INSERT INTO BLE_VIRTUAL_KEY (userId, virtualKeyAssetId, keystone_sdk_deviceId, virtualKey) VALUES(?,?,?,?)
+  @4047  match: SELECT userId, virtualKeyAssetId, keystone_sdk_deviceId, virtualKey FROM BLE_VIRTUAL_KEY WHERE userId='%@' AND virtualKeyAssetId='%@' AND keystone_sdk_deviceId='%@'
+        | ### BleVirtualKeyLocalDB init()
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Database/BleVirtualKeyLocalDB.swift
+        | ### deleteBleVirtualKey :: 
+        | DELETE FROM BLE_VIRTUAL_KEY WHERE userId='%@' AND virtualKeyAssetId='%@' AND keystone_sdk_deviceId='%@'
+        | ### selectBleVirtualKey :: 
+        | SELECT userId, virtualKeyAssetId, keystone_sdk_deviceId, virtualKey FROM BLE_VIRTUAL_KEY WHERE userId='%@' AND virtualKeyAssetId='%@' AND keystone_sdk_deviceId='%@'
+        | @@@@ selectBleVirtualKey Returnd Data :: 
+        | ' VirtualKey : '
+        | ### updateRowBleVirtualKey 
+        | == insertRow virtualKey : 
+        | UPDATE BLE_VIRTUAL_KEY SET virtualKey=? WHERE userId='%@' AND virtualKeyAssetId='%@' AND keystone_sdk_deviceId='%@'
+        | ### insertRowBleVirtualKey :: '
+        | INSERT INTO BLE_VIRTUAL_KEY (userId, virtualKeyAssetId, keystone_sdk_deviceId, virtualKey) VALUES(?,?,?,?)
+        | CREATE TABLE IF NOT EXISTS BLE_VIRTUAL_KEY ('_index' INTEGER PRIMARY KEY AUTOINCREMENT, 'userId' TEXT NOT NULL, 'virtualKeyAssetId' TEXT NULL DEFAULT NULL, 'keystone_sdk_deviceId' TEXT NULL DEFAULT NU
+        | BleVirtualKeyLocalDB createTable
+  @4052  match: UPDATE BLE_VIRTUAL_KEY SET virtualKey=? WHERE userId='%@' AND virtualKeyAssetId='%@' AND keystone_sdk_deviceId='%@'
+        | SELECT userId, virtualKeyAssetId, keystone_sdk_deviceId, virtualKey FROM BLE_VIRTUAL_KEY WHERE userId='%@' AND virtualKeyAssetId='%@' AND keystone_sdk_deviceId='%@'
+        | @@@@ selectBleVirtualKey Returnd Data :: 
+        | ' VirtualKey : '
+        | ### updateRowBleVirtualKey 
+        | == insertRow virtualKey : 
+        | UPDATE BLE_VIRTUAL_KEY SET virtualKey=? WHERE userId='%@' AND virtualKeyAssetId='%@' AND keystone_sdk_deviceId='%@'
+        | ### insertRowBleVirtualKey :: '
+        | INSERT INTO BLE_VIRTUAL_KEY (userId, virtualKeyAssetId, keystone_sdk_deviceId, virtualKey) VALUES(?,?,?,?)
+        | CREATE TABLE IF NOT EXISTS BLE_VIRTUAL_KEY ('_index' INTEGER PRIMARY KEY AUTOINCREMENT, 'userId' TEXT NOT NULL, 'virtualKeyAssetId' TEXT NULL DEFAULT NULL, 'keystone_sdk_deviceId' TEXT NULL DEFAULT NU
+        | BleVirtualKeyLocalDB createTable
+        | BleVirtualKeyLocalDB talbe create Error
+        | CoachMarkViewController
+        | userKeyCoachMarkMyCar
+        | userKeyCoachMarkMAP
+        | userKeyCoachMarkVehicleStatus
+
+--- [Keystone] pattern=smsCode|verifyCode|authCode|mobileNo|phoneNo|loginId|userId (3 hits) ---
+  @701  match: userId or assetId is null, invalid digital key
+        | getVirtualKeyById(virtualKeyId:)
+        | getVirtualKeyById result:
+ 
+        | to revoke self key
+        | terminateVirtualKey(vkId:result:)
+        | No virtual key found for id: 
+        | userId or assetId is null, invalid digital key
+        | userId or assetId is empty, invalid digital key
+        | already revoked for id: 
+        | Virtual key already revoked
+        | revoke key failed: 
+        | revoke key success
+        | onDeviceIdUpdated: 
+        | , forceLoadVirtualKey: 
+        | onDeviceIdUpdated(deviceId:forceLoadVirtualKey:clearOldData:)
+        | device id is null
+  @702  match: userId or assetId is empty, invalid digital key
+        | getVirtualKeyById result:
+ 
+        | to revoke self key
+        | terminateVirtualKey(vkId:result:)
+        | No virtual key found for id: 
+        | userId or assetId is null, invalid digital key
+        | userId or assetId is empty, invalid digital key
+        | already revoked for id: 
+        | Virtual key already revoked
+        | revoke key failed: 
+        | revoke key success
+        | onDeviceIdUpdated: 
+        | , forceLoadVirtualKey: 
+        | onDeviceIdUpdated(deviceId:forceLoadVirtualKey:clearOldData:)
+        | device id is null
+        | saved data is broken
+  @1363  match: revokeUserKey(userId:assetId:result:)
+        | app_call_getVirtualKeys on device 
+        | app_call_getVehicleKeyStatus: 
+        | getVehicleKeyStatus(providerAssetId:result:)
+        | getVehicleKeyStatus on device 
+        | app_call_revokeUserKey
+        | revokeUserKey(userId:assetId:result:)
+        | performAction(action:assetId:result:)
+        | app_call_setExtraBLEServiceInfo:
+        | app_call_enableBLE
+        | Exit enableBLE, please try it later
+        | app_call_disableBLE
+        | Exit disableBLE, please try it later
+        | app_call_setAuthenticationHeader:
+        | setAuthenticationHeader(header:)
+        | app_call_setKeystoneServerUrl:
+
+--- [resources] pattern=smsCode|verifyCode|authCode|mobileNo|phoneNo|loginId|userId (5 hits) ---
+  @27488  match: Please, enter the userId.i
+        | Discount time priority chargeo
+        | -Too many reservation at the same time(minute)_
+        | Passive Engine Start is disable_
+        | lIf the cable is connected, the Air Conditioning scheduling feature is activated according to the start time.o
+        | Please, Enter Messageo
+        | Please, enter the userId.i
+        | Passive Door Lock is disablee
+        | ygak>
+        | gak>v
+        | N:^.R
+        | QwOSQ
+        | h9cn`
+        | u(W:fo
+        | OU{,N
+        | f/T&T
+  @29486  match: Please, enter the userId.i
+        | Discount time priority chargeo
+        | -Too many reservation at the same time(minute)_
+        | Passive Engine Start is disable_
+        | lIf the cable is connected, the Air Conditioning scheduling feature is activated according to the start time.o
+        | Please, Enter Messageo
+        | Please, enter the userId.i
+        | Passive Door Lock is disablee
+        | ygak>
+        | gak>v
+        | N:^.R
+        | QwOSQ
+        | h9cn`
+        | u(W:fo
+        | OU{,N
+        | f/T&T
+  @33737  match: Please, enter the userId.i
+        | Discount time priority chargeo
+        | -Too many reservation at the same time(minute)_
+        | Passive Engine Start is disable_
+        | lIf the cable is connected, the Air Conditioning scheduling feature is activated according to the start time.o
+        | Please, Enter Messageo
+        | Please, enter the userId.i
+        | Passive Door Lock is disablee
+        | ygak>
+        | gak>v
+        | N:^.R
+        | QwOSQ
+        | h9cn`
+        | u(W:fo
+        | OU{,N
+        | f/T&T
+  @37948  match: Please, enter the userId.i
+        | Discount time priority chargeo
+        | -Too many reservation at the same time(minute)_
+        | Passive Engine Start is disable_
+        | lIf the cable is connected, the Air Conditioning scheduling feature is activated according to the start time.o
+        | Please, Enter Messageo
+        | Please, enter the userId.i
+        | Passive Door Lock is disablee
+        | ygak>
+        | gak>v
+        | N:^.R
+        | QwOSQ
+        | h9cn`
+        | u(W:fo
+        | OU{,N
+        | f/T&T
+  @42169  match: Please, enter the userId.i
+        | Discount time priority chargeo
+        | -Too many reservation at the same time(minute)_
+        | Passive Engine Start is disable_
+        | lIf the cable is connected, the Air Conditioning scheduling feature is activated according to the start time.o
+        | Please, Enter Messageo
+        | Please, enter the userId.i
+        | Passive Door Lock is disablee
+        | ygak>
+        | gak>v
+        | N:^.R
+        | QwOSQ
+        | h9cn`
+        | u(W:fo
+        | OU{,N
+        | f/T&T
+
+########## CONTEXT digital_key_api ##########
+--- [main] pattern=/apps/dkc2/ (5 hits) ---
+  @1124  match: /apps/dkc2/dkcsa/dkcdkss/api/v1/requestOwnerDigitalKeyInformation
+        | getHkmcFrameworkVersion : 
+        | DIGITAL_KEY_NEED_UPDATE
+        | DIGITAL_KEY_NEED_UPDATE_MESSAGE
+        | BTN_DIGITAL_KEY_UPDATE
+        | BTN_DIGITAL_KEY_LATER
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/requestOwnerDigitalKeyInformation
+        | hkmcDk2Manager is Null
+        | getDigitalKeyList is keys count 
+        | OWNER Digital Key count : 
+        | getDigitalKeyInfo is nil
+        | OWNER Digital Key is Not matching...
+        | POPUP_DIGITAL_KEY_EXIST_RE_REGISTER
+        | getDigitalKeyInfo is :: getDigitalKeyId Null
+        | OWNER Digital Key is : 
+        | OWNER Digital Key : 
+  @1145  match: /apps/dkc2/dkcsa/dkcdkss/api/v1/requestPairingPassword
+        | 오너페어링 성공
+        | 오너페어링 성공 is Not digitalKeyInfo
+        | 오너페어링 오류 
+        | 오너페어링 오류 nsError.code : 
+        | 오너페어링 성공 get digital key list : 
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/requestPairingPassword
+        | BTN_DIGITAL_KEY_REGISTER_LINK_SEND
+        | USER_KEY_DIGITAL_KEY_REGISTER_LINK_SEND_MAX_COUNT
+        | POPUP_digital_key_register_link_send_max_count
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/sendDigitalKeyRegistrationMessage
+        | POPUP_DIGITAL_KEY_REGISTER_LINK_SEND
+        | setDigitalKeyStatus : 
+        | , digitalKeyInfo.status : 
+        | DIGITAL_KEY_STATUS_PAUSING
+        | DIGITAL_KEY_STATUS_SHARING
+  @1149  match: /apps/dkc2/dkcsa/dkcdkss/api/v1/sendDigitalKeyRegistrationMessage
+        | 오너페어링 성공 get digital key list : 
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/requestPairingPassword
+        | BTN_DIGITAL_KEY_REGISTER_LINK_SEND
+        | USER_KEY_DIGITAL_KEY_REGISTER_LINK_SEND_MAX_COUNT
+        | POPUP_digital_key_register_link_send_max_count
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/sendDigitalKeyRegistrationMessage
+        | POPUP_DIGITAL_KEY_REGISTER_LINK_SEND
+        | setDigitalKeyStatus : 
+        | , digitalKeyInfo.status : 
+        | DIGITAL_KEY_STATUS_PAUSING
+        | DIGITAL_KEY_STATUS_SHARING
+        | DIGITAL_KEY_STATUS_PAUSE_RELEASE
+        | DIGITAL_KEY_STATUS_PAUSE
+        | DIGITAL_KEY_DELETE
+        | DIGITAL_KEY_REG_COMPLETION
+  @1168  match: /apps/dkc2/dkcsa/dkcdkss/api/v1/requestAppUnpairing
+        | MSG_DIGITAL_KEY_INITIALIZATION
+        | DIGITAL_KEY_INITIALIZATION
+        | checkPinFrameworkInit Error : 
+        | checkPinFrameworkInit cancel
+        | checkPinFrameworkInit success
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/requestAppUnpairing
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/requestDigitalKeyLibVer
+        | PKSecureElementPass :: 
+        | /apps/dkc/dkcsa/data/owner/%@/%@/req/sharekey
+        | SetDepartureTimeCell
+        | RESERVE_CHARGE_SET_TEMPERATURE
+        | SetDepartureTime
+        | NewFuncFragment2_Explain_Title
+        | NewFuncFragment2_Explain_Content
+        | VehicleStatusFragment_VirusKillMode
+  @1169  match: /apps/dkc2/dkcsa/dkcdkss/api/v1/requestDigitalKeyLibVer
+        | DIGITAL_KEY_INITIALIZATION
+        | checkPinFrameworkInit Error : 
+        | checkPinFrameworkInit cancel
+        | checkPinFrameworkInit success
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/requestAppUnpairing
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/requestDigitalKeyLibVer
+        | PKSecureElementPass :: 
+        | /apps/dkc/dkcsa/data/owner/%@/%@/req/sharekey
+        | SetDepartureTimeCell
+        | RESERVE_CHARGE_SET_TEMPERATURE
+        | SetDepartureTime
+        | NewFuncFragment2_Explain_Title
+        | NewFuncFragment2_Explain_Content
+        | VehicleStatusFragment_VirusKillMode
+        |  BLECBCentralManager :: centralManagerDidUpdateState :: 
+
+--- [main] pattern=requestOwnerDigitalKeyInformation (2 hits) ---
+  @1109  match: requestOwnerDigitalKeyInformation
+        | new_ble_key_error_message_KEYSTONE_NETWORK_ERROR
+        | new_ble_key_error_message_KEYSTONE_IN_OFFLINE_MODE
+        | new_ble_key_error_message_KEYSTONE_PASS_STUB_LIMIT
+        | new_ble_key_error_message_KEYSTONE_OPERATING_ENVIRONMENT_ERROR
+        | requestDigitalKeyLibVer
+        | requestOwnerDigitalKeyInformation
+        | requestPairingPassword
+        | sendDigitalKeyRegistrationMessage
+        | registerDigitalKeyDeviceInfo
+        | requestAppUnpairing
+        | DIGITAL_KEY_DELETE_SUCCESS
+        | OWNER Digital Key is Null
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/Register_Digital_Key_2/DigitalKeyRegisterViewController.swift
+        | ERROR_DKC_2_DIGITAL_KEY_4106
+        | resData vehicleId : 
+  @1124  match: /apps/dkc2/dkcsa/dkcdkss/api/v1/requestOwnerDigitalKeyInformation
+        | getHkmcFrameworkVersion : 
+        | DIGITAL_KEY_NEED_UPDATE
+        | DIGITAL_KEY_NEED_UPDATE_MESSAGE
+        | BTN_DIGITAL_KEY_UPDATE
+        | BTN_DIGITAL_KEY_LATER
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/requestOwnerDigitalKeyInformation
+        | hkmcDk2Manager is Null
+        | getDigitalKeyList is keys count 
+        | OWNER Digital Key count : 
+        | getDigitalKeyInfo is nil
+        | OWNER Digital Key is Not matching...
+        | POPUP_DIGITAL_KEY_EXIST_RE_REGISTER
+        | getDigitalKeyInfo is :: getDigitalKeyId Null
+        | OWNER Digital Key is : 
+        | OWNER Digital Key : 
+
+--- [main] pattern=sendDigitalKeyRegistrationMessage (2 hits) ---
+  @1111  match: sendDigitalKeyRegistrationMessage
+        | new_ble_key_error_message_KEYSTONE_PASS_STUB_LIMIT
+        | new_ble_key_error_message_KEYSTONE_OPERATING_ENVIRONMENT_ERROR
+        | requestDigitalKeyLibVer
+        | requestOwnerDigitalKeyInformation
+        | requestPairingPassword
+        | sendDigitalKeyRegistrationMessage
+        | registerDigitalKeyDeviceInfo
+        | requestAppUnpairing
+        | DIGITAL_KEY_DELETE_SUCCESS
+        | OWNER Digital Key is Null
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/Register_Digital_Key_2/DigitalKeyRegisterViewController.swift
+        | ERROR_DKC_2_DIGITAL_KEY_4106
+        | resData vehicleId : 
+        | getHkmcFrameworkVersion : 
+        | DIGITAL_KEY_NEED_UPDATE
+  @1149  match: /apps/dkc2/dkcsa/dkcdkss/api/v1/sendDigitalKeyRegistrationMessage
+        | 오너페어링 성공 get digital key list : 
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/requestPairingPassword
+        | BTN_DIGITAL_KEY_REGISTER_LINK_SEND
+        | USER_KEY_DIGITAL_KEY_REGISTER_LINK_SEND_MAX_COUNT
+        | POPUP_digital_key_register_link_send_max_count
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/sendDigitalKeyRegistrationMessage
+        | POPUP_DIGITAL_KEY_REGISTER_LINK_SEND
+        | setDigitalKeyStatus : 
+        | , digitalKeyInfo.status : 
+        | DIGITAL_KEY_STATUS_PAUSING
+        | DIGITAL_KEY_STATUS_SHARING
+        | DIGITAL_KEY_STATUS_PAUSE_RELEASE
+        | DIGITAL_KEY_STATUS_PAUSE
+        | DIGITAL_KEY_DELETE
+        | DIGITAL_KEY_REG_COMPLETION
+
+--- [main] pattern=requestDigitalKeyLibVer (2 hits) ---
+  @1108  match: requestDigitalKeyLibVer
+        | new_ble_key_error_message_KEYSTONE_CORRUPTED_DATA
+        | new_ble_key_error_message_KEYSTONE_NETWORK_ERROR
+        | new_ble_key_error_message_KEYSTONE_IN_OFFLINE_MODE
+        | new_ble_key_error_message_KEYSTONE_PASS_STUB_LIMIT
+        | new_ble_key_error_message_KEYSTONE_OPERATING_ENVIRONMENT_ERROR
+        | requestDigitalKeyLibVer
+        | requestOwnerDigitalKeyInformation
+        | requestPairingPassword
+        | sendDigitalKeyRegistrationMessage
+        | registerDigitalKeyDeviceInfo
+        | requestAppUnpairing
+        | DIGITAL_KEY_DELETE_SUCCESS
+        | OWNER Digital Key is Null
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/Register_Digital_Key_2/DigitalKeyRegisterViewController.swift
+        | ERROR_DKC_2_DIGITAL_KEY_4106
+  @1169  match: /apps/dkc2/dkcsa/dkcdkss/api/v1/requestDigitalKeyLibVer
+        | DIGITAL_KEY_INITIALIZATION
+        | checkPinFrameworkInit Error : 
+        | checkPinFrameworkInit cancel
+        | checkPinFrameworkInit success
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/requestAppUnpairing
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/requestDigitalKeyLibVer
+        | PKSecureElementPass :: 
+        | /apps/dkc/dkcsa/data/owner/%@/%@/req/sharekey
+        | SetDepartureTimeCell
+        | RESERVE_CHARGE_SET_TEMPERATURE
+        | SetDepartureTime
+        | NewFuncFragment2_Explain_Title
+        | NewFuncFragment2_Explain_Content
+        | VehicleStatusFragment_VirusKillMode
+        |  BLECBCentralManager :: centralManagerDidUpdateState :: 
+
+--- [main] pattern=/sbs-sps/auth/certReq (1 hits) ---
+  @3633  match: /sbs-sps/auth/certReq/ccsp
+        | [OldBleLogTag] result 0 :: 
+        |  :: VirtualKey :: 
+        | reservedHVACInfo1
+        | reservedHVACInfo2
+        | /sps/auth/certReq
+        | /sbs-sps/auth/certReq/ccsp
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Common/DateUtils.swift
+        | comparisonResult : 
+        | orderedAscending return !!!
+        | MSG_DONT_SET_DEPARTURE_TIME
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/Charging Climate Settings(For OScEV ADc BDc)/SetUp/DepartureCell.swift
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Main/Home/VehicleImage/HomeVehicleImageView.swift
+        | WarningPopupViewConroller
+        | https://video.kiauvo.com.cn/image/ov/EBB.png
+        | https://video.hyundaibluelink.com.cn/image/sqf.png
+
+########## CONTEXT ble_uuid ##########
+--- [main] pattern=[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12} (9 hits) ---
+  @1272  match: 9d5df92a-06ae-435f-b459-8304f2efcc67
+        | https://uars-k.hmgmobility.com.cn
+        | https://uars-h.hmgmobility.com.cn
+        | https://oaas-k.hmgmobility.com.cn
+        | https://oaas-h.hmgmobility.com.cn
+        | /user/oauth2/authorize?response_type=code&client_id=
+        | 9d5df92a-06ae-435f-b459-8304f2efcc67
+        | 72b3d019-5bc7-443d-a437-08f307cf06e2
+        | /user/oauth2/redirect
+        | /join/own/modifyPhoneInit.do
+        | /join/own/managePasswordInit.do
+        | /join/cancel/cancelAccount.do
+        | https://hmc.hyundaibluelink.com.cn/dlw/qropen/auth/oneConvertIdCcsp.do?masterId=
+        | /api/v1/nccw/main.do?vin=
+        | /nccw/main.do?vin=
+        | https://prd-nccw-h.hyundaibluelink.com.cn
+  @1273  match: 72b3d019-5bc7-443d-a437-08f307cf06e2
+        | https://uars-h.hmgmobility.com.cn
+        | https://oaas-k.hmgmobility.com.cn
+        | https://oaas-h.hmgmobility.com.cn
+        | /user/oauth2/authorize?response_type=code&client_id=
+        | 9d5df92a-06ae-435f-b459-8304f2efcc67
+        | 72b3d019-5bc7-443d-a437-08f307cf06e2
+        | /user/oauth2/redirect
+        | /join/own/modifyPhoneInit.do
+        | /join/own/managePasswordInit.do
+        | /join/cancel/cancelAccount.do
+        | https://hmc.hyundaibluelink.com.cn/dlw/qropen/auth/oneConvertIdCcsp.do?masterId=
+        | /api/v1/nccw/main.do?vin=
+        | /nccw/main.do?vin=
+        | https://prd-nccw-h.hyundaibluelink.com.cn
+        | egw-svchub-ccs-k-cn.hmgmobility.com.cn
+  @2984  match: 8AC32D3F-5CB9-4D44-BEC2-EE689169F626
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/Common/RegionNotificationPopup/RegionNotificationPopup.swift
+        |  실외 코드니까 실내 도어락언락 팝업 종료 - 3
+        |  실외에서 가까울때니까 도어락언락 팝업 종료 - 2
+        |  실내 코드니까 엔진스타트 팝업 종료 - 1
+        | [OldBleLogTag] ###### BLEManager setHeaderVal :: 
+        | 8AC32D3F-5CB9-4D44-BEC2-EE689169F626
+        | 5E9BF2A8-F93F-4481-A67E-3B2F4A07891A
+        | userKeyBleIconState-
+        | [OldBleLogTag] getUserBleStateLatest carData is Null
+        | [OldBleLogTag] getUserBleStateLatest assetId is Null
+        | [OldBleLogTag] getUserBleStateLatest state : 
+        | FADING
+        | CONNECTING
+        | CONNECTED
+        | AUTHENTICATED
+  @2985  match: 5E9BF2A8-F93F-4481-A67E-3B2F4A07891A
+        |  실외 코드니까 실내 도어락언락 팝업 종료 - 3
+        |  실외에서 가까울때니까 도어락언락 팝업 종료 - 2
+        |  실내 코드니까 엔진스타트 팝업 종료 - 1
+        | [OldBleLogTag] ###### BLEManager setHeaderVal :: 
+        | 8AC32D3F-5CB9-4D44-BEC2-EE689169F626
+        | 5E9BF2A8-F93F-4481-A67E-3B2F4A07891A
+        | userKeyBleIconState-
+        | [OldBleLogTag] getUserBleStateLatest carData is Null
+        | [OldBleLogTag] getUserBleStateLatest assetId is Null
+        | [OldBleLogTag] getUserBleStateLatest state : 
+        | FADING
+        | CONNECTING
+        | CONNECTED
+        | AUTHENTICATED
+        | DISCONNECTED
+  @3110  match: 1b7e8251-2877-41c3-b46e-cf057c562023
+        | service.phone.vehiclelocation.res
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Main/Home/TopLogo/HomeTopLogoView.swift
+        | didTimeOut requestID : 
+        | didFailRequesting : 
+        | HomeTopMenuViewController
+        | 1b7e8251-2877-41c3-b46e-cf057c562023
+        | ://notification/valet/trigger
+        | ://notification/valet/activatefail
+        | ://location/async
+        | ://notification/otaUpdate/ecu
+        | ://notification/valet/deactivate
+        | ://notification/valet/activate
+        | ://notification/roa/trigger
+        | ://notification/finalDestGuide
+        | ://notification/lightStatus/lightOn
+  @3363  match: 5519a969-295f-4c5a-a27e-9d9fab2bd50c
+        | application/json
+        |  requestCCSP actionCode:: 
+        | ccs2RemoteTemparature
+        | * Request Network Start 
+        | LoaderNetJsonRoot CCSP:  
+        | 5519a969-295f-4c5a-a27e-9d9fab2bd50c
+        | ccsp-application-id
+        | b09e4d17-c30c-40f1-a1ec-8ac11d6665cf
+        | athenticationKey
+        | LogInManager.shared.ccSPAccessToken::
+        | application/x-www-form-urlencoded
+        | tsXdkUg08Av2ZZzXOgWzJyxUT6yeSnNNQkXXPRdKWEANwl1p
+        | ProviderDeviceID
+        | LoaderNetJsonRoot : CCSP New 
+        | text/plain;charset=UTF-8
+  @3365  match: b09e4d17-c30c-40f1-a1ec-8ac11d6665cf
+        | ccs2RemoteTemparature
+        | * Request Network Start 
+        | LoaderNetJsonRoot CCSP:  
+        | 5519a969-295f-4c5a-a27e-9d9fab2bd50c
+        | ccsp-application-id
+        | b09e4d17-c30c-40f1-a1ec-8ac11d6665cf
+        | athenticationKey
+        | LogInManager.shared.ccSPAccessToken::
+        | application/x-www-form-urlencoded
+        | tsXdkUg08Av2ZZzXOgWzJyxUT6yeSnNNQkXXPRdKWEANwl1p
+        | ProviderDeviceID
+        | LoaderNetJsonRoot : CCSP New 
+        | text/plain;charset=UTF-8
+        | LoaderNetJsonRoot : ALLURL 
+        | LoaderNetJsonRoot CCS :  
+  @4140  match: 10991775-2510-4741-8212-E07DEA185F25
+        | REGISTER_KEY_AND_CAR
+        | MSG_WAIT_FOR_SCAN_DATA_SENDING
+        | [OldBleLogTag] touch Back : 
+        | [OldBleLogTag] touchTestCalibration : 
+        | [OldBleLogTag] touchTestRegister : 
+        | 10991775-2510-4741-8212-E07DEA185F25
+        | TextfieldAlertController
+        | /apps/dkc/dkcsa/data/%@/%@/%@/car
+        | SERVICE_NOT_STARTED
+        | text_clipboard_copy_success
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Main/VehicleViewController.swift
+        | vehicleStatusResultG2 did Set()
+        | didPerformActionTimeOut()
+        | KEYSTONE_ERROR_vehicleStatus_err
+        | didPerformAction() :: 
+  @11881  match: 00000000-0000-0000-0000-000000000000
+        | dns-sdk Use ipv6List(%@)
+        | dns-sdk Use ipv4List(%@)
+        | dns-sdk Use httpdns ip(%@) for host(%@), url(%@)
+        | kBaiduMapSDKKeychainAccessGroup
+        | baiduMapSDKSimulateIDFA
+        | 00000000-0000-0000-0000-000000000000
+        | Cookie
+        | locdblock
+        | sql str = %@
+        | baiduloc.sqlite
+        | CREATE TABLE IF NOT EXISTS tempdata (id INTEGER PRIMARY KEY AUTOINCREMENT, data TEXT, time INTEGER)
+        | DELETE FROM tempdata WHERE id NOT IN (SELECT id FROM tempdata ORDER BY time DESC LIMIT %d)
+        | &up=%@|tp=3
+        | INSERT INTO '%@' ('%@', '%@') VALUES ('%@', '%.0f')
+        | tempdata
+
+--- [Keystone] pattern=CBUUID|serviceUUID|ServiceUuid|characteristicUUID|CharacteristicUuid (4 hits) ---
+  @275  match: setNotifyValueForCharacteristic(_:characteristicUUID:serviceUUID:completion:)
+        | discoverCharacteristics(_:forService:completion:)
+        | discoverCharacteristics, characteristicRequests count: 
+        | runCharacteristicRequest, uuids: 
+        | runCharacteristicRequest()
+        | setNotifyValueForCharacteristic, characteristic: 
+        | setNotifyValueForCharacteristic(_:characteristicUUID:serviceUUID:completion:)
+        | runUpdateNotificationStateRequest, cbPeripheral: 
+        | , characteristic: 
+        | runUpdateNotificationStateRequest(_:)
+        | serviceRequests count: 
+        | runServiceRequest()
+        | runWriteCharacteristicValueRequest writePath: 
+        | runWriteCharacteristicValueRequest(_:)
+        | didWriteValueFor, no request found for peripheral: 
+        | peripheral(_:didWriteValueFor:error:)
+  @377  match: serviceUUIDs is empty or nil
+        | Connect peripheral
+        | Read RSSI
+        | Read descriptor
+        | unknown central state: 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/CoreBluetoothWrapper/Central.swift
+        | serviceUUIDs is empty or nil
+        | scanForPeripherals(withServiceUUIDs:options:timeoutAfter:completion:)
+        | SwiftyBluetooth_CentralStateChange
+        | SwiftyBluetooth_CentralManagerWillRestoreStateNotification
+        | You can only set the sharedInstance of the Central once and you must do so before calling any other SwiftyBluetooth functions.
+        | setSharedInstanceWith(restoreIdentifier:)
+        | SwiftyBluetooth_CentralCBPeripheralDisconnected
+        | Keystone.GetDevicesOperation
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/GetDevicesOperation.swift
+        | Keystone.TerminateVirtualKeyOperation
+  @884  match: to scan by mac address, just let serviceUUIDs be empty
+        | receive system BLE notification: .poweredOn
+        | Permission not granted for bluetooth
+        | startScanInternal()
+        | unsupported scan item, type: 
+        | scanForPeripherals: 
+        | to scan by mac address, just let serviceUUIDs be empty
+        | stopScanInternal
+        | stopScanInternal()
+        | notifyScanResult: 
+        | notifyScanResult()
+        | ble scan stopped: 
+        | ble scan started success
+        | onBleScanSuccess()
+        | processScanResult: peripheral: 
+        | processScanResult(peripheral:advertisementData:RSSI:)
+  @1012  match: Restored serviceUUIDs: 
+        | No need to restore because no valid target asset: 
+        | Restored scan type: 
+        | Restored extraServiceUUID: 
+        | Restored extraCharUUIDsToSupport: 
+        | Restored extraCharUUIDsToSubscribe: 
+        | Restored serviceUUIDs: 
+        | Enter wakeup mode: 
+        | enableBLEScanning afterPowerOn
+        | enableBLEScanning(assetId:afterPowerOn:)
+        | enableBLE(assetId:result:)
+        | Unable to enable BLE connection. No target asset in asset connectors: 
+        | scanForMacAddress 
+        | The central is powered off.
+        | The central is already on.
+        | Update target asset id for keep alive: 
+
+--- [Keystone] pattern=[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12} (1 hits) ---
+  @489  match: 10991775-2510-4741-8212-000000000000
+        | processVirtualKeyInstance <==
+        | secureContext.storeVCK error: 
+        | PeripheralManager#startAdvertising
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/CoreBluetoothWrapper/PeripheralManager.swift
+        | startAdvertising()
+        | 10991775-2510-4741-8212-000000000000
+        | PeripheralManager#stopAdvertising
+        | stopAdvertising()
+        | PeripheralManager#init
+        | PeripheralManager#didReceiveWriteRequests
+        | peripheralManager(_:didReceiveWrite:)
+        | PeripheralManager#didReceiveReadRequest: chracteracteristic 
+        | peripheralManager(_:didReceiveRead:)
+        | PeripheralManager#peripheralManagerIsReady
+        | peripheralManagerIsReady(toUpdateSubscribers:)
+
+--- [resources] pattern=[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12} (12 hits) ---
+  @231  match:       "uuid": "f6524da7-6f44-464a-a8b9-bef9447ce489",
+        | .Uarm64
+        |   "version": "2.1",
+        |   "exportTime": "2026-04-30T08:30:23.266Z",
+        |   "materials": [
+        |     {
+        |       "uuid": "f6524da7-6f44-464a-a8b9-bef9447ce489",
+        |       "name": "1
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 1513239,
+        |         "emissive": 0,
+        |         "roughness": 0.5,
+        |         "metalness": 1,
+        |         "opacity": 0.86,
+        |         "emissiveIntensity": 1,
+  @263  match:       "uuid": "e2ad8770-c5bf-44c9-b0a4-aeda82851b52",
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "e2ad8770-c5bf-44c9-b0a4-aeda82851b52",
+        |       "name": "15
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 1513239,
+        |         "emissive": 0,
+        |         "roughness": 0.5,
+        |         "metalness": 1,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+  @295  match:       "uuid": "83a39f67-9ad2-450c-8854-e768b552ad3f",
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "83a39f67-9ad2-450c-8854-e768b552ad3f",
+        |       "name": "5
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 3884106,
+        |         "emissive": 0,
+        |         "roughness": 0.68,
+        |         "metalness": 0.32,
+        |         "opacity": 0.31,
+        |         "emissiveIntensity": 1,
+  @327  match:       "uuid": "0f9dd3a6-5ec3-47db-a633-040a30368c06",
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "0f9dd3a6-5ec3-47db-a633-040a30368c06",
+        |       "name": "7
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 10027008,
+        |         "emissive": 0,
+        |         "roughness": 0.55,
+        |         "metalness": 1,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+  @359  match:       "uuid": "25d8cb7c-8b9c-4aec-9db1-89c104474453",
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "25d8cb7c-8b9c-4aec-9db1-89c104474453",
+        |       "name": "14
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 3554623,
+        |         "emissive": 0,
+        |         "roughness": 0.76,
+        |         "metalness": 1,
+        |         "opacity": 0.86,
+        |         "emissiveIntensity": 1,
+  @391  match:       "uuid": "f4657d21-d2d7-4b55-a047-c11e267f0af5",
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "f4657d21-d2d7-4b55-a047-c11e267f0af5",
+        |       "name": "12
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 1842204,
+        |         "emissive": 0,
+        |         "roughness": 1,
+        |         "metalness": 0,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+  @423  match:       "uuid": "9f6998eb-19ca-4d31-b405-2c1f7c5c0530",
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "9f6998eb-19ca-4d31-b405-2c1f7c5c0530",
+        |       "name": "4
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 2303529,
+        |         "emissive": 0,
+        |         "roughness": 0.76,
+        |         "metalness": 0,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+  @455  match:       "uuid": "71628598-bed6-4e8c-8a9f-8e78f6925462",
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "71628598-bed6-4e8c-8a9f-8e78f6925462",
+        |       "name": "13
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 2697513,
+        |         "emissive": 0,
+        |         "roughness": 0.5145,
+        |         "metalness": 0,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+  @487  match:       "uuid": "e1ad40ac-f2ab-4357-8af1-a7946d70d833",
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "e1ad40ac-f2ab-4357-8af1-a7946d70d833",
+        |       "name": "11
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 12368313,
+        |         "emissive": 0,
+        |         "roughness": 0.5,
+        |         "metalness": 1,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+  @519  match:       "uuid": "33012759-616b-4bd3-8c00-06747b8d9ce2",
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "33012759-616b-4bd3-8c00-06747b8d9ce2",
+        |       "name": "6
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 12829635,
+        |         "emissive": 0,
+        |         "roughness": 0.22,
+        |         "metalness": 0.6,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+  @551  match:       "uuid": "6aee9a1a-ba83-4231-aea9-805e24cbdcdf",
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "6aee9a1a-ba83-4231-aea9-805e24cbdcdf",
+        |       "name": "8
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 3750201,
+        |         "emissive": 0,
+        |         "roughness": 0.55,
+        |         "metalness": 1,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+  @583  match:       "uuid": "73872584-fd0c-4342-984d-2fdac84414bc",
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "73872584-fd0c-4342-984d-2fdac84414bc",
+        |       "name": "4
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 2303529,
+        |         "emissive": 0,
+        |         "roughness": 0.76,
+        |         "metalness": 0,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+
+########## CONTEXT ble_command ##########
+--- [main] pattern=(?i)door(un)?lock|unlock|trunk|engine(start|stop)|remoteStart|findCar|horn|light (12 hits) ---
+  @124  match: RemoteStart
+        | DeliveryMode
+        | LowBattery
+        | FuelLevel
+        | LowFuelWarning
+        | OilLevelWarning
+        | RemoteStart
+        | ParkingPosition
+        | Open
+        | ICCB
+        | Standard
+        | Quick
+        | RemainTimeUnit
+        | StartDay
+        | EndDay
+        | Ratio
+  @199  match: drivinghistory_chart_highlightcolor
+        | MSG_NEW_PASSWORD_NUMBER_AND_ALPHABET_MORE_THAN_8DIGITS
+        | updateUserProfile
+        | common_tooltip_background_color
+        | common_tooltip_bordercolor
+        | drivinghistory_chart_color
+        | drivinghistory_chart_highlightcolor
+        | USER_KEY_NIGHT_MODE_FOLLOW_ALONG_OS
+        | /profile/picture
+        | rspa_parking_message_before_starting
+        | rspaMsgTextData : 
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/RSPA/RspaParkingView.swift
+        | rspa_parking_control_button_bg_scale_3
+        | rspa_parking_control_button_icon
+        | rspa_parking_control_button_bg_disable
+        | rspa_parking_control_button_icon_disable
+  @248  match: EV5HighlightBlue
+        | RemoteSavedControlsDB table create error
+        | icon_school_disable
+        | icon_work_disable
+        | icon_home_disable
+        | Invalid number of keys found, expected one.
+        | EV5HighlightBlue
+        | Primary_black_white
+        | System_error_caution
+        | BlueLink.ButtonSmallPrimary
+        | init(frame:)
+        | appWillMoveToBackground
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/NewBle/owner/NewBleKeyOwnerVehicleSharedDetailViewController.swift
+        | appWillEnterForeground
+        | viewDidDisappear
+        | new_ble_key_owned_car_title
+  @391  match: activeHornAndLight()
+        | mycar_text_disable
+        | Secondary_normal
+        | background_MyCar_MainBox
+        | proccessAnimation 
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Main/Map/CCS2/CarLocationWebViewController.swift
+        | activeHornAndLight()
+        | refreshFindMyCar()
+        | MSG_CONFIRM_VALET_DEACT
+        | userContentController message:
+        | javascript: showLocPermissionStatus_HMGC('
+        | JavaScript executed but returned no result.
+        | JavaScript executed successfully: 
+        | Error executing JavaScript: 
+        | webView decidePolicyFor: 
+        | MSG_ARE_YOU_INSTALL_AMAP
+  @418  match: HORN_LIGHT_LOWBEAM
+        | token transfer error 
+        | applicationDidBecomeActive
+        | checkLocationPermission
+        | nativeCallHandler
+        | CarLocationWebViewController viewWillDisappear
+        | HORN_LIGHT_LOWBEAM
+        | SvcAuthWebViewController
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Main/Map/Manager/MapProcessManager.swift
+        | GPS json DATA ::: 
+        | ccs2 findMyCar Data ::: 
+        | MSG_SUCCESS_REQUEST_FIND_MY_CAR
+        | showFailPopup => retCode 
+        | valetModeData => 
+        | 발렛모드 활성화 후 사용 가능한 기능입니다.
+        | MSG_SUCCESS_SENDED_SMS
+  @576  match: highlighted_border_color
+        | selected_segment_underline_color
+        | diagonstic_result_background_color
+        | commonSectionBorderColor
+        | battery_discharging
+        | battery_charging
+        | highlighted_border_color
+        | mycar_selected_line_color
+        | mycar_gradient_color_02
+        | mycar_gradient_color_01
+        | vehicleStatusTextColor2
+        | vehicleStatusTextColor1
+        | vehicleStatusBlue02
+        | calendar_selected_date_color
+        | calendar_event_dot_color
+        | ButtonLargeBoardText
+  @636  match: horn
+        | door_lock_power_off
+        | more_action
+        | engine_start
+        | sunroof_open
+        | sunroof_close
+        | horn
+        | hornLowBeam
+        | climate
+        | climate_cancel
+        | trunk_unlock
+        | power_tailgate
+        | front_trunk
+        | lamp
+        | window_detail
+        | vehicleStatus
+  @637  match: hornLowBeam
+        | more_action
+        | engine_start
+        | sunroof_open
+        | sunroof_close
+        | horn
+        | hornLowBeam
+        | climate
+        | climate_cancel
+        | trunk_unlock
+        | power_tailgate
+        | front_trunk
+        | lamp
+        | window_detail
+        | vehicleStatus
+        | vehicleStatusEv
+  @640  match: trunk_unlock
+        | sunroof_close
+        | horn
+        | hornLowBeam
+        | climate
+        | climate_cancel
+        | trunk_unlock
+        | power_tailgate
+        | front_trunk
+        | lamp
+        | window_detail
+        | vehicleStatus
+        | vehicleStatusEv
+        | findMyCar
+        | valetCar
+        | valetDeactCar
+  @642  match: front_trunk
+        | hornLowBeam
+        | climate
+        | climate_cancel
+        | trunk_unlock
+        | power_tailgate
+        | front_trunk
+        | lamp
+        | window_detail
+        | vehicleStatus
+        | vehicleStatusEv
+        | findMyCar
+        | valetCar
+        | valetDeactCar
+        | svm
+        | chargingNow
+  @678  match: ENGINESTART_SCHEDULE
+        | icon_charging_door_open
+        | _icon_window_ventilation
+        | REMOTE_VENTILATION
+        | _icon_engine_start_reservation.imageset
+        | _icon_engine_start_reservation
+        | ENGINESTART_SCHEDULE
+        | _icon_front_open
+        | TARGET_SOC_SETTING
+        | RESERVE_CHARGE_TEMPERATURE
+        | icon_climate_off
+        | CANCEL_TEMPERATURE
+        | icon_charging_stop
+        | icon_charging_start
+        | _icon_power_tailgate
+        | POWER_TSILGATE_FEEDBACK
+  @689  match: _icon_trunk_open
+        | icon_charging_stop
+        | icon_charging_start
+        | _icon_power_tailgate
+        | POWER_TSILGATE_FEEDBACK
+        | POWER_TSILGATE_FEEDBACK_LONG_TOUCH
+        | _icon_trunk_open
+        | icon_psd_right_close
+        | SLIDING_DOOR_R_CLOSE
+        | SLIDING_DOOR_R_CLOSE_FEEDBACK
+        | SLIDING_DOOR_R_CLOSE_FEEDBACK_LONG_TOUCH
+        | icon_psd_right_open
+        | SLIDING_DOOR_R_OPEN
+        | SLIDING_DOOR_R_OPEN_FEEDBACK
+        | SLIDING_DOOR_R_OPEN_FEEDBACK_LONG_TOUCH
+        | icon_psd_left_close
+
+--- [main] pattern=(?i)challenge|auth(entication)?|sessionKey|keyId|vehicleId|vin (12 hits) ---
+  @43  match: AuthorizationCCSP
+        | /location/routes
+        | /profile/redirect
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/WebView/DriverAccountSettingWebVC.swift
+        | lastSelectedVehicle
+        | ccspUserAccessToken
+        | AuthorizationCCSP
+        | DrivingReady
+        | Date
+        | Offset
+        | Version
+        | RemoteControl
+        | Body
+        | ChargingDoor
+        | OffPeakTime
+        | OffPeakTime2
+  @44  match: DrivingReady
+        | /profile/redirect
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/WebView/DriverAccountSettingWebVC.swift
+        | lastSelectedVehicle
+        | ccspUserAccessToken
+        | AuthorizationCCSP
+        | DrivingReady
+        | Date
+        | Offset
+        | Version
+        | RemoteControl
+        | Body
+        | ChargingDoor
+        | OffPeakTime
+        | OffPeakTime2
+        | Climate2
+  @198  match: drivinghistory_chart_color
+        | MSG_CANT_INPUT_SEMICOLON
+        | MSG_NEW_PASSWORD_NUMBER_AND_ALPHABET_MORE_THAN_8DIGITS
+        | updateUserProfile
+        | common_tooltip_background_color
+        | common_tooltip_bordercolor
+        | drivinghistory_chart_color
+        | drivinghistory_chart_highlightcolor
+        | USER_KEY_NIGHT_MODE_FOLLOW_ALONG_OS
+        | /profile/picture
+        | rspa_parking_message_before_starting
+        | rspaMsgTextData : 
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/RSPA/RspaParkingView.swift
+        | rspa_parking_control_button_bg_scale_3
+        | rspa_parking_control_button_icon
+        | rspa_parking_control_button_bg_disable
+  @199  match: drivinghistory_chart_highlightcolor
+        | MSG_NEW_PASSWORD_NUMBER_AND_ALPHABET_MORE_THAN_8DIGITS
+        | updateUserProfile
+        | common_tooltip_background_color
+        | common_tooltip_bordercolor
+        | drivinghistory_chart_color
+        | drivinghistory_chart_highlightcolor
+        | USER_KEY_NIGHT_MODE_FOLLOW_ALONG_OS
+        | /profile/picture
+        | rspa_parking_message_before_starting
+        | rspaMsgTextData : 
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/RSPA/RspaParkingView.swift
+        | rspa_parking_control_button_bg_scale_3
+        | rspa_parking_control_button_icon
+        | rspa_parking_control_button_bg_disable
+        | rspa_parking_control_button_icon_disable
+  @225  match: new_ble_key_error_message_KEYSTONE_DEVICE_AUTH_FAILED
+        | RecentListViewCell
+        | MonthListViewCell
+        | BlueLink.NoticeEmptyCell
+        | init(style:reuseIdentifier:)
+        | new_ble_key_error_message_KEYSTONE_ASSET_NOT_REGISTERED
+        | new_ble_key_error_message_KEYSTONE_DEVICE_AUTH_FAILED
+        | new_ble_key_error_message_KEYSTONE_KEY_EXPIRED
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/Common/Popup/Dialog.swift
+        | /monthlyreport/v2
+        | ### FavoriteLocationDB init()
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Database/FavoriteLocationDB.swift
+        | DELETE FROM FAVORITE_LOCATION WHERE indexNum=%ld
+        | Error: failed to delete from database with message '%s'.
+        | Error: failed to prepare statement with message '%s'.
+        | DELETE FROM FAVORITE_LOCATION WHERE user_id = '%@' AND type = '%@'
+  @306  match: MQTT not authorized
+        | publish.contentType 
+        | pubCompData reasonCode: 
+        | pubRecData reasonCode: 
+        | pubAckData reasonCode: 
+        | MQTT Connection failed:
+        | MQTT not authorized
+        | MQTT Connection successful
+        | properties maximumPacketSize: 
+        | properties topicAliasMaximum: 
+        | disconnect res : 
+        | service/phone/_/res/
+        | MQTT 연결 성공 - 재연결 상태 초기화
+        | 재연결 시도 중 네트워크 불가 - 복구 대기
+        | MQTT 재연결 시도 
+        | 스케줄 중 네트워크 끊김 - 복구 대기
+  @332  match: /api/app/getSvcAuthInfo
+        | virtualKeyAssetId
+        | ccs2BatteryConditioning
+        | /ccs2/control/batteryconditioning
+        | /control/windowcurtain
+        | /ccs2/control/windowcurtain
+        | /api/app/getSvcAuthInfo
+        | /ispa/app/getSvcAuthInfo
+        | /ispa2/app/getSvcAuthInfo
+        | fingerprint_registered_FIDO
+        | seatHeaterVentInfo
+        | airPurifierControl
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/DrivingReport/DiagnosisTableViewCell.swift
+        | BlueLink/DiagnosisTableViewCell.swift
+        | changePushSetting
+        | registerDeviceId
+  @333  match: /ispa/app/getSvcAuthInfo
+        | ccs2BatteryConditioning
+        | /ccs2/control/batteryconditioning
+        | /control/windowcurtain
+        | /ccs2/control/windowcurtain
+        | /api/app/getSvcAuthInfo
+        | /ispa/app/getSvcAuthInfo
+        | /ispa2/app/getSvcAuthInfo
+        | fingerprint_registered_FIDO
+        | seatHeaterVentInfo
+        | airPurifierControl
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/DrivingReport/DiagnosisTableViewCell.swift
+        | BlueLink/DiagnosisTableViewCell.swift
+        | changePushSetting
+        | registerDeviceId
+        | icon_e_defrost_on
+  @334  match: /ispa2/app/getSvcAuthInfo
+        | /ccs2/control/batteryconditioning
+        | /control/windowcurtain
+        | /ccs2/control/windowcurtain
+        | /api/app/getSvcAuthInfo
+        | /ispa/app/getSvcAuthInfo
+        | /ispa2/app/getSvcAuthInfo
+        | fingerprint_registered_FIDO
+        | seatHeaterVentInfo
+        | airPurifierControl
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/DrivingReport/DiagnosisTableViewCell.swift
+        | BlueLink/DiagnosisTableViewCell.swift
+        | changePushSetting
+        | registerDeviceId
+        | icon_e_defrost_on
+        | BlueLink/InteriorStatusCell.swift
+  @338  match: /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/DrivingReport/DiagnosisTableViewCell.swift
+        | /ispa/app/getSvcAuthInfo
+        | /ispa2/app/getSvcAuthInfo
+        | fingerprint_registered_FIDO
+        | seatHeaterVentInfo
+        | airPurifierControl
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/DrivingReport/DiagnosisTableViewCell.swift
+        | BlueLink/DiagnosisTableViewCell.swift
+        | changePushSetting
+        | registerDeviceId
+        | icon_e_defrost_on
+        | BlueLink/InteriorStatusCell.swift
+        | Seat vent/heat Option cannot be converted
+        | Seat Location cannot be converted
+        | vehicleStatusBlue03
+        | status_engine_ev
+  @362  match: WAITING_FOR_AUTH
+        | Error: invalid encodedKey, cannot extract data
+        | noticeUrgentRecent
+        | /api/app/noticeUrgentRecent
+        | /api/v1/ispa/app/noticeUrgentRecent
+        | /api/v1/ispa2/app/noticeUrgentRecent
+        | WAITING_FOR_AUTH
+        | handleBottomButtonsAction : 
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/NewBle/owner/NewBleKeyOwnerVehicleSharingViewController.swift
+        | new_ble_key_sharing_user_information_hint_message
+        | selectedDateTime error : 
+        | sharingConfiguration : 
+        | self.kVkId is Null
+        | shareKey Error : 
+        | shareKey Success : 
+        | new_ble_key_sharing_success_popup_msg
+  @419  match: SvcAuthWebViewController
+        | applicationDidBecomeActive
+        | checkLocationPermission
+        | nativeCallHandler
+        | CarLocationWebViewController viewWillDisappear
+        | HORN_LIGHT_LOWBEAM
+        | SvcAuthWebViewController
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Main/Map/Manager/MapProcessManager.swift
+        | GPS json DATA ::: 
+        | ccs2 findMyCar Data ::: 
+        | MSG_SUCCESS_REQUEST_FIND_MY_CAR
+        | showFailPopup => retCode 
+        | valetModeData => 
+        | 발렛모드 활성화 후 사용 가능한 기능입니다.
+        | MSG_SUCCESS_SENDED_SMS
+        | MSG_SUCCESS_SENDED_PUSH
+
+--- [main] pattern=(?i)frame|packet|payload|commandId|cmdId|sequence|crc (12 hits) ---
+  @86  match: SequenceDetails
+        | SleepMode
+        | Odometer
+        | Average
+        | ConnectorFastening
+        | Charging
+        | SequenceDetails
+        | SequenceSubcode
+        | TargetSoC
+        | Setting
+        | ElectricCurrentLevel
+        | BatteryPreCondition
+        | PowerStateAdvanced
+        | StartMin
+        | StartHour
+        | EndMin
+  @87  match: SequenceSubcode
+        | Odometer
+        | Average
+        | ConnectorFastening
+        | Charging
+        | SequenceDetails
+        | SequenceSubcode
+        | TargetSoC
+        | Setting
+        | ElectricCurrentLevel
+        | BatteryPreCondition
+        | PowerStateAdvanced
+        | StartMin
+        | StartHour
+        | EndMin
+        | EndHour
+  @252  match: init(frame:)
+        | Invalid number of keys found, expected one.
+        | EV5HighlightBlue
+        | Primary_black_white
+        | System_error_caution
+        | BlueLink.ButtonSmallPrimary
+        | init(frame:)
+        | appWillMoveToBackground
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/NewBle/owner/NewBleKeyOwnerVehicleSharedDetailViewController.swift
+        | appWillEnterForeground
+        | viewDidDisappear
+        | new_ble_key_owned_car_title
+        | new_ble_key_share_info_to
+        | yyyy-MM-dd HH:mm
+        | new_ble_key_share_info_accessibility_access_only
+        | new_ble_key_share_info_accessibility_full
+  @308  match: properties maximumPacketSize: 
+        | pubRecData reasonCode: 
+        | pubAckData reasonCode: 
+        | MQTT Connection failed:
+        | MQTT not authorized
+        | MQTT Connection successful
+        | properties maximumPacketSize: 
+        | properties topicAliasMaximum: 
+        | disconnect res : 
+        | service/phone/_/res/
+        | MQTT 연결 성공 - 재연결 상태 초기화
+        | 재연결 시도 중 네트워크 불가 - 복구 대기
+        | MQTT 재연결 시도 
+        | 스케줄 중 네트워크 끊김 - 복구 대기
+        | 재연결 최대 시도 횟수(
+        | 재연결 스케줄링: 
+  @803  match: DK 2, getFrameworkAppVersion : 
+        | userKeyCarProfileIndex_
+        | text_clipboard_copy
+        | BlueLink.ButtonSmallBlue
+        | MyCarListViewController
+        | BaseTitleRowCell
+        | DK 2, getFrameworkAppVersion : 
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Helpers/HKMC_DK2_FrameworkLibrary/HkmcDk2Manager.swift
+        | DK 2, getFrameworkSdkVersion : 
+        | DK 2, getHkmcFrameworkVersion : 
+        | DK 2, getHkmcFrameworkVersionPatch : 
+        | ****** demo_mode : false
+        | 프레임워크 초기화 :: 이미 초기화
+        | 프레임워크 초기화 성공
+        | getDigitalKeyList () is Null
+        | getDigitalKeyList count : 
+  @804  match: /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Helpers/HKMC_DK2_FrameworkLibrary/HkmcDk2Manager.swift
+        | text_clipboard_copy
+        | BlueLink.ButtonSmallBlue
+        | MyCarListViewController
+        | BaseTitleRowCell
+        | DK 2, getFrameworkAppVersion : 
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Helpers/HKMC_DK2_FrameworkLibrary/HkmcDk2Manager.swift
+        | DK 2, getFrameworkSdkVersion : 
+        | DK 2, getHkmcFrameworkVersion : 
+        | DK 2, getHkmcFrameworkVersionPatch : 
+        | ****** demo_mode : false
+        | 프레임워크 초기화 :: 이미 초기화
+        | 프레임워크 초기화 성공
+        | getDigitalKeyList () is Null
+        | getDigitalKeyList count : 
+        | =========== KEY INFO ========
+  @805  match: DK 2, getFrameworkSdkVersion : 
+        | BlueLink.ButtonSmallBlue
+        | MyCarListViewController
+        | BaseTitleRowCell
+        | DK 2, getFrameworkAppVersion : 
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Helpers/HKMC_DK2_FrameworkLibrary/HkmcDk2Manager.swift
+        | DK 2, getFrameworkSdkVersion : 
+        | DK 2, getHkmcFrameworkVersion : 
+        | DK 2, getHkmcFrameworkVersionPatch : 
+        | ****** demo_mode : false
+        | 프레임워크 초기화 :: 이미 초기화
+        | 프레임워크 초기화 성공
+        | getDigitalKeyList () is Null
+        | getDigitalKeyList count : 
+        | =========== KEY INFO ========
+        | getDigitalKeyId : 
+  @806  match: DK 2, getHkmcFrameworkVersion : 
+        | MyCarListViewController
+        | BaseTitleRowCell
+        | DK 2, getFrameworkAppVersion : 
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Helpers/HKMC_DK2_FrameworkLibrary/HkmcDk2Manager.swift
+        | DK 2, getFrameworkSdkVersion : 
+        | DK 2, getHkmcFrameworkVersion : 
+        | DK 2, getHkmcFrameworkVersionPatch : 
+        | ****** demo_mode : false
+        | 프레임워크 초기화 :: 이미 초기화
+        | 프레임워크 초기화 성공
+        | getDigitalKeyList () is Null
+        | getDigitalKeyList count : 
+        | =========== KEY INFO ========
+        | getDigitalKeyId : 
+        | createDigitalKey : 
+  @807  match: DK 2, getHkmcFrameworkVersionPatch : 
+        | BaseTitleRowCell
+        | DK 2, getFrameworkAppVersion : 
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/Helpers/HKMC_DK2_FrameworkLibrary/HkmcDk2Manager.swift
+        | DK 2, getFrameworkSdkVersion : 
+        | DK 2, getHkmcFrameworkVersion : 
+        | DK 2, getHkmcFrameworkVersionPatch : 
+        | ****** demo_mode : false
+        | 프레임워크 초기화 :: 이미 초기화
+        | 프레임워크 초기화 성공
+        | getDigitalKeyList () is Null
+        | getDigitalKeyList count : 
+        | =========== KEY INFO ========
+        | getDigitalKeyId : 
+        | createDigitalKey : 
+        | {"keyId": "031f4f6dbd267c794cbbbe6bae1e22f3c1e86dfb", "vehicleId": "0001020304050607", "issuer": "Genesis", "model": "Genesis Car"}
+  @819  match: framework is Null
+        | getDigitalKeyId : 
+        | createDigitalKey : 
+        | {"keyId": "031f4f6dbd267c794cbbbe6bae1e22f3c1e86dfb", "vehicleId": "0001020304050607", "issuer": "Genesis", "model": "Genesis Car"}
+        | 오너페어링 error : 
+        | 오너페어링 keyList : 
+        | framework is Null
+        | Total Key Count : 
+        | -- printKeyCount key info print End --
+        | reservChargeInfo
+        | offpeakPowerInfo
+        | reserveChargeInfo2
+        | dischargeLimitation
+        | electricCurrentLevel
+        | offPeakPowerInfo
+        | ToggleTextWithDescTableViewCell
+  @1119  match: getHkmcFrameworkVersion : 
+        | DIGITAL_KEY_DELETE_SUCCESS
+        | OWNER Digital Key is Null
+        | /Users/ericyoo/Documents/obigoHKMC/dev_V5_Dev25Y_old_ble/hkmc-china-tms-mobile/ios/BlueLink/BlueLink/UI/Register_Digital_Key_2/DigitalKeyRegisterViewController.swift
+        | ERROR_DKC_2_DIGITAL_KEY_4106
+        | resData vehicleId : 
+        | getHkmcFrameworkVersion : 
+        | DIGITAL_KEY_NEED_UPDATE
+        | DIGITAL_KEY_NEED_UPDATE_MESSAGE
+        | BTN_DIGITAL_KEY_UPDATE
+        | BTN_DIGITAL_KEY_LATER
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/requestOwnerDigitalKeyInformation
+        | hkmcDk2Manager is Null
+        | getDigitalKeyList is keys count 
+        | OWNER Digital Key count : 
+        | getDigitalKeyInfo is nil
+  @1165  match: checkPinFrameworkInit Error : 
+        | showDigitalKeyView
+        | DigitalKeyStateView
+        | onBtnDigitalKeyDelete
+        | MSG_DIGITAL_KEY_INITIALIZATION
+        | DIGITAL_KEY_INITIALIZATION
+        | checkPinFrameworkInit Error : 
+        | checkPinFrameworkInit cancel
+        | checkPinFrameworkInit success
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/requestAppUnpairing
+        | /apps/dkc2/dkcsa/dkcdkss/api/v1/requestDigitalKeyLibVer
+        | PKSecureElementPass :: 
+        | /apps/dkc/dkcsa/data/owner/%@/%@/req/sharekey
+        | SetDepartureTimeCell
+        | RESERVE_CHARGE_SET_TEMPERATURE
+        | SetDepartureTime
+
+--- [Keystone] pattern=(?i)door(un)?lock|unlock|trunk|engine(start|stop)|remoteStart|findCar|horn|light (6 hits) ---
+  @350  match: peUnlockLimitSupport
+        | SwiftyBluetooth_PeripheralModifedServices
+        | SwiftyBluetooth_PeripheralNameUpdate
+        | Failed to parse AssetConfig from JSON: 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/blekey/asset/models/AssetConfig.swift
+        | userCalibrationSupport
+        | peUnlockLimitSupport
+        | Failed to parse value for descriptor with uuid: 
+        | Peripheral descriptor(s) not found: 
+        | Peripheral charac(s) not found: 
+        | Peripheral service(s) not found: 
+        | Failed to connect to your peripheral for an unknown reason.
+        | Invalid Bluetooth peripheral, you must rediscover this peripheral to use it again.
+        | Bluetooth operation timed out: 
+        | Your peripheral scan ended unexpectedly.
+        | Bluetooth is currently unavailable (unknown reason).
+  @591  match: no need to process: remoteStart2LocalStart
+        | empty asset passive action data
+        | handlePassiveAcknowledgement_L4(assetDevice:msg:)
+        | convert to action failed
+        | passive action received: 
+        | notify not handled passive acknowledgement:
+        | no need to process: remoteStart2LocalStart
+        | onPassiveActionPerformed
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/blekey/asset/AssetRemoteDevice.swift
+        | onPassiveActionPerformed(assetDevice:passiveAction:)
+        | , currentPassiveRssi:
+        | handleKeyNotInRange(assetDevice:action:)
+        | handleKeyNotInRange:
+        | clearProcessingCloudRequest: 
+        | , request size: 
+        | clearProcessingCloudRequest(error:)
+  @1104  match: , isPEUnlockLimitSupport: 
+        | set asset configuration failed: 
+        | set asset configuration success
+        | user calibration not support
+        | handleUserConfigurationResponse(action:)
+        | , user calibration support: 
+        | , isPEUnlockLimitSupport: 
+        | onActionResponse
+        | onActionResponse(assetAction:)
+        | response action id not matched.  request action: 
+        | , response action: 
+        | Invalid action data response received, try again. request: 
+        | No pending action request found: $assetAction
+        | Auth state changed: 
+        | onAssetStateChange(state:error:)
+        | onAssetAuthStateChanged: 
+  @1229  match: peUnlockLimitEnabled
+        | set SecureContext
+        | autoTuningEnabled
+        | comfortableEntryEnabled
+        | superZoneEnabled
+        | pkeEnabled
+        | peUnlockLimitEnabled
+        | Keystone.EndOfUpdatesOperation
+        | Sending end of updates notification to 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/EndOfUpdatesOperation.swift
+        | Keystone.SetupSessionKeysOperation
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/SetupSessionKeysOperation.swift
+        | Keystone.ForwardVirtualKeyOperation
+        | Forwarding VCK to asset 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/ForwardVirtualKeyOperation.swift
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/blekey/bluetooth/models/BleDeviceScanInfo.swift
+  @1255  match: Keystone.HornAndLightAction
+        | Init failed with error code 
+        | Keystone Warning
+        | This is pass stub library, do not use it for release!
+        | Unable to find Application path
+        | Keystone.SecureContext
+        | Keystone.HornAndLightAction
+        | init(actionType:actionData:)
+        | Keystone/HornAndLightAction.swift
+        | init(from:) has not been implemented
+        | com.irdeto.assetPayloadManagementQueue
+        | encodeToJsonData error:
+        | encodeToJsonData(dict:)
+        | encodeToJsonData(dict):
+
+        | removeAssetPayload(assetId:)
+        | ForwardVirtualKeyOperation
+  @1257  match: Keystone/HornAndLightAction.swift
+        | This is pass stub library, do not use it for release!
+        | Unable to find Application path
+        | Keystone.SecureContext
+        | Keystone.HornAndLightAction
+        | init(actionType:actionData:)
+        | Keystone/HornAndLightAction.swift
+        | init(from:) has not been implemented
+        | com.irdeto.assetPayloadManagementQueue
+        | encodeToJsonData error:
+        | encodeToJsonData(dict:)
+        | encodeToJsonData(dict):
+
+        | removeAssetPayload(assetId:)
+        | ForwardVirtualKeyOperation
+        | GetVirtualKeysOperation
+        | calibrationPayload
+
+--- [Keystone] pattern=(?i)challenge|auth(entication)?|sessionKey|keyId|vehicleId|vin (12 hits) ---
+  @17  match: Received BLE auth message from asset id 
+        | 10991775251047418212000240198202
+        | 10991775251047418212000240198201
+        | receive message from asset 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/API/KeystoneSDK+internal.swift
+        | didReceiveAsssetData(data:assetId:type:)
+        | Received BLE auth message from asset id 
+        | Received data size incorrect
+        | Received session request
+        | Received auth challenge info 
+        | Received ownerRegistration data 
+        | Unable to add deviceID to asset information 
+        | Received passive action challenge 
+        | unexpected msg: 
+        | Acknowledgement status: 
+        | waiting 2s and try to send action data again
+  @20  match: Received auth challenge info 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/API/KeystoneSDK+internal.swift
+        | didReceiveAsssetData(data:assetId:type:)
+        | Received BLE auth message from asset id 
+        | Received data size incorrect
+        | Received session request
+        | Received auth challenge info 
+        | Received ownerRegistration data 
+        | Unable to add deviceID to asset information 
+        | Received passive action challenge 
+        | unexpected msg: 
+        | Acknowledgement status: 
+        | waiting 2s and try to send action data again
+        | asset ready payload 
+        | Received passiveAck data: 
+        | Asset data to mobile decryption failed with error 
+  @23  match: Received passive action challenge 
+        | Received data size incorrect
+        | Received session request
+        | Received auth challenge info 
+        | Received ownerRegistration data 
+        | Unable to add deviceID to asset information 
+        | Received passive action challenge 
+        | unexpected msg: 
+        | Acknowledgement status: 
+        | waiting 2s and try to send action data again
+        | asset ready payload 
+        | Received passiveAck data: 
+        | Asset data to mobile decryption failed with error 
+        | data.count <= MessageHeaderIndex.PayloadVersion.rawValue
+        | Received cloud data 
+        | CloudDataSendSucceed: Asset Data forwarded to keystone server
+  @47  match: handleReceivedAuthData(data:assetId:)
+        | Received send updates request from asset
+        | sendUpdatesToAsset(assetId:)
+        | EndOfUpdatesOperation
+        | ForwardWhiteListOperation
+        | Tried to connect to asset 
+        | handleReceivedAuthData(data:assetId:)
+        | All available connected assets are  
+        | removeTimeoutDecectionForMCU
+        | removeTimeoutDecectionForMCU()
+        | didChangeConnectionState: assetId: 
+        | didChangeConnectionState(assetId:state:error:)
+        | didChangeConnectionState: state is disconnected
+        | AssetDisconnected: The asset with assetId 
+        | didDisconnectFromAsset(assetId:)
+        | didRestoreConnectionState: assetId: 
+  @58  match: promote to authenticated state
+        | didChangeConnectionState: state is disconnected
+        | AssetDisconnected: The asset with assetId 
+        | didDisconnectFromAsset(assetId:)
+        | didRestoreConnectionState: assetId: 
+        | didRestoreConnectionState(assetId:state:)
+        | promote to authenticated state
+        | actionType
+        | actionData
+        | yyyy-MM-dd hh:mm:ssSSS
+        | cancel. processing: 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/blekey/bluetooth/helper/BleDeviceMtuSetup.swift
+        | cancel(errorType:)
+        | notifyMtuSetupResult ignored due to not processing
+        | notifyMtuSetupResult(mtu:e:)
+        | notifyMtuSetupResult, mtu: 
+  @103  match: Removing connector for asset with assetId 
+        | load vritual key error
+        | getVirtualKeyByAssetId(deviceId:assetId:)
+        | Keystone.AssetRegistrationOperation
+        | application/octet-stream
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/AssetRegistrationOperation.swift
+        | Removing connector for asset with assetId 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/CoreModules/Asset/AssetManager.swift
+        | removeAssetConnector(assetId:channelId:)
+        | Storing asset connector with assetId 
+        | , actualServiceId 
+        | storeAssetConnector(assetId:channelId:actualServiceId:)
+        | Connector updated, the new connector are 
+        | Remove duplicate...
+        | Retrieved actualServiceId 
+        | disconnected
+  @115  match: authenticated
+        | Remove duplicate...
+        | Retrieved actualServiceId 
+        | disconnected
+        | connecting
+        | connected
+        | authenticated
+        | cached cloud request count: 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/blekey/util/CloudServiceUtil.swift
+        | sendRequest(request:decrypt:renewSession:result:)
+        | createRequestBody ==>
+        | createRequestBody(request:)
+        | encode to JsonData error
+        | signWithStaticKey error 
+        | encodeToJsonData error
+        | createRequestBody <==
+  @125  match: Keystone.PassiveActionChallengeOperation
+        | createRequestBody(request:)
+        | encode to JsonData error
+        | signWithStaticKey error 
+        | encodeToJsonData error
+        | createRequestBody <==
+        | Keystone.PassiveActionChallengeOperation
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/PassiveActionChallengeOperation.swift
+        | Sending passive action challenge response to 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/KeystoneOperationWithErrorNotification.swift
+        | failedWith(error:cancelAllOtherOp:)
+        | Keystone.GetVehicleKeyStatusOperation
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/GetVehicleKeyStatusOperation.swift
+        | Keystone.AuthorizeOwnerOperation
+        | received cloud owner authorization data
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/AuthorizeOwnerOperation.swift
+  @126  match: /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/PassiveActionChallengeOperation.swift
+        | encode to JsonData error
+        | signWithStaticKey error 
+        | encodeToJsonData error
+        | createRequestBody <==
+        | Keystone.PassiveActionChallengeOperation
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/PassiveActionChallengeOperation.swift
+        | Sending passive action challenge response to 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/KeystoneOperationWithErrorNotification.swift
+        | failedWith(error:cancelAllOtherOp:)
+        | Keystone.GetVehicleKeyStatusOperation
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/GetVehicleKeyStatusOperation.swift
+        | Keystone.AuthorizeOwnerOperation
+        | received cloud owner authorization data
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/AuthorizeOwnerOperation.swift
+        | owner authorized
+  @127  match: Sending passive action challenge response to 
+        | signWithStaticKey error 
+        | encodeToJsonData error
+        | createRequestBody <==
+        | Keystone.PassiveActionChallengeOperation
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/PassiveActionChallengeOperation.swift
+        | Sending passive action challenge response to 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/KeystoneOperationWithErrorNotification.swift
+        | failedWith(error:cancelAllOtherOp:)
+        | Keystone.GetVehicleKeyStatusOperation
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/GetVehicleKeyStatusOperation.swift
+        | Keystone.AuthorizeOwnerOperation
+        | received cloud owner authorization data
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/AuthorizeOwnerOperation.swift
+        | owner authorized
+        | IE01
+  @132  match: Keystone.AuthorizeOwnerOperation
+        | Sending passive action challenge response to 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/KeystoneOperationWithErrorNotification.swift
+        | failedWith(error:cancelAllOtherOp:)
+        | Keystone.GetVehicleKeyStatusOperation
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/GetVehicleKeyStatusOperation.swift
+        | Keystone.AuthorizeOwnerOperation
+        | received cloud owner authorization data
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/AuthorizeOwnerOperation.swift
+        | owner authorized
+        | IE01
+        | IE02
+        | IE03
+        | IE04
+        | IE05
+        | IE06
+  @133  match: received cloud owner authorization data
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/KeystoneOperationWithErrorNotification.swift
+        | failedWith(error:cancelAllOtherOp:)
+        | Keystone.GetVehicleKeyStatusOperation
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/GetVehicleKeyStatusOperation.swift
+        | Keystone.AuthorizeOwnerOperation
+        | received cloud owner authorization data
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/AuthorizeOwnerOperation.swift
+        | owner authorized
+        | IE01
+        | IE02
+        | IE03
+        | IE04
+        | IE05
+        | IE06
+        | IE07
+
+--- [Keystone] pattern=(?i)frame|packet|payload|commandId|cmdId|sequence|crc (12 hits) ---
+  @27  match: asset ready payload 
+        | Unable to add deviceID to asset information 
+        | Received passive action challenge 
+        | unexpected msg: 
+        | Acknowledgement status: 
+        | waiting 2s and try to send action data again
+        | asset ready payload 
+        | Received passiveAck data: 
+        | Asset data to mobile decryption failed with error 
+        | data.count <= MessageHeaderIndex.PayloadVersion.rawValue
+        | Received cloud data 
+        | CloudDataSendSucceed: Asset Data forwarded to keystone server
+        | SendAssetDataOperation
+        | CloudDataSendSucceed: No further data to send back to asset
+        | startTimeoutDecectionForMCU:
+        | startTimeoutDecectionForMCU(step:)
+  @30  match: data.count <= MessageHeaderIndex.PayloadVersion.rawValue
+        | Acknowledgement status: 
+        | waiting 2s and try to send action data again
+        | asset ready payload 
+        | Received passiveAck data: 
+        | Asset data to mobile decryption failed with error 
+        | data.count <= MessageHeaderIndex.PayloadVersion.rawValue
+        | Received cloud data 
+        | CloudDataSendSucceed: Asset Data forwarded to keystone server
+        | SendAssetDataOperation
+        | CloudDataSendSucceed: No further data to send back to asset
+        | startTimeoutDecectionForMCU:
+        | startTimeoutDecectionForMCU(step:)
+        | handleActiveActionData(data:)
+        | didReceiveAssetReady: assetId: 
+        | didReceiveAssetReady(assetId:)
+  @559  match: forwardAssetPayloadIfNeeded(assetDevice:)
+        | BluetoothGatt connect failure: 
+        | BluetoothGatt connect success
+        | BluetoothGatt disconnect...
+        | forward vck failed: 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/blekey/asset/AssetDataHandler.swift
+        | forwardAssetPayloadIfNeeded(assetDevice:)
+        | forward vck success
+        | forward whitelist failed: 
+        | forwardWhiteListIfNeeded(assetDevice:)
+        | forward whitelist success
+        | start parse envelope
+        | handleKeystoneData_L1(assetDevice:data:type:)
+        | Invalid envelope data: 
+        | Received cloud data from asset
+        | handleReceivedCloudData_L2(assetDevice:data:)
+  @713  match: assetPayloadHash
+        | , forceLoadVirtualKey: 
+        | onDeviceIdUpdated(deviceId:forceLoadVirtualKey:clearOldData:)
+        | device id is null
+        | saved data is broken
+        | loadSavedVirtualKeys()
+        | assetPayloadHash
+        | , message: Keystone Internal Error - 
+        | SDKResult:KeystoneSDKError
+        | addChunkData, totalChunks: 
+        | , receivedChunks: 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/blekey/bluetooth/models/ChunkBuffer.swift
+        | addChunkData(data:)
+        |  chunks data ignored due to not all chunks received: 
+        | Error - chunk sequence not expected. received:
+        | , chunk sequence: 
+  @721  match: Error - chunk sequence not expected. received:
+        | addChunkData, totalChunks: 
+        | , receivedChunks: 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/blekey/bluetooth/models/ChunkBuffer.swift
+        | addChunkData(data:)
+        |  chunks data ignored due to not all chunks received: 
+        | Error - chunk sequence not expected. received:
+        | , chunk sequence: 
+        | ] chunks data ignored due to not all chunks received: 
+        | Error - chunk count not matched: received count:
+        |  != chunk count: 
+        | Error - invalid chunk sequence received. sequence:
+        | onBleDeviceConnectableChange, connectable: 
+        | , isAutoReconnectAllowed: 
+        | onBleDeviceConnectableChange(connectable:)
+        | connecting or connected devices: 
+  @722  match: , chunk sequence: 
+        | , receivedChunks: 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/blekey/bluetooth/models/ChunkBuffer.swift
+        | addChunkData(data:)
+        |  chunks data ignored due to not all chunks received: 
+        | Error - chunk sequence not expected. received:
+        | , chunk sequence: 
+        | ] chunks data ignored due to not all chunks received: 
+        | Error - chunk count not matched: received count:
+        |  != chunk count: 
+        | Error - invalid chunk sequence received. sequence:
+        | onBleDeviceConnectableChange, connectable: 
+        | , isAutoReconnectAllowed: 
+        | onBleDeviceConnectableChange(connectable:)
+        | connecting or connected devices: 
+        | connect gatt,  connectable: 
+  @726  match: Error - invalid chunk sequence received. sequence:
+        | Error - chunk sequence not expected. received:
+        | , chunk sequence: 
+        | ] chunks data ignored due to not all chunks received: 
+        | Error - chunk count not matched: received count:
+        |  != chunk count: 
+        | Error - invalid chunk sequence received. sequence:
+        | onBleDeviceConnectableChange, connectable: 
+        | , isAutoReconnectAllowed: 
+        | onBleDeviceConnectableChange(connectable:)
+        | connecting or connected devices: 
+        | connect gatt,  connectable: 
+        | ,  auto connect allowed: 
+        | ble bond enabled: false
+        | state updated to 
+        | , ignore connect
+  @1026  match: generateChunks, sequence: 
+        | Update target asset id for keep alive: 
+        | updateValidAsset(assetId:channelId:)
+        | , srcSegment(count: 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/blekey/bluetooth/models/DataBlock.swift
+        | generateChunks(data:mtuSize:)
+        | generateChunks, sequence: 
+        | First chunk not sending, Ignore send result:
+        | onChunkSendResult(result:)
+        | Chunk send failed. Cancel remain chunks in same data block if have...
+        | Chunk send failed. retry again...:
+        | First chunk is null, Ignore send result:
+        | DataBlock send finished: 
+        | sharedDigitalKeyMap
+        | Decoded extra service info: 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Helper/BLEConfiguration.swift
+  @1182  match: decryptedPayload
+        | noBleRemoteDeviceForGivenAsset
+        | decrypt asset data failed, cipher: 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/blekey/asset/utils/KeystoneMessage.swift
+        | parseEncryptedMsg(secureSession:)
+        | Invalid encrypted asset data: 
+        | decryptedPayload
+        | Keystone.RevokeUserKeyOperation
+        | init()
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/RevokeUserKeyOperation.swift
+        | performActionOperation for 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/Operation/Operations/PerformActionOperation.swift
+        | performActionOperation()
+        | Keystone.PerformActionOperation
+        | Error: getDeviceId failure
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/blekey/manager/DeviceManager.swift
+  @1259  match: com.irdeto.assetPayloadManagementQueue
+        | Keystone.SecureContext
+        | Keystone.HornAndLightAction
+        | init(actionType:actionData:)
+        | Keystone/HornAndLightAction.swift
+        | init(from:) has not been implemented
+        | com.irdeto.assetPayloadManagementQueue
+        | encodeToJsonData error:
+        | encodeToJsonData(dict:)
+        | encodeToJsonData(dict):
+
+        | removeAssetPayload(assetId:)
+        | ForwardVirtualKeyOperation
+        | GetVirtualKeysOperation
+        | calibrationPayload
+        | Keystone.BLESendDataOperation
+        | unknown characteristic type
+  @1263  match: removeAssetPayload(assetId:)
+        | init(from:) has not been implemented
+        | com.irdeto.assetPayloadManagementQueue
+        | encodeToJsonData error:
+        | encodeToJsonData(dict:)
+        | encodeToJsonData(dict):
+
+        | removeAssetPayload(assetId:)
+        | ForwardVirtualKeyOperation
+        | GetVirtualKeysOperation
+        | calibrationPayload
+        | Keystone.BLESendDataOperation
+        | unknown characteristic type
+        | actionPayloadData: 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/blekey/asset/models/ActionRequest.swift
+        | generateActionEnvelope(secureSession:assetId:)
+        | Ignore action failure and retry later...
+  @1266  match: calibrationPayload
+        | encodeToJsonData(dict:)
+        | encodeToJsonData(dict):
+
+        | removeAssetPayload(assetId:)
+        | ForwardVirtualKeyOperation
+        | GetVirtualKeysOperation
+        | calibrationPayload
+        | Keystone.BLESendDataOperation
+        | unknown characteristic type
+        | actionPayloadData: 
+        | /Users/loadbuild/builds/sAARMRfs_/0/keystone/oem/keystone-newble/km3/source/api/swift/Keystone/blekey/asset/models/ActionRequest.swift
+        | generateActionEnvelope(secureSession:assetId:)
+        | Ignore action failure and retry later...
+        | finish(respAction:errorType:)
+        | action
+        | isPerforming
+
+--- [HKMC_DK2_FrameworkLibrary] pattern=(?i)door(un)?lock|unlock|trunk|engine(start|stop)|remoteStart|findCar|horn|light (10 hits) ---
+  @134  match: UNLOCK
+        | 차량으로 전송한 정보가 일치하지 않아, 원격 스마트 주차 보조를 실행할 수 없습니다.
+홈에서 다시 시도해 주십시오.
+        | 일시적으로 오류가 발생했습니다.
+잠시 후 다시 시도해 주십시오.
+        | 차량과의 연결이 끊어졌습니다.
+연결 상태를 확인하고 다시 시도해 주세요.
+        | 차량과의 연결이 해제되습니다.
+연결 상태를 확인 후 다시 시도해주시기 바랍니다.
+        | LOCK
+        | UNLOCK
+        | LOCKED
+        | UNLOCKED
+        | CENTRAL_LOCKING
+        | LOCK_AND_SECURE
+        | LOCK_WITH_PARTIAL_ARM
+        | LOCKED_AND_SECURED
+        | LOCKED_WITH_PARTIAL_ARMED_ALARM
+        | LOCKED_WITH_PARTIAL_ARMED_ALARM_AVAILABLE
+        | SELECTIVELY_UNLOCKED
+  @136  match: UNLOCKED
+        | 차량과의 연결이 끊어졌습니다.
+연결 상태를 확인하고 다시 시도해 주세요.
+        | 차량과의 연결이 해제되습니다.
+연결 상태를 확인 후 다시 시도해주시기 바랍니다.
+        | LOCK
+        | UNLOCK
+        | LOCKED
+        | UNLOCKED
+        | CENTRAL_LOCKING
+        | LOCK_AND_SECURE
+        | LOCK_WITH_PARTIAL_ARM
+        | LOCKED_AND_SECURED
+        | LOCKED_WITH_PARTIAL_ARMED_ALARM
+        | LOCKED_WITH_PARTIAL_ARMED_ALARM_AVAILABLE
+        | SELECTIVELY_UNLOCKED
+        | NO_DRIVING_READINESS
+        | DRIVING_READINESS
+  @143  match: SELECTIVELY_UNLOCKED
+        | LOCK_AND_SECURE
+        | LOCK_WITH_PARTIAL_ARM
+        | LOCKED_AND_SECURED
+        | LOCKED_WITH_PARTIAL_ARMED_ALARM
+        | LOCKED_WITH_PARTIAL_ARMED_ALARM_AVAILABLE
+        | SELECTIVELY_UNLOCKED
+        | NO_DRIVING_READINESS
+        | DRIVING_READINESS
+        | NORMAL_POWER_MODE
+        | LOW_POWER_MODE
+        | VEHICLE_LOW_POWER_MODE
+        | FUEL_NOT_LOW
+        | FUEL_LOW
+        | LOW_FUEL_STATUS
+        | STOP_CLIMATIZATION
+  @166  match: MANUAL_TRUNK_CONTROLS
+        | PANIC_ALARM
+        | RELEASE
+        | CLOSED
+        | OPEN
+        | FUEL_LID
+        | MANUAL_TRUNK_CONTROLS
+        | CLOSE
+        | POWER_TRUNK_CONTROLS_CONFIRM
+        | POWER_TRUNK_CONTROLS_NO_CONFIRM
+        | MANUAL_FRUNK_CONTROLS
+        | POWER_FRUNK_CONTROLS_CONFIRM
+        | POWER_FRUNK_CONTROLS_NO_CONFIRM
+        | POWER_FRONT_LEFT_CONFIRM
+        | POWER_FRONT_LEFT_NO_CONFIRM
+        | POWER_FRONT_RIGHT_CONFIRM
+  @168  match: POWER_TRUNK_CONTROLS_CONFIRM
+        | CLOSED
+        | OPEN
+        | FUEL_LID
+        | MANUAL_TRUNK_CONTROLS
+        | CLOSE
+        | POWER_TRUNK_CONTROLS_CONFIRM
+        | POWER_TRUNK_CONTROLS_NO_CONFIRM
+        | MANUAL_FRUNK_CONTROLS
+        | POWER_FRUNK_CONTROLS_CONFIRM
+        | POWER_FRUNK_CONTROLS_NO_CONFIRM
+        | POWER_FRONT_LEFT_CONFIRM
+        | POWER_FRONT_LEFT_NO_CONFIRM
+        | POWER_FRONT_RIGHT_CONFIRM
+        | POWER_FRONT_RIGHT_NO_CONFIRM
+        | POWER_REAR_LEFT_CONFIRM
+  @169  match: POWER_TRUNK_CONTROLS_NO_CONFIRM
+        | OPEN
+        | FUEL_LID
+        | MANUAL_TRUNK_CONTROLS
+        | CLOSE
+        | POWER_TRUNK_CONTROLS_CONFIRM
+        | POWER_TRUNK_CONTROLS_NO_CONFIRM
+        | MANUAL_FRUNK_CONTROLS
+        | POWER_FRUNK_CONTROLS_CONFIRM
+        | POWER_FRUNK_CONTROLS_NO_CONFIRM
+        | POWER_FRONT_LEFT_CONFIRM
+        | POWER_FRONT_LEFT_NO_CONFIRM
+        | POWER_FRONT_RIGHT_CONFIRM
+        | POWER_FRONT_RIGHT_NO_CONFIRM
+        | POWER_REAR_LEFT_CONFIRM
+        | POWER_REAR_LEFT_NO_CONFIRM
+  @189  match: TRUNK
+        | START
+        | STOPPED
+        | STARTED
+        | REMOTE_START
+        | PANIC_STOP
+        | TRUNK
+        | TRUNK_HOLD
+        | TRUNK_RELEASE
+        | LH_PSD
+        | RH_PSD
+        | WINDOW_CLOSE
+        | WINDOW_OPEN
+        | WINDOW_VENTILATE
+        | WINDOW
+        | WINDOW_REAR_DOOR_CURTAIN
+  @190  match: TRUNK_HOLD
+        | STOPPED
+        | STARTED
+        | REMOTE_START
+        | PANIC_STOP
+        | TRUNK
+        | TRUNK_HOLD
+        | TRUNK_RELEASE
+        | LH_PSD
+        | RH_PSD
+        | WINDOW_CLOSE
+        | WINDOW_OPEN
+        | WINDOW_VENTILATE
+        | WINDOW
+        | WINDOW_REAR_DOOR_CURTAIN
+        | LOCK_AND_POWER_OFF
+  @191  match: TRUNK_RELEASE
+        | STARTED
+        | REMOTE_START
+        | PANIC_STOP
+        | TRUNK
+        | TRUNK_HOLD
+        | TRUNK_RELEASE
+        | LH_PSD
+        | RH_PSD
+        | WINDOW_CLOSE
+        | WINDOW_OPEN
+        | WINDOW_VENTILATE
+        | WINDOW
+        | WINDOW_REAR_DOOR_CURTAIN
+        | LOCK_AND_POWER_OFF
+        | UNLOCK_OR_POWER_ON
+  @200  match: UNLOCK_OR_POWER_ON
+        | WINDOW_OPEN
+        | WINDOW_VENTILATE
+        | WINDOW
+        | WINDOW_REAR_DOOR_CURTAIN
+        | LOCK_AND_POWER_OFF
+        | UNLOCK_OR_POWER_ON
+        | HKMC_DK2_FrameworkLibrary/RkeConstants.swift
+        | 0.26
+        | HKMC_DK2_FrameworkLibrary/RKE.swift
+        | DKFramework : updateReport - VID : 
+        | DKFramework : updateReport - Connection status : 
+        | DKFramework : updateReport - FuncID 
+        |  : 
+        |  => 
+        | DKFramework : remoteControlSession error - 
+
+--- [HKMC_DK2_FrameworkLibrary] pattern=(?i)challenge|auth(entication)?|sessionKey|keyId|vehicleId|vin (5 hits) ---
+  @144  match: NO_DRIVING_READINESS
+        | LOCK_WITH_PARTIAL_ARM
+        | LOCKED_AND_SECURED
+        | LOCKED_WITH_PARTIAL_ARMED_ALARM
+        | LOCKED_WITH_PARTIAL_ARMED_ALARM_AVAILABLE
+        | SELECTIVELY_UNLOCKED
+        | NO_DRIVING_READINESS
+        | DRIVING_READINESS
+        | NORMAL_POWER_MODE
+        | LOW_POWER_MODE
+        | VEHICLE_LOW_POWER_MODE
+        | FUEL_NOT_LOW
+        | FUEL_LOW
+        | LOW_FUEL_STATUS
+        | STOP_CLIMATIZATION
+        | START_CLIMATIZATION
+  @145  match: DRIVING_READINESS
+        | LOCKED_AND_SECURED
+        | LOCKED_WITH_PARTIAL_ARMED_ALARM
+        | LOCKED_WITH_PARTIAL_ARMED_ALARM_AVAILABLE
+        | SELECTIVELY_UNLOCKED
+        | NO_DRIVING_READINESS
+        | DRIVING_READINESS
+        | NORMAL_POWER_MODE
+        | LOW_POWER_MODE
+        | VEHICLE_LOW_POWER_MODE
+        | FUEL_NOT_LOW
+        | FUEL_LOW
+        | LOW_FUEL_STATUS
+        | STOP_CLIMATIZATION
+        | START_CLIMATIZATION
+        | REMOTE_CLIMATIZATION_NOT_ACTIVE
+  @283  match: DKFramework : No keyID in the list
+        | DKFramework : Enduring status - 
+        | DKFramework : No more rke callback.
+        | DKFramework : Session will be stopped
+        | DKFramework : Session stopped
+        | DKFramework : Invalid key(s) exist(s) in digital key id list
+        | DKFramework : No keyID in the list
+        | DKFramework : restarting session...
+        | DKFramework : Session restarted
+        | DKFramework : failed to restart session - 
+        | DKFramework : failed to end session - 
+        | DKFramework : no need to restart session
+        | DKFramework : seesion is in background
+        | DKFramework : session already restarted
+        | DKFramework : retry to restart sesison soon
+        | _Concurrency/arm64e-apple-ios.swiftinterface
+  @299  match: keyId
+        | UNKNOWN_PASS_TYPE_ID
+        | UNKNOWN_ISSUER
+        | UNKNOWN_CAR_MODEL
+        | UNKNOWN_SERIAL_NUMBER
+        | HKMC_DK2_FrameworkLibrary/KeyInfo.swift
+        | keyId
+        | vehicleId
+        | issuer
+        | model
+        | DKFramework : Key info - 
+        | , 
+        | HKMC_DK2_FrameworkLibrary.KeyInfo
+        | gene/black
+        | gene/button_black_primary_disable_fill
+        | gene/button_black_primary_disable_label
+  @300  match: vehicleId
+        | UNKNOWN_ISSUER
+        | UNKNOWN_CAR_MODEL
+        | UNKNOWN_SERIAL_NUMBER
+        | HKMC_DK2_FrameworkLibrary/KeyInfo.swift
+        | keyId
+        | vehicleId
+        | issuer
+        | model
+        | DKFramework : Key info - 
+        | , 
+        | HKMC_DK2_FrameworkLibrary.KeyInfo
+        | gene/black
+        | gene/button_black_primary_disable_fill
+        | gene/button_black_primary_disable_label
+        | gene/theme
+
+--- [HKMC_DK2_FrameworkLibrary] pattern=(?i)frame|packet|payload|commandId|cmdId|sequence|crc (12 hits) ---
+  @4  match: HKMC_DK2_FrameworkLibrary/DigitalKeyFrameworkCompat.swift
+        | HYUN
+        | KIA1
+        | GENE
+        | MOCK
+        | HKMC_DK2_FrameworkLibrary/DigitalKeyFrameworkCompat.swift
+        | Unexpectedly found nil while unwrapping an Optional value
+        | Fatal error
+        | DKFramework : init w/vehicleOemIdentifier 
+        | DKFramework : fwVersion - 
+        | , 20250626
+        | DKFramework : deviece info - 
+        | DKFramework : checkCompatibility
+        | DKFramework : COMPATIBILITY_CODE_LOW_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_COMPATIBLE_FRAMEWORK_LEVEL
+  @7  match: DKFramework : init w/vehicleOemIdentifier 
+        | GENE
+        | MOCK
+        | HKMC_DK2_FrameworkLibrary/DigitalKeyFrameworkCompat.swift
+        | Unexpectedly found nil while unwrapping an Optional value
+        | Fatal error
+        | DKFramework : init w/vehicleOemIdentifier 
+        | DKFramework : fwVersion - 
+        | , 20250626
+        | DKFramework : deviece info - 
+        | DKFramework : checkCompatibility
+        | DKFramework : COMPATIBILITY_CODE_LOW_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_COMPATIBLE_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_HIGH_FRAMEWORK_LEVEL
+        | DKFramework : canAddSecureElementPassWithConfiguration
+        | DKFramework : isSecureElementPassActivationAvailable
+  @8  match: DKFramework : fwVersion - 
+        | MOCK
+        | HKMC_DK2_FrameworkLibrary/DigitalKeyFrameworkCompat.swift
+        | Unexpectedly found nil while unwrapping an Optional value
+        | Fatal error
+        | DKFramework : init w/vehicleOemIdentifier 
+        | DKFramework : fwVersion - 
+        | , 20250626
+        | DKFramework : deviece info - 
+        | DKFramework : checkCompatibility
+        | DKFramework : COMPATIBILITY_CODE_LOW_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_COMPATIBLE_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_HIGH_FRAMEWORK_LEVEL
+        | DKFramework : canAddSecureElementPassWithConfiguration
+        | DKFramework : isSecureElementPassActivationAvailable
+        | Unexpectedly found nil while implicitly unwrapping an Optional value
+  @10  match: DKFramework : deviece info - 
+        | Unexpectedly found nil while unwrapping an Optional value
+        | Fatal error
+        | DKFramework : init w/vehicleOemIdentifier 
+        | DKFramework : fwVersion - 
+        | , 20250626
+        | DKFramework : deviece info - 
+        | DKFramework : checkCompatibility
+        | DKFramework : COMPATIBILITY_CODE_LOW_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_COMPATIBLE_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_HIGH_FRAMEWORK_LEVEL
+        | DKFramework : canAddSecureElementPassWithConfiguration
+        | DKFramework : isSecureElementPassActivationAvailable
+        | Unexpectedly found nil while implicitly unwrapping an Optional value
+        | DKFramework : isSupportUWB...
+        | DKFramework : checking with iOS Version - false
+  @11  match: DKFramework : checkCompatibility
+        | Fatal error
+        | DKFramework : init w/vehicleOemIdentifier 
+        | DKFramework : fwVersion - 
+        | , 20250626
+        | DKFramework : deviece info - 
+        | DKFramework : checkCompatibility
+        | DKFramework : COMPATIBILITY_CODE_LOW_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_COMPATIBLE_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_HIGH_FRAMEWORK_LEVEL
+        | DKFramework : canAddSecureElementPassWithConfiguration
+        | DKFramework : isSecureElementPassActivationAvailable
+        | Unexpectedly found nil while implicitly unwrapping an Optional value
+        | DKFramework : isSupportUWB...
+        | DKFramework : checking with iOS Version - false
+        | DKFramework : checking with NearbyInteraction - 
+  @12  match: DKFramework : COMPATIBILITY_CODE_LOW_FRAMEWORK_LEVEL
+        | DKFramework : init w/vehicleOemIdentifier 
+        | DKFramework : fwVersion - 
+        | , 20250626
+        | DKFramework : deviece info - 
+        | DKFramework : checkCompatibility
+        | DKFramework : COMPATIBILITY_CODE_LOW_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_COMPATIBLE_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_HIGH_FRAMEWORK_LEVEL
+        | DKFramework : canAddSecureElementPassWithConfiguration
+        | DKFramework : isSecureElementPassActivationAvailable
+        | Unexpectedly found nil while implicitly unwrapping an Optional value
+        | DKFramework : isSupportUWB...
+        | DKFramework : checking with iOS Version - false
+        | DKFramework : checking with NearbyInteraction - 
+        | DKFramework : checking with device capability - 
+  @13  match: DKFramework : COMPATIBILITY_CODE_COMPATIBLE_FRAMEWORK_LEVEL
+        | DKFramework : fwVersion - 
+        | , 20250626
+        | DKFramework : deviece info - 
+        | DKFramework : checkCompatibility
+        | DKFramework : COMPATIBILITY_CODE_LOW_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_COMPATIBLE_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_HIGH_FRAMEWORK_LEVEL
+        | DKFramework : canAddSecureElementPassWithConfiguration
+        | DKFramework : isSecureElementPassActivationAvailable
+        | Unexpectedly found nil while implicitly unwrapping an Optional value
+        | DKFramework : isSupportUWB...
+        | DKFramework : checking with iOS Version - false
+        | DKFramework : checking with NearbyInteraction - 
+        | DKFramework : checking with device capability - 
+        | DKFramework : initializing...
+  @14  match: DKFramework : COMPATIBILITY_CODE_HIGH_FRAMEWORK_LEVEL
+        | , 20250626
+        | DKFramework : deviece info - 
+        | DKFramework : checkCompatibility
+        | DKFramework : COMPATIBILITY_CODE_LOW_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_COMPATIBLE_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_HIGH_FRAMEWORK_LEVEL
+        | DKFramework : canAddSecureElementPassWithConfiguration
+        | DKFramework : isSecureElementPassActivationAvailable
+        | Unexpectedly found nil while implicitly unwrapping an Optional value
+        | DKFramework : isSupportUWB...
+        | DKFramework : checking with iOS Version - false
+        | DKFramework : checking with NearbyInteraction - 
+        | DKFramework : checking with device capability - 
+        | DKFramework : initializing...
+        | DKFramework : canAddPass
+  @15  match: DKFramework : canAddSecureElementPassWithConfiguration
+        | DKFramework : deviece info - 
+        | DKFramework : checkCompatibility
+        | DKFramework : COMPATIBILITY_CODE_LOW_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_COMPATIBLE_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_HIGH_FRAMEWORK_LEVEL
+        | DKFramework : canAddSecureElementPassWithConfiguration
+        | DKFramework : isSecureElementPassActivationAvailable
+        | Unexpectedly found nil while implicitly unwrapping an Optional value
+        | DKFramework : isSupportUWB...
+        | DKFramework : checking with iOS Version - false
+        | DKFramework : checking with NearbyInteraction - 
+        | DKFramework : checking with device capability - 
+        | DKFramework : initializing...
+        | DKFramework : canAddPass
+        | UnknownDomain
+  @16  match: DKFramework : isSecureElementPassActivationAvailable
+        | DKFramework : checkCompatibility
+        | DKFramework : COMPATIBILITY_CODE_LOW_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_COMPATIBLE_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_HIGH_FRAMEWORK_LEVEL
+        | DKFramework : canAddSecureElementPassWithConfiguration
+        | DKFramework : isSecureElementPassActivationAvailable
+        | Unexpectedly found nil while implicitly unwrapping an Optional value
+        | DKFramework : isSupportUWB...
+        | DKFramework : checking with iOS Version - false
+        | DKFramework : checking with NearbyInteraction - 
+        | DKFramework : checking with device capability - 
+        | DKFramework : initializing...
+        | DKFramework : canAddPass
+        | UnknownDomain
+        | Not supported vehicle OEM identifier. May have to update OS in case of newly supported veheicle OEM.
+  @18  match: DKFramework : isSupportUWB...
+        | DKFramework : COMPATIBILITY_CODE_COMPATIBLE_FRAMEWORK_LEVEL
+        | DKFramework : COMPATIBILITY_CODE_HIGH_FRAMEWORK_LEVEL
+        | DKFramework : canAddSecureElementPassWithConfiguration
+        | DKFramework : isSecureElementPassActivationAvailable
+        | Unexpectedly found nil while implicitly unwrapping an Optional value
+        | DKFramework : isSupportUWB...
+        | DKFramework : checking with iOS Version - false
+        | DKFramework : checking with NearbyInteraction - 
+        | DKFramework : checking with device capability - 
+        | DKFramework : initializing...
+        | DKFramework : canAddPass
+        | UnknownDomain
+        | Not supported vehicle OEM identifier. May have to update OS in case of newly supported veheicle OEM.
+        | There's no entitlement to use Car Key API
+        | DKFramework : checkOSVersion1
+  @19  match: DKFramework : checking with iOS Version - false
+        | DKFramework : COMPATIBILITY_CODE_HIGH_FRAMEWORK_LEVEL
+        | DKFramework : canAddSecureElementPassWithConfiguration
+        | DKFramework : isSecureElementPassActivationAvailable
+        | Unexpectedly found nil while implicitly unwrapping an Optional value
+        | DKFramework : isSupportUWB...
+        | DKFramework : checking with iOS Version - false
+        | DKFramework : checking with NearbyInteraction - 
+        | DKFramework : checking with device capability - 
+        | DKFramework : initializing...
+        | DKFramework : canAddPass
+        | UnknownDomain
+        | Not supported vehicle OEM identifier. May have to update OS in case of newly supported veheicle OEM.
+        | There's no entitlement to use Car Key API
+        | DKFramework : checkOSVersion1
+        | Not supported OS Version(<13.6)
+
+--- [resources] pattern=(?i)door(un)?lock|unlock|trunk|engine(start|stop)|remoteStart|findCar|horn|light (12 hits) ---
+  @106  match: ConfigurationIntent^DoorLockIntent_
+        | e9u(b7Y4P
+        | O QEu5hi[
+        | QEhiqgrG
+        | opqrstuvwx_
+        | ClimateStartIntent_
+        | ConfigurationIntent^DoorLockIntent_
+        | DoorUnLockIntent_
+        | EngineStartIntent_
+        | LightAndHornIntent_
+        | LightAndHornLowBeamIntent[LightIntent_
+        | LockScreenConfigurationIntent_
+        | SiriRemoteControlIntent
+        | TSKPinnedDomains
+        | k8sworker3.corp.irdeto.com
+        | TSKEnforcePinning_
+  @107  match: DoorUnLockIntent_
+        | O QEu5hi[
+        | QEhiqgrG
+        | opqrstuvwx_
+        | ClimateStartIntent_
+        | ConfigurationIntent^DoorLockIntent_
+        | DoorUnLockIntent_
+        | EngineStartIntent_
+        | LightAndHornIntent_
+        | LightAndHornLowBeamIntent[LightIntent_
+        | LockScreenConfigurationIntent_
+        | SiriRemoteControlIntent
+        | TSKPinnedDomains
+        | k8sworker3.corp.irdeto.com
+        | TSKEnforcePinning_
+        | TSKIncludeSubdomains_
+  @108  match: EngineStartIntent_
+        | QEhiqgrG
+        | opqrstuvwx_
+        | ClimateStartIntent_
+        | ConfigurationIntent^DoorLockIntent_
+        | DoorUnLockIntent_
+        | EngineStartIntent_
+        | LightAndHornIntent_
+        | LightAndHornLowBeamIntent[LightIntent_
+        | LockScreenConfigurationIntent_
+        | SiriRemoteControlIntent
+        | TSKPinnedDomains
+        | k8sworker3.corp.irdeto.com
+        | TSKEnforcePinning_
+        | TSKIncludeSubdomains_
+        | TSKPublicKeyHashes
+  @109  match: LightAndHornIntent_
+        | opqrstuvwx_
+        | ClimateStartIntent_
+        | ConfigurationIntent^DoorLockIntent_
+        | DoorUnLockIntent_
+        | EngineStartIntent_
+        | LightAndHornIntent_
+        | LightAndHornLowBeamIntent[LightIntent_
+        | LockScreenConfigurationIntent_
+        | SiriRemoteControlIntent
+        | TSKPinnedDomains
+        | k8sworker3.corp.irdeto.com
+        | TSKEnforcePinning_
+        | TSKIncludeSubdomains_
+        | TSKPublicKeyHashes
+        | ,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=_
+  @110  match: LightAndHornLowBeamIntent[LightIntent_
+        | ClimateStartIntent_
+        | ConfigurationIntent^DoorLockIntent_
+        | DoorUnLockIntent_
+        | EngineStartIntent_
+        | LightAndHornIntent_
+        | LightAndHornLowBeamIntent[LightIntent_
+        | LockScreenConfigurationIntent_
+        | SiriRemoteControlIntent
+        | TSKPinnedDomains
+        | k8sworker3.corp.irdeto.com
+        | TSKEnforcePinning_
+        | TSKIncludeSubdomains_
+        | TSKPublicKeyHashes
+        | ,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=_
+        | ,BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB=
+  @180  match: EMERLightViewController_
+        |  DigitalKeyRegisterViewController_
+        |  DigitalKeyRegisterViewController
+        | bplist00
+        | %UIViewControllerIdentifiersToNibNames_
+        | UIStoryboardVersion
+        | EMERLightViewController_
+        | EMERLightViewController
+        | bplist00
+        | ,NSNearbyInteractionAllowOnceUsageDescription_
+        | #NSNearbyInteractionUsageDescriptiono
+        | u(ep[W
+        | u(b7gC
+        | bplist00
+        | %UIViewControllerIdentifiersToNibNames_
+        | UIStoryboardVersion
+  @181  match: EMERLightViewController
+        |  DigitalKeyRegisterViewController
+        | bplist00
+        | %UIViewControllerIdentifiersToNibNames_
+        | UIStoryboardVersion
+        | EMERLightViewController_
+        | EMERLightViewController
+        | bplist00
+        | ,NSNearbyInteractionAllowOnceUsageDescription_
+        | #NSNearbyInteractionUsageDescriptiono
+        | u(ep[W
+        | u(b7gC
+        | bplist00
+        | %UIViewControllerIdentifiersToNibNames_
+        | UIStoryboardVersion
+        | YProcessor_
+  @902  match:   "lights": [
+        |           "x": 1,
+        |           "y": -1
+        |         }
+        |       }
+        |     }
+        |   "lights": [
+        |     {
+        |       "path": "HemisphereLight:hemi:0",
+        |       "name": "hemi",
+        |       "type": "HemisphereLight",
+        |       "props": {
+        |         "color": 16777215,
+        |         "intensity": 0.4,
+        |         "groundColor": 16777215,
+        |         "castShadow": false,
+  @904  match:       "path": "HemisphereLight:hemi:0",
+        |         }
+        |       }
+        |     }
+        |   "lights": [
+        |     {
+        |       "path": "HemisphereLight:hemi:0",
+        |       "name": "hemi",
+        |       "type": "HemisphereLight",
+        |       "props": {
+        |         "color": 16777215,
+        |         "intensity": 0.4,
+        |         "groundColor": 16777215,
+        |         "castShadow": false,
+        |         "position": {
+        |           "x": 0,
+  @906  match:       "type": "HemisphereLight",
+        |     }
+        |   "lights": [
+        |     {
+        |       "path": "HemisphereLight:hemi:0",
+        |       "name": "hemi",
+        |       "type": "HemisphereLight",
+        |       "props": {
+        |         "color": 16777215,
+        |         "intensity": 0.4,
+        |         "groundColor": 16777215,
+        |         "castShadow": false,
+        |         "position": {
+        |           "x": 0,
+        |           "y": 1,
+        |           "z": 0
+  @925  match:       "path": "AmbientLight::0",
+        |           "z": 0
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "path": "AmbientLight::0",
+        |       "name": "",
+        |       "type": "AmbientLight",
+        |       "props": {
+        |         "color": 2236962,
+        |         "intensity": 0.49,
+        |         "castShadow": false,
+        |         "position": {
+        |           "x": 0,
+        |           "y": 0,
+  @927  match:       "type": "AmbientLight",
+        |       }
+        |     },
+        |     {
+        |       "path": "AmbientLight::0",
+        |       "name": "",
+        |       "type": "AmbientLight",
+        |       "props": {
+        |         "color": 2236962,
+        |         "intensity": 0.49,
+        |         "castShadow": false,
+        |         "position": {
+        |           "x": 0,
+        |           "y": 0,
+        |           "z": 0
+        |         },
+
+--- [resources] pattern=(?i)challenge|auth(entication)?|sessionKey|keyId|vehicleId|vin (12 hits) ---
+  @16  match: P7p7OVrdZmtlkLBLkYkE81oB3v3kIWANcUx3K8a12vkJykR7lVhF0pxHxlCFI75D/dicjXV9rROSdPco829Hr3Uxvqo0OQge/kBqZ8TmDVhi/ICnJHc4JNgWp287eOHAAcd7cjpSrD0Oo6w0BWCYGKgcxw99ifK+Zw7NQbX/9gIMQyTIkJuCaEG+SzVYAUrRFeYCBEB8
+        | %UIViewControllerIdentifiersToNibNames_
+        | UIStoryboardVersion
+        | ATRViewController_
+        | ATRViewController
+        | 5KNbv
+        | P7p7OVrdZmtlkLBLkYkE81oB3v3kIWANcUx3K8a12vkJykR7lVhF0pxHxlCFI75D/dicjXV9rROSdPco829Hr3Uxvqo0OQge/kBqZ8TmDVhi/ICnJHc4JNgWp287eOHAAcd7cjpSrD0Oo6w0BWCYGKgcxw99ifK+Zw7NQbX/9gIMQyTIkJuCaEG+SzVYAUrRFeYCBEB8
+        | 5zpwKxSYNc1tHpRT3OMcP9fuSiEOyqIKOEzVJJmFAJ58GCRP8BUhmzuj68vaL3GaEg0tOI7LfBB7wp4fcphQXIsMOtEQtWyh+j7T9mFUSHnBU+x4hXwRzO45ld49btwdyY96KC9MvutK7rFHLQxgFhsdryho4mBn4oap5RIzpkZvL71On87GmB3R0JvdfW3B56RcOQpp
+        | bplist00
+        |  !"#$%&'()*+,-./0123456789VWXWZXcffghiijkllmny
+        | CFBundleDevelopmentRegion_
+        | CFBundleDisplayName_
+        | CFBundleExecutable_
+        | CFBundleGetInfoString]CFBundleIcons_
+        | CFBundleIcons~ipad_
+        | CFBundleIdentifier_
+  @201  match: ZFIDOAuthVC_
+        | PatternRegistration
+        | 5KT^p
+        | bplist00
+        | %UIViewControllerIdentifiersToNibNames_
+        | UIStoryboardVersion
+        | ZFIDOAuthVC_
+        | FIDOTypeSelectVC_
+        | FIDORegistraionViewControllerZFIDOAuthVC_
+        | FIDOTypeSelectVC_
+        | FIDORegistraionViewController
+        | 5KR]p
+        | bplist00
+        | !"#$%#&'()*-_
+        | BuildMachineOSBuild_
+        | CFBundleDevelopmentRegion_
+  @203  match: FIDORegistraionViewControllerZFIDOAuthVC_
+        | bplist00
+        | %UIViewControllerIdentifiersToNibNames_
+        | UIStoryboardVersion
+        | ZFIDOAuthVC_
+        | FIDOTypeSelectVC_
+        | FIDORegistraionViewControllerZFIDOAuthVC_
+        | FIDOTypeSelectVC_
+        | FIDORegistraionViewController
+        | 5KR]p
+        | bplist00
+        | !"#$%#&'()*-_
+        | BuildMachineOSBuild_
+        | CFBundleDevelopmentRegion_
+        | CFBundleExecutable_
+        | CFBundleIdentifier_
+  @5536  match:       "name": "MI_EA1C_Front_Driving_Beam",
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "865e7cb3-181e-4bc7-ac2c-f5ae4809a08b",
+        |       "name": "MI_EA1C_Front_Driving_Beam",
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 12829635,
+        |         "emissive": 0,
+        |         "roughness": 0.22699999809265137,
+        |         "metalness": 0.6000000238418579,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+        |         "bumpScale": 1,
+  @6421  match:       "name": "MI_EA1C_Front_Driving_Beam",
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "bb190428-6980-4420-83b8-97f66f563fae",
+        |       "name": "MI_EA1C_Front_Driving_Beam",
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 12829635,
+        |         "emissive": 0,
+        |         "roughness": 0.22699999809265137,
+        |         "metalness": 0.6000000238418579,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+        |         "bumpScale": 1,
+  @7306  match:       "name": "MI_EA1C_Front_Driving_Beam",
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "5bb2e2bc-0729-4486-af7a-1db46d995ff6",
+        |       "name": "MI_EA1C_Front_Driving_Beam",
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 12829635,
+        |         "emissive": 0,
+        |         "roughness": 0.22699999809265137,
+        |         "metalness": 0.6000000238418579,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+        |         "bumpScale": 1,
+  @8191  match:       "name": "MI_EA1C_Front_Driving_Beam",
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "5bb2e2bc-0729-4486-af7a-1db46d995ff6",
+        |       "name": "MI_EA1C_Front_Driving_Beam",
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 12829635,
+        |         "emissive": 0,
+        |         "roughness": 0.22699999809265137,
+        |         "metalness": 0.6000000238418579,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+        |         "bumpScale": 1,
+  @9076  match:       "name": "MI_EA1C_Front_Driving_Beam",
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "78a79a73-a0d0-4696-b28e-cdcf21253748",
+        |       "name": "MI_EA1C_Front_Driving_Beam",
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 12829635,
+        |         "emissive": 0,
+        |         "roughness": 0.22699999809265137,
+        |         "metalness": 0.6000000238418579,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+        |         "bumpScale": 1,
+  @9961  match:       "name": "MI_EA1C_Front_Driving_Beam",
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "5bb2e2bc-0729-4486-af7a-1db46d995ff6",
+        |       "name": "MI_EA1C_Front_Driving_Beam",
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 12829635,
+        |         "emissive": 0,
+        |         "roughness": 0.22699999809265137,
+        |         "metalness": 0.6000000238418579,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+        |         "bumpScale": 1,
+  @10846  match:       "name": "MI_EA1C_Front_Driving_Beam",
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "865e7cb3-181e-4bc7-ac2c-f5ae4809a08b",
+        |       "name": "MI_EA1C_Front_Driving_Beam",
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 12829635,
+        |         "emissive": 0,
+        |         "roughness": 0.22699999809265137,
+        |         "metalness": 0.6000000238418579,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+        |         "bumpScale": 1,
+  @11731  match:       "name": "MI_EA1C_Front_Driving_Beam",
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "def2011e-afa2-4cf6-9fa5-92099a7f761f",
+        |       "name": "MI_EA1C_Front_Driving_Beam",
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 12829635,
+        |         "emissive": 0,
+        |         "roughness": 0.22699999809265137,
+        |         "metalness": 0.6000000238418579,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+        |         "bumpScale": 1,
+  @12616  match:       "name": "MI_EA1C_Front_Driving_Beam",
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "af7ed485-f721-4f25-bce0-c4fe345eedbd",
+        |       "name": "MI_EA1C_Front_Driving_Beam",
+        |       "type": "MeshStandardMaterial",
+        |       "properties": {
+        |         "color": 12829635,
+        |         "emissive": 0,
+        |         "roughness": 0.22699999809265137,
+        |         "metalness": 0.6000000238418579,
+        |         "opacity": 1,
+        |         "emissiveIntensity": 1,
+        |         "bumpScale": 1,
+
+--- [resources] pattern=(?i)frame|packet|payload|commandId|cmdId|sequence|crc (12 hits) ---
+  @16  match: P7p7OVrdZmtlkLBLkYkE81oB3v3kIWANcUx3K8a12vkJykR7lVhF0pxHxlCFI75D/dicjXV9rROSdPco829Hr3Uxvqo0OQge/kBqZ8TmDVhi/ICnJHc4JNgWp287eOHAAcd7cjpSrD0Oo6w0BWCYGKgcxw99ifK+Zw7NQbX/9gIMQyTIkJuCaEG+SzVYAUrRFeYCBEB8
+        | %UIViewControllerIdentifiersToNibNames_
+        | UIStoryboardVersion
+        | ATRViewController_
+        | ATRViewController
+        | 5KNbv
+        | P7p7OVrdZmtlkLBLkYkE81oB3v3kIWANcUx3K8a12vkJykR7lVhF0pxHxlCFI75D/dicjXV9rROSdPco829Hr3Uxvqo0OQge/kBqZ8TmDVhi/ICnJHc4JNgWp287eOHAAcd7cjpSrD0Oo6w0BWCYGKgcxw99ifK+Zw7NQbX/9gIMQyTIkJuCaEG+SzVYAUrRFeYCBEB8
+        | 5zpwKxSYNc1tHpRT3OMcP9fuSiEOyqIKOEzVJJmFAJ58GCRP8BUhmzuj68vaL3GaEg0tOI7LfBB7wp4fcphQXIsMOtEQtWyh+j7T9mFUSHnBU+x4hXwRzO45ld49btwdyY96KC9MvutK7rFHLQxgFhsdryho4mBn4oap5RIzpkZvL71On87GmB3R0JvdfW3B56RcOQpp
+        | bplist00
+        |  !"#$%&'()*+,-./0123456789VWXWZXcffghiijkllmny
+        | CFBundleDevelopmentRegion_
+        | CFBundleDisplayName_
+        | CFBundleExecutable_
+        | CFBundleGetInfoString]CFBundleIcons_
+        | CFBundleIcons~ipad_
+        | CFBundleIdentifier_
+  @255  match:         "wireframe": false,
+        |         "flatShading": false,
+        |         "blending": 1,
+        |         "vertexColors": false,
+        |         "visible": true,
+        |         "transparent": false,
+        |         "wireframe": false,
+        |         "normalScale": {
+        |           "x": 1,
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "e2ad8770-c5bf-44c9-b0a4-aeda82851b52",
+        |       "name": "15
+  @287  match:         "wireframe": false,
+        |         "flatShading": false,
+        |         "blending": 1,
+        |         "vertexColors": false,
+        |         "visible": true,
+        |         "transparent": false,
+        |         "wireframe": false,
+        |         "normalScale": {
+        |           "x": 1,
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "83a39f67-9ad2-450c-8854-e768b552ad3f",
+        |       "name": "5
+  @319  match:         "wireframe": false,
+        |         "flatShading": false,
+        |         "blending": 1,
+        |         "vertexColors": false,
+        |         "visible": true,
+        |         "transparent": true,
+        |         "wireframe": false,
+        |         "normalScale": {
+        |           "x": 1,
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "0f9dd3a6-5ec3-47db-a633-040a30368c06",
+        |       "name": "7
+  @351  match:         "wireframe": false,
+        |         "flatShading": false,
+        |         "blending": 1,
+        |         "vertexColors": false,
+        |         "visible": true,
+        |         "transparent": true,
+        |         "wireframe": false,
+        |         "normalScale": {
+        |           "x": 1,
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "25d8cb7c-8b9c-4aec-9db1-89c104474453",
+        |       "name": "14
+  @383  match:         "wireframe": false,
+        |         "flatShading": false,
+        |         "blending": 1,
+        |         "vertexColors": false,
+        |         "visible": true,
+        |         "transparent": true,
+        |         "wireframe": false,
+        |         "normalScale": {
+        |           "x": 1,
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "f4657d21-d2d7-4b55-a047-c11e267f0af5",
+        |       "name": "12
+  @415  match:         "wireframe": false,
+        |         "flatShading": false,
+        |         "blending": 1,
+        |         "vertexColors": true,
+        |         "visible": true,
+        |         "transparent": false,
+        |         "wireframe": false,
+        |         "normalScale": {
+        |           "x": 1,
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "9f6998eb-19ca-4d31-b405-2c1f7c5c0530",
+        |       "name": "4
+  @447  match:         "wireframe": false,
+        |         "flatShading": false,
+        |         "blending": 1,
+        |         "vertexColors": false,
+        |         "visible": true,
+        |         "transparent": false,
+        |         "wireframe": false,
+        |         "normalScale": {
+        |           "x": 1,
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "71628598-bed6-4e8c-8a9f-8e78f6925462",
+        |       "name": "13
+  @479  match:         "wireframe": false,
+        |         "flatShading": false,
+        |         "blending": 1,
+        |         "vertexColors": true,
+        |         "visible": true,
+        |         "transparent": false,
+        |         "wireframe": false,
+        |         "normalScale": {
+        |           "x": 1,
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "e1ad40ac-f2ab-4357-8af1-a7946d70d833",
+        |       "name": "11
+  @511  match:         "wireframe": false,
+        |         "flatShading": false,
+        |         "blending": 1,
+        |         "vertexColors": false,
+        |         "visible": true,
+        |         "transparent": false,
+        |         "wireframe": false,
+        |         "normalScale": {
+        |           "x": 1,
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "33012759-616b-4bd3-8c00-06747b8d9ce2",
+        |       "name": "6
+  @543  match:         "wireframe": false,
+        |         "flatShading": false,
+        |         "blending": 1,
+        |         "vertexColors": false,
+        |         "visible": true,
+        |         "transparent": false,
+        |         "wireframe": false,
+        |         "normalScale": {
+        |           "x": 1,
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "6aee9a1a-ba83-4231-aea9-805e24cbdcdf",
+        |       "name": "8
+  @575  match:         "wireframe": false,
+        |         "flatShading": false,
+        |         "blending": 1,
+        |         "vertexColors": false,
+        |         "visible": true,
+        |         "transparent": false,
+        |         "wireframe": false,
+        |         "normalScale": {
+        |           "x": 1,
+        |           "y": -1
+        |         }
+        |       }
+        |     },
+        |     {
+        |       "uuid": "73872584-fd0c-4342-984d-2fdac84414bc",
+        |       "name": "4

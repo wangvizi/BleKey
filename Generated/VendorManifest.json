@@ -1,0 +1,73 @@
+{
+  "frameworks": {
+    "HKMC_DK2_FrameworkLibrary.framework": {
+      "binary": "HKMC_DK2_FrameworkLibrary",
+      "binary_bytes": 1529104,
+      "binary_sha256": "4ef867b9af65d64bde1ec5bcaab772c199f8612cc46a6a2e5e0e31453e863c4e",
+      "rpath_deps": [],
+      "files": 3
+    },
+    "Keystone.framework": {
+      "binary": "Keystone",
+      "binary_bytes": 7757328,
+      "binary_sha256": "52789d8456026ba5b3c8f5f38b54f3ff8129689f313162f132473db2b3f3bc94",
+      "rpath_deps": [
+        "TrustKit.framework"
+      ],
+      "files": 2
+    },
+    "PepsPacket.framework": {
+      "binary": "PepsPacket",
+      "binary_bytes": 124608,
+      "binary_sha256": "b4939cb7e44198cbc0603df2a9aa7950bc0740b7eb7ef4d906ce5d085503a09e",
+      "rpath_deps": [],
+      "files": 2
+    },
+    "TrustKit.framework": {
+      "binary": "TrustKit",
+      "binary_bytes": 295136,
+      "binary_sha256": "57f599f4fbf379b514f10040a5ba851d953f2a892959c22c7af1c8640bd14089",
+      "rpath_deps": [],
+      "files": 2
+    }
+  },
+  "zip_sha256": "48f216a3c325c32240b38a448947e9556051c63dcd40dd575c7f7b451b198ee8",
+  "zip_bytes": 7854325,
+  "closure": [
+    "HKMC_DK2_FrameworkLibrary.framework",
+    "Keystone.framework",
+    "PepsPacket.framework",
+    "TrustKit.framework"
+  ],
+  "all_rpath_deps": {
+    "Alamofire.framework": [],
+    "Car3DViewSDK.framework": [
+      "GCDWebServer.framework"
+    ],
+    "CocoaMQTT.framework": [
+      "MqttCocoaAsyncSocket.framework"
+    ],
+    "CropViewController.framework": [],
+    "CryptoSwift.framework": [],
+    "DGCharts.framework": [],
+    "FSCalendar.framework": [],
+    "GCDWebServer.framework": [],
+    "Gifu.framework": [],
+    "HKMC_DK2_FrameworkLibrary.framework": [],
+    "JWTDecode.framework": [],
+    "Keystone.framework": [
+      "TrustKit.framework"
+    ],
+    "Lottie.framework": [],
+    "MarqueeLabel.framework": [],
+    "MqttCocoaAsyncSocket.framework": [],
+    "ObjectMapper.framework": [],
+    "PepsPacket.framework": [],
+    "Reachability.framework": [],
+    "SDWebImage.framework": [],
+    "SnapKit.framework": [],
+    "SwiftSoup.framework": [],
+    "TrustKit.framework": [],
+    "UBottomSheet.framework": []
+  }
+}

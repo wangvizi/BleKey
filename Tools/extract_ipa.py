@@ -284,12 +284,30 @@ def parse_mobileprovision(path: str) -> dict:
 
 def inspect_ipa(ipa_path: str, out_dir: str, copy_vendor: bool = True) -> dict:
     unpack = os.path.join(out_dir, "_unpacked")
+    # 增量跳过：同一 ipa 已解包过就直接复用，避免千级文件的全量删除
+    marker = os.path.join(unpack, ".extracted_sha256")
+    ipa_sha = ""
+    h = hashlib.sha256()
+    with open(ipa_path, "rb") as fh:
+        for chunk in iter(lambda: fh.read(4 * 1024 * 1024), b""):
+            h.update(chunk)
+    ipa_sha = h.hexdigest()
+    if os.path.isfile(marker) and os.path.isdir(unpack):
+        if open(marker, encoding="utf-8").read().strip() == ipa_sha:
+            print("    _unpacked 与当前 ipa 一致，复用已有解包目录")
+            app_dir = _find_app_dir(unpack)
+            return _inspect_app(app_dir, unpack, ipa_path, out_dir, copy_vendor)
     if os.path.isdir(unpack):
         shutil.rmtree(unpack)
     os.makedirs(unpack, exist_ok=True)
     with zipfile.ZipFile(ipa_path, "r") as zf:
         zf.extractall(unpack)
+    with open(marker, "w", encoding="utf-8") as fh:
+        fh.write(ipa_sha)
+    return _inspect_app(_find_app_dir(unpack), unpack, ipa_path, out_dir, copy_vendor)
 
+
+def _find_app_dir(unpack: str) -> str:
     payload = os.path.join(unpack, "Payload")
     apps = []
     if os.path.isdir(payload):
@@ -297,8 +315,10 @@ def inspect_ipa(ipa_path: str, out_dir: str, copy_vendor: bool = True) -> dict:
                 if n.endswith(".app") and os.path.isdir(os.path.join(payload, n))]
     if not apps:
         raise RuntimeError("Payload/*.app 不存在：这不是标准 ipa，或解包结构异常")
-    app_dir = apps[0]
+    return apps[0]
 
+
+def _inspect_app(app_dir: str, unpack: str, ipa_path: str, out_dir: str, copy_vendor: bool = True) -> dict:
     info_path = os.path.join(app_dir, "Info.plist")
     info = {}
     if os.path.isfile(info_path):
@@ -458,7 +478,9 @@ def inspect_ipa(ipa_path: str, out_dir: str, copy_vendor: bool = True) -> dict:
             src = os.path.join(fw_root, name)
             dst = os.path.join(vendor_dir, name)
             if os.path.isdir(dst):
-                shutil.rmtree(dst)
+                # 同一 ipa 反复抽取时直接复用，避免大目录全量删除
+                linked.append(name)
+                continue
             shutil.copytree(src, dst)
             linked.append(name)
 

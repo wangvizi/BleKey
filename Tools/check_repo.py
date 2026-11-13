@@ -26,6 +26,8 @@ REQUIRED_FILES = [
     "App/LoginViewController.h", "App/LoginViewController.m",
     "App/CarViewController.h", "App/CarViewController.m",
     "Tools/extract_ipa.py", "Tools/check_repo.py", "Tools/gh_api.py",
+    "Tools/analyze_original.py", "Tools/build_config_from_evidence.py",
+    "Tools/pack_vendor.py",
     "Scripts/build_trollstore.sh", "Scripts/push_repo.sh", "Scripts/build_remote.sh",
     ".github/workflows/build-ipa.yml",
     "Generated/BridgeConfig.json",
@@ -93,6 +95,8 @@ def main():
         print("[*] 配置来源   : %s" % cfg.get("generated_from"))
         print("[*] api.base   : %s" % cfg.get("api", {}).get("base"))
         print("[*] 已配置标记 : %s" % ("是" if cfg.get("source_bundle_id") else "否（模板）"))
+        print("[*] 真实端点   : %d" % len(cfg.get("api", {}).get("endpoints", {})))
+        print("[*] 网关       : %d" % len([k for k in cfg.get("gateways", {}) if k != "all_first_party"]))
     else:
         errors.append("缺少 Generated/BridgeConfig.json")
 
@@ -105,13 +109,37 @@ def main():
                 errors.append("%s 缺少 shebang" % rel)
 
     # Python 语法（只编译不落盘，避免污染仓库）
-    for rel in ("Tools/extract_ipa.py", "Tools/check_repo.py", "Tools/gh_api.py"):
+    for rel in ("Tools/extract_ipa.py", "Tools/check_repo.py", "Tools/gh_api.py",
+                "Tools/analyze_original.py", "Tools/build_config_from_evidence.py",
+                "Tools/pack_vendor.py"):
         p = os.path.join(ROOT, rel)
         if os.path.isfile(p):
             try:
                 compile(open(p, encoding="utf-8").read(), p, "exec")
             except SyntaxError as e:
                 errors.append("Python 语法错误 %s:%s: %s" % (rel, e.lineno, e.msg))
+
+    # SDK zip 与 manifest 一致性：推送前先确认没损坏，runner 解压才不会缺 framework
+    zip_path = os.path.join(ROOT, "Generated", "VendorFrameworks.zip")
+    man_path = os.path.join(ROOT, "Generated", "VendorManifest.json")
+    if os.path.isfile(zip_path) and os.path.isfile(man_path):
+        import hashlib
+        import zipfile
+        man = json.load(open(man_path, encoding="utf-8"))
+        digest = hashlib.sha256(open(zip_path, "rb").read()).hexdigest()
+        if digest != man.get("zip_sha256"):
+            errors.append("VendorFrameworks.zip 与 VendorManifest.json 的 sha256 不一致")
+        with zipfile.ZipFile(zip_path) as zf:
+            if zf.testzip() is not None:
+                errors.append("VendorFrameworks.zip 内部校验失败")
+            names = {n.split("/", 1)[0] for n in zf.namelist() if "/" in n}
+        missing = [f for f in man.get("closure", []) if f not in names]
+        if missing:
+            errors.append("SDK zip 缺少 framework: %s" % ", ".join(missing))
+        print("[*] SDK 闭包    : %d 个 framework / zip %d bytes" %
+              (len(names), os.path.getsize(zip_path)))
+    elif os.path.isfile(zip_path) != os.path.isfile(man_path):
+        errors.append("VendorFrameworks.zip 与 VendorManifest.json 必须同时存在")
 
     print("[*] ObjC 源文件 : %d 个 .m / %d 个 .h / %d 处本地 import" %
           (len(mfiles), len(headers), import_count))

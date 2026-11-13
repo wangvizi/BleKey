@@ -24,6 +24,20 @@ IPA="$(find input -maxdepth 1 -iname '*.ipa' -print -quit 2>/dev/null || true)"
 if [ -n "$IPA" ] && [ "${SKIP_EXTRACT:-0}" != "1" ]; then
   echo "==> [0.5/4] 从本地原包抽取接口配置"
   "$PYTHON" Tools/extract_ipa.py "$IPA" --out Generated
+  APP_DIR="$(find Generated/_unpacked/Payload -maxdepth 1 -name '*.app' -print -quit)"
+  if [ -n "$APP_DIR" ]; then
+    echo "    定向分析 __cstring 上下文"
+    "$PYTHON" Tools/analyze_original.py "$APP_DIR" --out Generated
+    echo "    按网关用途生成真实配置"
+    "$PYTHON" Tools/build_config_from_evidence.py --ipa "$IPA" --out Generated
+  else
+    echo "    WARN: 未找到解包后的 .app，保留通用启发式配置"
+  fi
+  if [ -d Generated/Vendor/Frameworks ]; then
+    echo "    打包数字钥匙 SDK 最小依赖闭包"
+    "$PYTHON" Tools/pack_vendor.py --vendor Generated/Vendor/Frameworks \
+      --out Generated/VendorFrameworks.zip --manifest Generated/VendorManifest.json
+  fi
   echo "    配置已更新: Generated/BridgeConfig.json"
 elif [ -n "${IPA_URL:-}" ]; then
   echo "==> [0.5/4] 使用原包直链，抽取由 runner 执行"
