@@ -18,7 +18,9 @@ if [ "$(uname -s)" != "Darwin" ]; then
   exit 3
 fi
 command -v xcodebuild >/dev/null || { echo "ERROR: 缺少 Xcode" >&2; exit 3; }
-echo "    Xcode: $(xcodebuild -version | head -1)"
+# 不用 `| head -1`：xcodebuild 会往已关闭的管道继续写，抛 Broken pipe 异常栈刷屏
+XCODE_VERSION="$(xcodebuild -version)"
+echo "    Xcode: ${XCODE_VERSION%%$'\n'*}"
 
 if ! command -v xcodegen >/dev/null; then
   echo "    xcodegen 未安装，执行 brew install xcodegen"
