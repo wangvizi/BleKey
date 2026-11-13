@@ -16,6 +16,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign, readonly) BOOL configured;
 @property (nonatomic, copy, readonly) NSString *configurationHint;
 @property (nonatomic, copy, readonly) NSString *sourceBundleId;
+@property (nonatomic, copy, readonly) NSString *configSource;
+@property (nonatomic, assign, readonly) BOOL hasOverride;
+@property (nonatomic, copy, readonly) NSString *overridePath;
+
+/**
+ * 运行时覆盖：从"文件"App 选一份 BridgeConfig.json 写入 Documents，
+ * 之后所有读取都走这份覆盖配置，不用重新编译/重装 ipa。
+ * 只校验顶层是字典且含 api 段，避免误导入别的文件。
+ */
+- (BOOL)applyConfigFromURL:(NSURL *)url error:(NSError * _Nullable * _Nullable)error;
+- (BOOL)clearOverrideWithError:(NSError * _Nullable * _Nullable)error;
 
 - (id _Nullable)objectForPath:(NSString *)dotPath;
 - (NSString *)stringForPath:(NSString *)dotPath default:(NSString *)fallback;

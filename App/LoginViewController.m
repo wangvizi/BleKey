@@ -4,8 +4,9 @@
 #import "ORIGAuthService.h"
 #import "ORIGSession.h"
 #import "CarViewController.h"
+#import <UniformTypeIdentifiers/UniformTypeIdentifiers.h>
 
-@interface LoginViewController () <UITextFieldDelegate>
+@interface LoginViewController () <UITextFieldDelegate, UIDocumentPickerDelegate>
 @property (nonatomic, strong) UILabel *titleLabel;
 @property (nonatomic, strong) UILabel *subtitleLabel;
 @property (nonatomic, strong) UILabel *hintLabel;
@@ -15,6 +16,7 @@
 @property (nonatomic, strong) UIButton *loginButton;
 @property (nonatomic, strong) UILabel *statusLabel;
 @property (nonatomic, strong) UIActivityIndicatorView *spinner;
+@property (nonatomic, strong) UIButton *configButton;
 @property (nonatomic, strong) NSTimer *countdownTimer;
 @property (nonatomic, assign) NSInteger remaining;
 @end
@@ -87,6 +89,13 @@
     _spinner.hidesWhenStopped = YES;
     _spinner.translatesAutoresizingMaskIntoConstraints = NO;
 
+    _configButton = [UIButton buttonWithType:UIButtonTypeSystem];
+    [_configButton setTitle:@"配置 · 导入 / 导出 / 恢复" forState:UIControlStateNormal];
+    _configButton.titleLabel.font = [UIFont systemFontOfSize:13];
+    [_configButton addTarget:self action:@selector(onConfigTapped)
+            forControlEvents:UIControlEventTouchUpInside];
+    _configButton.translatesAutoresizingMaskIntoConstraints = NO;
+
     UIView *card = [[UIView alloc] init];
     card.backgroundColor = [UIColor secondarySystemBackgroundColor];
     card.layer.cornerRadius = 14;
@@ -102,6 +111,7 @@
     [self.view addSubview:_loginButton];
     [self.view addSubview:_statusLabel];
     [self.view addSubview:_spinner];
+    [self.view addSubview:_configButton];
 
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self
                                                                           action:@selector(dismissKeyboard)];
@@ -151,7 +161,13 @@
         [_statusLabel.topAnchor constraintEqualToAnchor:_spinner.bottomAnchor constant:10],
         [_statusLabel.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor constant:pad],
         [_statusLabel.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor constant:-pad],
+
+        [_configButton.topAnchor constraintEqualToAnchor:_statusLabel.bottomAnchor constant:18],
+        [_configButton.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor],
+        [_configButton.heightAnchor constraintEqualToConstant:32],
     ]];
+
+    [self refreshConfigUI];
 }
 
 - (UITextField *)makeFieldPlaceholder:(NSString *)ph keyboard:(UIKeyboardType)kb secure:(BOOL)secure {
@@ -225,6 +241,96 @@
             [app showCarAnimated:YES];
         }];
     }];
+}
+
+#pragma mark - 配置导入 / 导出（真机上直接换接口，不重编译）
+
+- (void)refreshConfigUI {
+    ORIGConfig *cfg = [ORIGConfig shared];
+    _hintLabel.text = cfg.configurationHint;
+    _hintLabel.textColor = cfg.configured ? [UIColor secondaryLabelColor] : [UIColor systemRedColor];
+    _subtitleLabel.text = [NSString stringWithFormat:@"登录原车厂账号 · %@ · 接口来源 %@",
+                           cfg.configSource,
+                           cfg.sourceBundleId.length ? cfg.sourceBundleId : @"未配置"];
+
+    BOOL isPassword = [[[cfg stringForPath:@"api.login_type" default:@"sms"] lowercaseString]
+                       isEqualToString:@"password"];
+    _secretField.placeholder = isPassword ? @"密码" : @"验证码";
+    _secretField.keyboardType = isPassword ? UIKeyboardTypeDefault : UIKeyboardTypeNumberPad;
+    _secretField.secureTextEntry = isPassword;
+    [_codeButton setTitle:isPassword ? @"忘记密码" : @"获取验证码" forState:UIControlStateNormal];
+    [_configButton setTitle:cfg.hasOverride ? @"配置 · 已导入（点此管理）" : @"配置 · 导入 / 导出 / 恢复"
+                  forState:UIControlStateNormal];
+    [self setBusy:NO];
+}
+
+- (void)onConfigTapped {
+    UIAlertController *sheet = [UIAlertController alertControllerWithTitle:@"接口配置"
+                                                                  message:[ORIGConfig shared].configSource
+                                                           preferredStyle:UIAlertControllerStyleActionSheet];
+    __weak typeof(self) ws = self;
+    [sheet addAction:[UIAlertAction actionWithTitle:@"导入 BridgeConfig.json"
+                                              style:UIAlertActionStyleDefault
+                                            handler:^(UIAlertAction *a) { [ws pickConfig]; }]];
+    [sheet addAction:[UIAlertAction actionWithTitle:@"导出当前配置（改完再导回）"
+                                              style:UIAlertActionStyleDefault
+                                            handler:^(UIAlertAction *a) { [ws exportConfig]; }]];
+    if ([ORIGConfig shared].hasOverride) {
+        [sheet addAction:[UIAlertAction actionWithTitle:@"恢复内置配置"
+                                                  style:UIAlertActionStyleDestructive
+                                                handler:^(UIAlertAction *a) { [ws resetConfig]; }]];
+    }
+    [sheet addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil]];
+    sheet.popoverPresentationController.sourceView = _configButton;
+    sheet.popoverPresentationController.sourceRect = _configButton.bounds;
+    [self presentViewController:sheet animated:YES completion:nil];
+}
+
+- (void)pickConfig {
+    UTType *jsonType = [UTType typeWithIdentifier:@"public.json"] ?: UTTypeJSON;
+    UIDocumentPickerViewController *picker =
+        [[UIDocumentPickerViewController alloc] initForOpeningContentTypes:@[jsonType]];
+    picker.allowsMultipleSelection = NO;
+    picker.delegate = self;
+    [self presentViewController:picker animated:YES completion:nil];
+}
+
+- (void)documentPicker:(UIDocumentPickerViewController *)controller
+  didPickDocumentsAtURLs:(NSArray<NSURL *> *)urls {
+    NSURL *url = urls.firstObject;
+    if (!url) return;
+    NSError *err = nil;
+    BOOL ok = [[ORIGConfig shared] applyConfigFromURL:url error:&err];
+    [self refreshConfigUI];
+    [self setStatus:ok ? @"配置已导入，登录与蓝牙指令立即生效"
+                       : [NSString stringWithFormat:@"导入失败：%@", err.localizedDescription ?: @"unknown"]
+              error:!ok];
+}
+
+- (void)exportConfig {
+    NSData *data = [NSJSONSerialization dataWithJSONObject:[ORIGConfig shared].raw
+                                                   options:NSJSONWritingPrettyPrinted | NSJSONWritingSortedKeys
+                                                     error:NULL];
+    if (!data) { [self setStatus:@"导出失败：当前配置无法序列化" error:YES]; return; }
+    NSString *tmp = [NSTemporaryDirectory() stringByAppendingPathComponent:@"BridgeConfig.json"];
+    if (![data writeToFile:tmp atomically:YES]) {
+        [self setStatus:@"导出失败：临时文件写入失败" error:YES]; return;
+    }
+    UIActivityViewController *avc = [[UIActivityViewController alloc]
+        initWithActivityItems:@[[NSURL fileURLWithPath:tmp]] applicationActivities:nil];
+    avc.popoverPresentationController.sourceView = _configButton;
+    avc.popoverPresentationController.sourceRect = _configButton.bounds;
+    [self presentViewController:avc animated:YES completion:nil];
+    [self setStatus:@"已导出 BridgeConfig.json，改完用「导入」放回" error:NO];
+}
+
+- (void)resetConfig {
+    NSError *err = nil;
+    BOOL ok = [[ORIGConfig shared] clearOverrideWithError:&err];
+    [self refreshConfigUI];
+    [self setStatus:ok ? @"已恢复 Bundle 内置配置"
+                       : [NSString stringWithFormat:@"恢复失败：%@", err.localizedDescription ?: @"unknown"]
+              error:!ok];
 }
 
 - (void)setStatus:(NSString *)text error:(BOOL)isError {
