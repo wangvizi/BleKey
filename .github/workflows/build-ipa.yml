@@ -1,0 +1,138 @@
+name: build-trollstore-ipa
+
+on:
+  workflow_dispatch:
+    inputs:
+      ipa_url:
+        description: "原客户端 ipa 的下载直链（可选；留空则用仓库内 Generated/BridgeConfig.json）"
+        required: false
+        default: ""
+      skip_extract:
+        description: "填 true 则跳过抽取，直接用仓库里已提交的 Generated/BridgeConfig.json"
+        required: false
+        default: "false"
+  push:
+    branches: [main]
+    paths-ignore:
+      - "output/**"
+
+permissions:
+  contents: write   # 末尾把 ipa 以 base64 写回仓库，作为 artifact 之外的兜底下载通道
+
+jobs:
+  build:
+    runs-on: macos-14
+    timeout-minutes: 60
+    env:
+      IPA_URL: ${{ github.event.inputs.ipa_url }}
+      SKIP_EXTRACT: ${{ github.event.inputs.skip_extract }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Select Xcode
+        run: |
+          set -euo pipefail
+          XCODE="$(ls -d /Applications/Xcode*.app 2>/dev/null | sort | head -1)"
+          echo "Xcode: $XCODE"
+          sudo xcode-select -s "$XCODE/Contents/Developer"
+          xcodebuild -version
+          xcodebuild -showsdks | grep iphoneos || true
+
+      - name: Install build tools
+        run: |
+          # ldid 装不上时 build_trollstore.sh 会自动回退 codesign ad-hoc
+          brew install xcodegen || true
+          brew install ldid || true
+          command -v xcodegen
+          command -v ldid || echo "ldid 不可用，将用 codesign ad-hoc"
+
+      - name: Locate original ipa
+        id: locate
+        run: |
+          set -euo pipefail
+          mkdir -p input
+          if [ -n "${IPA_URL:-}" ]; then
+            echo "下载原包 ipa ..."
+            curl -fL --retry 3 --connect-timeout 20 -o input/original.ipa "$IPA_URL"
+          fi
+          IPA="$(find input -maxdepth 1 -iname '*.ipa' -print -quit)"
+          if [ -z "$IPA" ]; then
+            echo "::warning::没有原包 ipa，使用仓库内的 Generated/BridgeConfig.json（模板配置也能编译，但登录接口需自行填好）"
+            echo "ipa=" >> "$GITHUB_OUTPUT"
+          else
+            echo "使用原包: $IPA ($(stat -f%z "$IPA") bytes)"
+            echo "ipa=$IPA" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Extract login API + BLE config from original ipa
+        if: steps.locate.outputs.ipa != '' && env.SKIP_EXTRACT != 'true'
+        run: |
+          set -euo pipefail
+          python3 Tools/extract_ipa.py "${{ steps.locate.outputs.ipa }}" --out Generated
+          python3 -m json.tool Generated/BridgeConfig.json > /dev/null
+          echo "---- 抽取摘要 ----"
+          python3 - <<'PY'
+          import json
+          c = json.load(open('Generated/BridgeConfig.json', encoding='utf-8'))
+          print('generated_from :', c['generated_from'])
+          print('source_bundle  :', c['source_bundle_id'])
+          print('crypted        :', c['source_crypted'])
+          print('api.base       :', c['api']['base'])
+          print('login_path     :', c['api']['login_path'])
+          print('service_uuid   :', c['ble']['service_uuid'])
+          print('needs_review   :', len(c['needs_review']), '项')
+          print('defaults       :', c['defaults_applied'])
+          PY
+
+      - name: Check config when no ipa
+        if: steps.locate.outputs.ipa == ''
+        run: |
+          python3 -m json.tool Generated/BridgeConfig.json > /dev/null
+          python3 -c "import json;c=json.load(open('Generated/BridgeConfig.json'));print('配置来源:',c['generated_from'],'| 接口:',c['api']['base'])"
+
+      - name: Build TrollStore ipa
+        run: bash Scripts/build_trollstore.sh
+
+      - name: Show build summary
+        if: always()
+        run: |
+          ls -lh output/ 2>/dev/null || true
+          shasum -a 256 output/*.ipa 2>/dev/null || true
+
+      - name: Upload ipa artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: BleKey-TrollStore-ipa
+          path: output/*.ipa
+          if-no-files-found: error
+          retention-days: 30
+
+      # 兜底通道：artifact 下载会 302 到 pipelines.actions.githubusercontent.com，
+      # 某些网络下取不到；把 ipa 编成 base64 写回仓库，客户端只用 api.github.com 就能拿。
+      - name: Mirror ipa as base64 into repo
+        if: success()
+        run: |
+          set -euo pipefail
+          IPA="$(ls output/*.ipa | head -1)"
+          echo "ipa: $IPA ($(stat -f%z "$IPA") bytes)"
+          python3 - <<'PY'
+          import base64, pathlib
+          ipa = next(pathlib.Path('output').glob('*.ipa'))
+          out = pathlib.Path('output/BleKey.ipa.b64')
+          out.write_text(base64.b64encode(ipa.read_bytes()).decode('ascii'), encoding='ascii')
+          print('b64 size:', out.stat().st_size)
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f output/BleKey.ipa.b64
+          git commit -m "ci: mirror ipa base64 [skip ci]" || echo "no change"
+          # [skip ci] + on.push.paths-ignore:output/** 双保险，不会触发新 run
+          git push origin HEAD:main || echo "mirror push 失败，artifact 通道仍可用"
