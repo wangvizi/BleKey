@@ -11,17 +11,15 @@ on:
         description: "填 true 则跳过抽取，直接用仓库里已提交的 Generated/BridgeConfig.json"
         required: false
         default: "false"
-  push:
-    branches: [main]
-    paths-ignore:
-      - "output/**"
+  # 不挂 push 触发：build_remote.sh 推完代码会显式 dispatch，
+  # 双触发会在同一分支上起两个 macOS 编译，浪费额度且容易互相取消。
 
 permissions:
   contents: write   # 末尾把 ipa 以 base64 写回仓库，作为 artifact 之外的兜底下载通道
 
 jobs:
   build:
-    runs-on: macos-14
+    runs-on: macos-15
     timeout-minutes: 60
     env:
       IPA_URL: ${{ github.event.inputs.ipa_url }}

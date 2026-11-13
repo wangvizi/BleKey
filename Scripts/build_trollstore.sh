@@ -45,7 +45,6 @@ xcodebuild \
   -configuration "$CONFIGURATION" \
   -sdk "$SDK" \
   -derivedDataPath "$DERIVED" \
-  -quiet \
   IPHONEOS_DEPLOYMENT_TARGET=16.0 \
   ARCHS=arm64 \
   ONLY_ACTIVE_ARCH=NO \
@@ -76,9 +75,18 @@ rm -rf "$APP/_CodeSignature" "$APP/embedded.mobileprovision" "$APP/ProvisioningP
 
 echo "==> [5/7] 伪签名（TrollStore / CoreTrust）"
 if [ "$HAS_LDID" = "1" ]; then
-  ldid -S"$ENTITLEMENTS" "$APP"
+  # ldid 签的是 Mach-O 文件本体，不是 .app 目录；目录交给 codesign 分支。
+  ldid -S"$ENTITLEMENTS" "$APP/$APP_NAME"
+  # 注入的原包动态 framework 也要伪签，否则 TrollStore 装完 dlopen 会失败
+  if [ -d "$APP/Frameworks" ]; then
+    for fw in "$APP"/Frameworks/*.framework; do
+      [ -d "$fw" ] || continue
+      fwbin="$fw/$(basename "${fw%.framework}")"
+      [ -f "$fwbin" ] && ldid -S "$fwbin" || true
+    done
+  fi
   echo "    ldid -S 完成，entitlements:"
-  ldid -e "$APP" | sed 's/^/      /' || true
+  ldid -e "$APP/$APP_NAME" | sed 's/^/      /' || true
 else
   echo "    回退 codesign ad-hoc"
   codesign --force --sign - --entitlements "$ENTITLEMENTS" --timestamp=none "$APP"

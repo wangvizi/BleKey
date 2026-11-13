@@ -52,6 +52,22 @@ class GHError(RuntimeError):
         super().__init__("GitHub API %s -> HTTP %s: %s" % (path, status, detail))
 
 
+class _StripAuthOnRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        new = super().redirect_request(req, fp, code, msg, headers, newurl)
+        if new is not None:
+            # Actions 日志/artifact 会 302 到 Azure Blob 签名 URL，
+            # 带着 GitHub Bearer 过去会被判为 InvalidAuthenticationInfo(401)。
+            for store in (new.headers, new.unredirected_hdrs):
+                for k in list(store):
+                    if k.lower() == "authorization":
+                        store.pop(k, None)
+        return new
+
+
+_OPENER = urllib.request.build_opener(_StripAuthOnRedirect())
+
+
 class GH:
     def __init__(self, token: str):
         self.token = token.strip()
@@ -73,7 +89,7 @@ class GH:
         r = urllib.request.Request(url, data=data, headers=headers, method=method)
         try:
             # urllib 自动读取 https_proxy 环境变量，正好走本机可达的代理
-            with urllib.request.urlopen(r, timeout=timeout) as resp:
+            with _OPENER.open(r, timeout=timeout) as resp:
                 buf = resp.read()
                 status = resp.status
                 hdrs = dict(resp.headers)
