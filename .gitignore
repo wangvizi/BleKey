@@ -1,0 +1,23 @@
+# 编译产物 / Xcode 生成物
+.build/
+output/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+
+# 原包与抽取中间产物：体积大、且原包不进公开仓库
+input/*.ipa
+!input/.gitkeep
+Generated/_unpacked/
+Generated/_smoketest/
+Generated/Vendor/
+Generated/report.json
+Generated/objc_names.txt
+Generated/strings_candidates.txt
+
+# 系统 / Python
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo

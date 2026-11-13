@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- TrollStore 通过 CoreTrust 绕过签名校验，可保留任意 entitlement；
+	     这里只保留调试开关，不申请平台私有权限，避免 iOS 16 上启动被拒。 -->
+	<key>get-task-allow</key>
+	<true/>
+</dict>
+</plist>

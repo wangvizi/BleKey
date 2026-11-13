@@ -1,0 +1,2 @@
+# 把原客户端 ipa 放到这个目录（文件名任意），或走 workflow_dispatch 的 ipa_url 直链。
+# 该目录里的 *.ipa 已被 .gitignore 排除，不会推到 GitHub。

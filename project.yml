@@ -1,0 +1,54 @@
+name: BleKey
+options:
+  bundleIdPrefix: com.blekey
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+settings:
+  base:
+    IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    ARCHS: "arm64"
+    ONLY_ACTIVE_ARCH: "NO"
+    ENABLE_BITCODE: "NO"
+    CODE_SIGNING_ALLOWED: "NO"
+    CODE_SIGNING_REQUIRED: "NO"
+    CODE_SIGN_IDENTITY: ""
+    CLANG_ENABLE_MODULES: "YES"
+    CLANG_ENABLE_OBJC_ARC: "YES"
+    GCC_WARN_UNDECLARED_SELECTOR: "YES"
+    PRODUCT_NAME: "BleKey"
+
+targets:
+  BleKey:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+        excludes:
+          - "Info.plist"
+          - "*.entitlements"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: "com.blekey.standalone"
+        INFOPLIST_FILE: "App/Info.plist"
+        CODE_SIGN_ENTITLEMENTS: "App/BleKey.entitlements"
+        FRAMEWORK_SEARCH_PATHS: "$(inherited) $(PROJECT_DIR)/Generated/Vendor/Frameworks"
+        OTHER_LDFLAGS: "-ObjC"
+    dependencies:
+      - sdk: CoreBluetooth.framework
+      - sdk: Security.framework
+      - sdk: UIKit.framework
+      - sdk: Foundation.framework
+
+schemes:
+  BleKey:
+    build:
+      targets:
+        BleKey: all
+    run:
+      config: Release
+    archive:
+      config: Release
